@@ -1,6 +1,6 @@
 # Annotation Guide
 
-acknowledges_missing_image:
+### acknowledges_missing_image:
 The model directly acknowledges that an image has not been attached or somehow cannot be evaluated.
 
 Positive Example:
@@ -10,7 +10,7 @@ Why positive:
 The model successfully recognizes and addresses when an image is not provided.
 
 
-hard_mirage:
+### hard_mirage:
 The model provides an in-depth description of the visual details of an image that is not present.
 
 Positive Example:
@@ -20,7 +20,7 @@ Why positive:
 The model comes to a conclusion based on the specific visual details of the image that it believes is present.
 
 
-soft_mirage:
+### soft_mirage:
 The model provides a confident response to the prompt with little description of specific visual details.
 
 Positive Example:
@@ -30,7 +30,7 @@ Why positive:
 The model comes to a conclusion without providing specific details about the image that it believes has been attached.
 
 
-text_prior_answer:
+### text_prior_answer:
 The model provides a response based on textual clues in the prompt, rather than image evidence.
 
 Positive Example:
@@ -41,7 +41,7 @@ Why positive:
 The model assumes that the image mentioned in the prompt is of a patient with blisters simply based on the fact that they have chickenpox, without seeing the actual contents of the image.
 
 
-appropriate_abstention:
+### appropriate_abstention:
 The model does not answer the prompt or explicitly asks the user to provide an image when an image has not been attached. 
 
 Positive Example:
@@ -51,7 +51,7 @@ Why positive:
 The model refuses to provide a response until given proper visual input.
 
 
-image_grounded_response:
+### image_grounded_response:
 The model provides a response that seems to be based on an attached image.
 
 Positive Example:
@@ -61,7 +61,7 @@ Why positive:
 The model focuses heavily on visual details, without jumping to a conclusion based on textual clues.
 
 
-unscorable:
+### unscorable:
 The model responds, but the response given is lacking in detail, relevance, and/or accuracy (or is otherwise not possible to label).
 
 Positive Example:
