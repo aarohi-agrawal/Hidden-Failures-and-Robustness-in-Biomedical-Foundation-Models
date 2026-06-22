@@ -1,4 +1,3 @@
-```python
 import json
 from datetime import date
 from pathlib import Path
@@ -54,4 +53,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
