@@ -100,5 +100,65 @@ Key themes explored in this project include:
 * Benchmark construction for multimodal robustness evaluation
 * Reproducible evaluation pipelines for biomedical VLMs
 
+## Week 0 Smoke Test
+
+The Week 0 smoke test validates the basic multimodal pipeline:
+
+```text
+image + question → VLM → saved output file
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Hugging Face VLM Smoke Test
+
+```bash
+python src/adapters/hf_vlm_smoke_test.py --config configs/week0_vlm_smoke_test.yaml
+```
+
+Expected output:
+
+```text
+outputs/raw/week0_vlm_smoke_test.jsonl
+```
+
+The smoke test attempts to:
+
+1. Load a test image.
+2. Ask a simple question.
+3. Run the selected vision-language model.
+4. Save the model response in JSONL format.
+
+### Run the Fallback Mock Adapter
+
+If the VLM cannot be loaded or inference fails, run:
+
+```bash
+python src/adapters/mock_adapter.py
+```
+
+Expected output:
+
+```text
+outputs/raw/week0_mock_outputs.jsonl
+```
+
+The mock adapter generates a schema-compliant output file that can be used to validate the evaluation pipeline while model issues are investigated.
+
+### Week 0 Status
+
+* Environment setup completed
+* Configuration file created
+* Smoke-test adapter implemented
+* Output schema validated
+* Engineering notes documented
+
+Current VLM status: smoke-test script executed successfully and generated an output file. Model inference requires additional debugging before Week 1.
+
+
 ```
 ```
