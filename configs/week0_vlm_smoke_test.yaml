@@ -1,0 +1,7 @@
+model_name: HuggingFaceTB/SmolVLM-256M-Instruct
+prompt_version: week0_smoke_test_v0
+temperature: 0.0
+max_new_tokens: 80
+random_seed: 42
+condition: image_present
+output_file: outputs/raw/week0_vlm_smoke_test.jsonl
