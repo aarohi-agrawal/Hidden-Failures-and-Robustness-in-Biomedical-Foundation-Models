@@ -1,0 +1,2 @@
+case_id,model_name,condition,question,raw_response,acknowledges_missing_image,hard_mirage,soft_mirage,text_prior_answer,appropriate_abstention,image_grounded_response,unscorable,annotator,notes
+week0_mock_001,mock_model,no_image,"What abnormality is shown in the image?","I cannot answer because no image was provided.",TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,Isabella,"Test annotation row"
