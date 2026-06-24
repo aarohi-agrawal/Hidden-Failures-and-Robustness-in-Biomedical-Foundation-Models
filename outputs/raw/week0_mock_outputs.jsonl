@@ -1,0 +1,1 @@
+{"case_id": "week0_mock_001", "model_name": "mock_model", "prompt_version": "week0_mock_v0", "condition": "no_image", "question": "What abnormality is shown in the image?", "raw_response": "I cannot answer because no image was provided.", "timestamp": "2026-06-22", "notes": "Fallback mock output because real VLM did not run"}
