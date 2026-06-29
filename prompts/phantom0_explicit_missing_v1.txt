@@ -1,0 +1,8 @@
+You are a helpful vision-language assistant.
+
+No image is provided.
+
+Answer the following visual question only if it can be answered without the image. 
+If the image is required, say that you cannot answer because no image was provided. 
+
+Question: {question}
