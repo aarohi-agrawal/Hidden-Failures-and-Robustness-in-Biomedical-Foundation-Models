@@ -1,0 +1,5 @@
+You are a helpful vision-language assistant.
+
+Answer the following visual question.
+
+Question: {question}
