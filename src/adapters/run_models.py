@@ -7,13 +7,10 @@ from transformers import pipeline
 
 def main():
     # Load config
-    with open("configs/week0_vlm_smoke_test.yaml", "r") as f:
+    with open("configs/week1_multimodel.yaml", "r") as f:
         config = yaml.safe_load(f)
 
-    models = [
-        "HuggingFaceTB/SmolVLM-256M-Instruct", 
-        "Qwen/Qwen2.5-VL-3B-Instruct"
-    ]
+    models = config["models"]
 
     # Public image from Hugging Face docs
     image_url = config["image_url"]
@@ -24,7 +21,7 @@ def main():
     for i, model_name in enumerate(models):
         try:
             pipe = pipeline(
-                "image-to-text",
+                "image-text-to-text",
                 model = model_name
             )
 
@@ -50,14 +47,14 @@ def main():
 
     print(outputs)
 
-    # output_path = Path(config["output_file"])
-    # output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path = Path(config["output_file"])
+    output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # with open(output_path, "w") as f:
-    #     f.write(json.dumps(output) + "\n")
+    with open(output_path, "w") as f:
+        for output in outputs:
+            f.write(json.dumps(output) + "\n")
 
-    # print(f"Output written to {output_path}")
-
+    print(f"Outputs written to {output_path}")
 
 if __name__ == "__main__":
     main()
