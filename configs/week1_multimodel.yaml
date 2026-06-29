@@ -1,0 +1,12 @@
+models: 
+  - HuggingFaceTB/SmolVLM-256M-Instruct
+  - Qwen/Qwen2.5-VL-3B-Instruct
+
+prompt_version: week1_multimodel_v0
+image_url: https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/tasks/car.jpg
+question: "Describe this image in one sentence."
+temperature: 0.0
+max_new_tokens: 80
+random_seed: 42
+condition: image_present
+output_file: outputs/raw/week1_multimodel.jsonl
