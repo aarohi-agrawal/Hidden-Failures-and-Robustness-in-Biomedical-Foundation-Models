@@ -27,7 +27,7 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
             with open(prompt_file, "r", encoding="utf-8") as f:
                 prompt_template = f.read()
 
-            prompt = prompt_template.format(question=row["question"])
+            prompt = prompt_template.format(question=question)
 
             try:
                 chat = [
