@@ -6,7 +6,7 @@ from datetime import date
 
 file_path = "data/manifests/week1_phantom0_eval_test3.csv"
 model_name = "HuggingFaceTB/SmolVLM-256M-Instruct"
-output_file = open("outputs/week1_model1.jsonl", "w", encoding="utf-8")
+output_file = open("outputs/raw/week1_phantom0_model1.jsonl", "w", encoding="utf-8")
 
 processor = AutoProcessor.from_pretrained(model_name)
 model = AutoModelForImageTextToText.from_pretrained(model_name)
