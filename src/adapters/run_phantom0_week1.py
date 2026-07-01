@@ -1,10 +1,12 @@
 import csv
+import json
 from transformers import AutoProcessor, AutoModelForImageTextToText
 import torch
 from datetime import date
 
 file_path = "data/manifests/week1_phantom0_eval_test3.csv"
 model_name = "HuggingFaceTB/SmolVLM-256M-Instruct"
+output_file = open("outputs/week1_model1.jsonl", "w", encoding="utf-8")
 
 processor = AutoProcessor.from_pretrained(model_name)
 model = AutoModelForImageTextToText.from_pretrained(model_name)
@@ -38,6 +40,7 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
                 generated_ids = model.generate(**inputs, max_new_tokens=128)
                 generated_ids = generated_ids[:, inputs["input_ids"].shape[1]:]
 
+                error = None
                 raw_response = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
             except Exception as e:
@@ -45,7 +48,7 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
                 raw_response = ""
 
             output = {
-                "run_id": f"week1_model1_{row["case_id"][-3:]}",
+                "run_id": f"week1_model1_{row['case_id'][-3:]}",
                 "case_id": row["case_id"],
                 "source_id": row["source_id"],
                 "model_name": model_name,
@@ -60,6 +63,9 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
                 "error": error
             }
 
+            output_file.write(json.dumps(output) + "\n")
+           
+    output_file.close()
             
 
         
