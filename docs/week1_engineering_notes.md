@@ -8,6 +8,7 @@ The model seems to support no-image prompts, as no errors came up when reading a
 
 ## What command did we run?
 The command used to run the script is as follows:
+
 ```python3 src/adapters/run_phantom0_week1.py```
 
 ## How many rows succeeded? How many failed?
