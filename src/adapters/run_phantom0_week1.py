@@ -4,7 +4,7 @@ from transformers import AutoProcessor, AutoModelForImageTextToText
 import torch
 from datetime import date
 
-file_path = "data/manifests/week1_phantom0_eval_test3.csv"
+file_path = "data/manifests/week1_phantom0_eval.csv"
 model_name = "HuggingFaceTB/SmolVLM-256M-Instruct"
 output_file = open("outputs/raw/week1_phantom0_model1.jsonl", "w", encoding="utf-8")
 
