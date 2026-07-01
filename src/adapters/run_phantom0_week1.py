@@ -1,6 +1,7 @@
 import csv
 from transformers import AutoProcessor, AutoModelForImageTextToText
 import torch
+from datetime import date
 
 file_path = "data/manifests/week1_phantom0_eval_test3.csv"
 model_name = "HuggingFaceTB/SmolVLM-256M-Instruct"
@@ -12,7 +13,7 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
     reader = csv.DictReader(file)
 
     for row in reader:
-        if row.get("include_in_eval", "yes").lower() != "no":
+        if row["include_in_eval"].lower() != "no":
             question = row["question"]
 
             prompt_version = row["prompt_version"]
@@ -33,10 +34,31 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
 
                 text = processor.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
                 inputs = processor(text=text, return_tensors="pt")
-                
+
+                generated_ids = model.generate(**inputs, max_new_tokens=128)
+                generated_ids = generated_ids[:, inputs["input_ids"].shape[1]:]
+
+                raw_response = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
+
             except Exception as e:
                 error = str(e)
                 raw_response = ""
+
+            output = {
+                "run_id": f"week1_model1_{row["case_id"][-3:]}",
+                "case_id": row["case_id"],
+                "source_id": row["source_id"],
+                "model_name": model_name,
+                "evidence_condition": row["evidence_condition"],
+                "prompt_condition": row["prompt_condition"],
+                "prompt_version": row["prompt_version"],
+                "question": row["question"],
+                "raw_response": raw_response,
+                "temperature": 0.0,
+                "max_new_tokens": 128,
+                "timestamp": str(date.today()),
+                "error": error
+            }
 
             
 
