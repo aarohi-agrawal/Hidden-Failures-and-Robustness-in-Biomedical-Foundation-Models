@@ -3,6 +3,7 @@ import json
 from transformers import AutoProcessor, AutoModelForImageTextToText
 import torch
 from datetime import date
+import time
 
 file_path = "data/manifests/week1_phantom0_eval.csv"
 model_name = "HuggingFaceTB/SmolVLM-256M-Instruct"
@@ -10,6 +11,8 @@ output_file = open("outputs/raw/week1_phantom0_model1.jsonl", "w", encoding="utf
 
 processor = AutoProcessor.from_pretrained(model_name)
 model = AutoModelForImageTextToText.from_pretrained(model_name)
+
+start_time = time.perf_counter()
 
 with open(file_path, mode='r', newline='', encoding='utf-8') as file:
     reader = csv.DictReader(file)
@@ -66,8 +69,11 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
             output_file.write(json.dumps(output) + "\n")
            
     output_file.close()
-            
 
+end_time = time.perf_counter()
+time_elapsed = end_time - start_time
+
+print(f"Time elapsed: {time_elapsed:.3f} seconds")
         
 
 
