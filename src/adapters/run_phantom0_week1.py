@@ -32,9 +32,8 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
                 ]
 
                 text = processor.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
-                print(text)
-
                 inputs = processor(text=text, return_tensors="pt")
+                
             except Exception as e:
                 error = str(e)
                 raw_response = ""
