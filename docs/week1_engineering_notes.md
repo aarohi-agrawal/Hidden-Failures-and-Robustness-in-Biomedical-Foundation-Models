@@ -4,7 +4,7 @@
 We chose to run HuggingFaceTB/SmolVLM-256M-Instruct, the same model used for last week's smoke test.
 
 ## Does the model support no-image prompts?
-The model seems to support no-image prompts, as no errors came up when reading any of the 40 rows.  However, the model would occasionally obstain from answering a question without a provided image.
+The model seems to support no-image prompts, as no errors came up when reading any of the 40 rows.  However, the model would occasionally abstain from answering a question without a provided image.
 
 ## What command did we run?
 The command used to run the script is as follows:
