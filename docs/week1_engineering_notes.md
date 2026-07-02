@@ -21,4 +21,4 @@ No errors occurred with this particular model and set of questions.
 With the help of python's time module, I was able to record the amount of time taken for a full run, which was around 14.6 seconds.
 
 ## What should be fixed before Week 2?
-Everything seemed to run smoothly this week for the most part.  However, for the sake of reusability it would likely be better not to hardcode the file path and model name in the run script.
+Everything seemed to run smoothly this week for the most part.  However, for the sake of reusability, it would likely be better not to hardcode the file path and model name in the run script.
