@@ -51,7 +51,7 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
                 raw_response = ""
 
             output = {
-                "run_id": f"week1_model1_{row['case_id'][-3:]}",
+                "run_id": f"week1_model1_{row['case_id'][9:]}",
                 "case_id": row["case_id"],
                 "source_id": row["source_id"],
                 "model_name": model_name,
