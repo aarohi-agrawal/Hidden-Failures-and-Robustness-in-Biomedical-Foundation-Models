@@ -1,0 +1,4 @@
+group,total_outputs,acknowledges_missing_image_count,acknowledges_missing_image_rate,acknowledges_missing_image_percent,appropriate_abstention_count,appropriate_abstention_rate,appropriate_abstention_percent,hard_mirage_count,hard_mirage_rate,hard_mirage_percent,soft_mirage_count,soft_mirage_rate,soft_mirage_percent,text_prior_answer_count,text_prior_answer_rate,text_prior_answer_percent,answers_without_visual_evidence_count,answers_without_visual_evidence_rate,answers_without_visual_evidence_percent,unscorable_count,unscorable_rate,unscorable_percent
+overall,40,2,0.05,5.0,2,0.05,5.0,25,0.625,62.5,12,0.3,30.0,2,0.05,5.0,38,0.95,95.0,0,0.0,0.0
+explicit_missing_image,20,2,0.1,10.0,2,0.1,10.0,12,0.6,60.0,6,0.3,30.0,0,0.0,0.0,18,0.9,90.0,0,0.0,0.0
+implicit_no_image,20,0,0.0,0.0,0,0.0,0.0,13,0.65,65.0,6,0.3,30.0,2,0.1,10.0,20,1.0,100.0,0,0.0,0.0
