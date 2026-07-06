@@ -25,3 +25,15 @@ Images are all numbered consistently from 1-300.
 ### 7. Are categories or visual patterns available?
 There don't appear to be set categories for image.  Each question and image comes in a pair, with the questions being identical and the images depicting similar scenes with a key visual difference.
 
+## Blank Image Generation
+### 1. What is the size of the image?
+The blank white image has a size of 224 x 224.
+
+### 2. How was the image created?
+The image was created through Python in the terminal using the following commands:
+
+```img = Image.new("RGB", (224, 224), "white")```
+```img.save("data/generated/blank_image_white.png")```
+
+### 3. What is the file path?
+`data/generated/blank_image_white.png`
