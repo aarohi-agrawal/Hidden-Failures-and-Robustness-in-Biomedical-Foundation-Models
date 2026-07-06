@@ -1,9 +1,9 @@
-index,question,options,correct_answer
-13,Is the image more likely of a single ear of corn or multiple ears,(a) Single (b) Multiple,(a)
-45,Are the wheels of the school bus visible in the image?,(a) Yes (b) No,(b)
-75,Do you see this flower from the top or the side?,(a) Top (b) Side,(a)
-91,Are there any words displayed on the vehicle's lightbar?,(a) Yes (b) No,(b)
-106,Is the camera positioned at eye level or looking down from above?,(a) Eye Level (b) Above,(b)
-118,How many eyes of the cat can you see in the picture?,(a) 1 (b) 2,(b)
-171,Does the snowman in the picture have a mouth?,(a) Yes (b) No,(a)
-289,Is the following statement correct: There are different colors of grapes in the image.,(a) Correct (b) Incorrect,(a)
+source_id,question,options,gold_answer,image_path
+13,Is the image more likely of a single ear of corn or multiple ears,(a) Single (b) Multiple,(a),MMVP Images/13.jpg
+45,Are the wheels of the school bus visible in the image?,(a) Yes (b) No,(b),MMVP Images/45.jpg
+75,Do you see this flower from the top or the side?,(a) Top (b) Side,(a),MMVP Images/75.jpg
+91,Are there any words displayed on the vehicle's lightbar?,(a) Yes (b) No,(b),MMVP Images/91.jpg
+106,Is the camera positioned at eye level or looking down from above?,(a) Eye Level (b) Above,(b),MMVP Images/106.jpg
+118,How many eyes of the cat can you see in the picture?,(a) 1 (b) 2,(b),MMVP Images/118.jpg
+171,Does the snowman in the picture have a mouth?,(a) Yes (b) No,(a),MMVP Images/171.jpg
+289,Is the following statement correct: There are different colors of grapes in the image.,(a) Correct (b) Incorrect,(a),MMVP Images/289.jpg
