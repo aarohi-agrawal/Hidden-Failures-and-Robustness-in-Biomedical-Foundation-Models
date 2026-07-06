@@ -1,37 +1,33 @@
 case_id,bundle_id,source_id,dataset,question,gold_answer,image_path,mismatched_image_path,condition,prompt_version,include_in_eval,exclusion_reason,notes
-mmvp_001_image_present,mmvp_001,13,MMVP,Is the image more likely of a single ear of corn or multiple ears?,(a),data/mmvp/MMVP Images/13.jpg,,image_present,mmvp_image_present_v1,yes,,
-mmvp_001_no_image,mmvp_001,13,MMVP,Is the image more likely of a single ear of corn or multiple ears?,(a),,,no_image,mmvp_no_image_v1,yes,,
-mmvp_001_blank_image,mmvp_001,13,MMVP,Is the image more likely of a single ear of corn or multiple ears?,(a),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
-mmvp_001_mismatched_image,mmvp_001,13,MMVP,Is the image more likely of a single ear of corn or multiple ears?,(a),data/mmvp/MMVP Images/45.jpg,data/mmvp/MMVP Images/45.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_002
-mmvp_002_image_present,mmvp_002,45,MMVP,Are the wheels of the school bus visible in the image?,(b),data/mmvp/MMVP Images/45.jpg,,image_present,mmvp_image_present_v1,yes,,
-mmvp_002_no_image,mmvp_002,45,MMVP,Are the wheels of the school bus visible in the image?,(b),,,no_image,mmvp_no_image_v1,yes,,
-mmvp_002_blank_image,mmvp_002,45,MMVP,Are the wheels of the school bus visible in the image?,(b),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
-mmvp_002_mismatched_image,mmvp_002,45,MMVP,Are the wheels of the school bus visible in the image?,(b),data/mmvp/MMVP Images/75.jpg,data/mmvp/MMVP Images/75.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_003
+mmvp_008_no_image,mmvp_008,289,MMVP,Is the following statement correct: There are different colors of grapes in the image.,(a),,,no_image,mmvp_no_image_v1,yes,,
+mmvp_004_mismatched_image,mmvp_004,91,MMVP,Are there any words displayed on the vehicle's lightbar?,(b),data/mmvp/MMVP Images/106.jpg,data/mmvp/MMVP Images/106.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_005
+mmvp_007_image_present,mmvp_007,171,MMVP,Does the snowman in the picture have a mouth?,(a),data/mmvp/MMVP Images/171.jpg,,image_present,mmvp_image_present_v1,yes,,
+mmvp_005_no_image,mmvp_005,106,MMVP,Is the camera positioned at eye level or looking down from above?,(b),,,no_image,mmvp_no_image_v1,yes,,
 mmvp_003_image_present,mmvp_003,75,MMVP,Do you see this flower from the top or the side?,(a),data/mmvp/MMVP Images/75.jpg,,image_present,mmvp_image_present_v1,yes,,
 mmvp_003_no_image,mmvp_003,75,MMVP,Do you see this flower from the top or the side?,(a),,,no_image,mmvp_no_image_v1,yes,,
-mmvp_003_blank_image,mmvp_003,75,MMVP,Do you see this flower from the top or the side?,(a),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
-mmvp_003_mismatched_image,mmvp_003,75,MMVP,Do you see this flower from the top or the side?,(a),data/mmvp/MMVP Images/91.jpg,data/mmvp/MMVP Images/91.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_004
-mmvp_004_image_present,mmvp_004,91,MMVP,Are there any words displayed on the vehicle's lightbar?,(b),data/mmvp/MMVP Images/91.jpg,,image_present,mmvp_image_present_v1,yes,,
-mmvp_004_no_image,mmvp_004,91,MMVP,Are there any words displayed on the vehicle's lightbar?,(b),,,no_image,mmvp_no_image_v1,yes,,
-mmvp_004_blank_image,mmvp_004,91,MMVP,Are there any words displayed on the vehicle's lightbar?,(b),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
-mmvp_004_mismatched_image,mmvp_004,91,MMVP,Are there any words displayed on the vehicle's lightbar?,(b),data/mmvp/MMVP Images/106.jpg,data/mmvp/MMVP Images/106.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_005
-mmvp_005_image_present,mmvp_005,106,MMVP,Is the camera positioned at eye level or looking down from above?,(b),data/mmvp/MMVP Images/106.jpg,,image_present,mmvp_image_present_v1,yes,,
-mmvp_005_no_image,mmvp_005,106,MMVP,Is the camera positioned at eye level or looking down from above?,(b),,,no_image,mmvp_no_image_v1,yes,,
-mmvp_005_blank_image,mmvp_005,106,MMVP,Is the camera positioned at eye level or looking down from above?,(b),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
-mmvp_005_mismatched_image,mmvp_005,106,MMVP,Is the camera positioned at eye level or looking down from above?,(b),data/mmvp/MMVP Images/118.jpg,data/mmvp/MMVP Images/118.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_006
-mmvp_006_image_present,mmvp_006,118,MMVP,How many eyes of the cat can you see in the picture?,(b),data/mmvp/MMVP Images/118.jpg,,image_present,mmvp_image_present_v1,yes,,
-mmvp_006_no_image,mmvp_006,118,MMVP,How many eyes of the cat can you see in the picture?,(b),,,no_image,mmvp_no_image_v1,yes,,
-mmvp_006_blank_image,mmvp_006,118,MMVP,How many eyes of the cat can you see in the picture?,(b),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
-mmvp_006_mismatched_image,mmvp_006,118,MMVP,How many eyes of the cat can you see in the picture?,(b),data/mmvp/MMVP Images/171.jpg,data/mmvp/MMVP Images/171.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_007
-mmvp_007_image_present,mmvp_007,171,MMVP,Does the snowman in the picture have a mouth?,(a),data/mmvp/MMVP Images/171.jpg,,image_present,mmvp_image_present_v1,yes,,
-mmvp_007_no_image,mmvp_007,171,MMVP,Does the snowman in the picture have a mouth?,(a),,,no_image,mmvp_no_image_v1,yes,,
-mmvp_007_blank_image,mmvp_007,171,MMVP,Does the snowman in the picture have a mouth?,(a),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
-mmvp_007_mismatched_image,mmvp_007,171,MMVP,Does the snowman in the picture have a mouth?,(a),data/mmvp/MMVP Images/289.jpg,data/mmvp/MMVP Images/289.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_008
-mmvp_008_image_present,mmvp_008,289,MMVP,Is the following statement correct: There are different colors of grapes in the image.,(a),data/mmvp/MMVP Images/289.jpg,,image_present,mmvp_image_present_v1,yes,,
-mmvp_008_no_image,mmvp_008,289,MMVP,Is the following statement correct: There are different colors of grapes in the image.,(a),,,no_image,mmvp_no_image_v1,yes,,
 mmvp_008_blank_image,mmvp_008,289,MMVP,Is the following statement correct: There are different colors of grapes in the image.,(a),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
+mmvp_007_no_image,mmvp_007,171,MMVP,Does the snowman in the picture have a mouth?,(a),,,no_image,mmvp_no_image_v1,yes,,
+mmvp_004_image_present,mmvp_004,91,MMVP,Are there any words displayed on the vehicle's lightbar?,(b),data/mmvp/MMVP Images/91.jpg,,image_present,mmvp_image_present_v1,yes,,
+mmvp_001_image_present,mmvp_001,13,MMVP,Is the image more likely of a single ear of corn or multiple ears?,(a),data/mmvp/MMVP Images/13.jpg,,image_present,mmvp_image_present_v1,yes,,
+mmvp_002_image_present,mmvp_002,45,MMVP,Are the wheels of the school bus visible in the image?,(b),data/mmvp/MMVP Images/45.jpg,,image_present,mmvp_image_present_v1,yes,,
+mmvp_005_image_present,mmvp_005,106,MMVP,Is the camera positioned at eye level or looking down from above?,(b),data/mmvp/MMVP Images/106.jpg,,image_present,mmvp_image_present_v1,yes,,
+mmvp_002_no_image,mmvp_002,45,MMVP,Are the wheels of the school bus visible in the image?,(b),,,no_image,mmvp_no_image_v1,yes,,
+mmvp_004_no_image,mmvp_004,91,MMVP,Are there any words displayed on the vehicle's lightbar?,(b),,,no_image,mmvp_no_image_v1,yes,,
+mmvp_003_mismatched_image,mmvp_003,75,MMVP,Do you see this flower from the top or the side?,(a),data/mmvp/MMVP Images/91.jpg,data/mmvp/MMVP Images/91.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_004
+mmvp_006_mismatched_image,mmvp_006,118,MMVP,How many eyes of the cat can you see in the picture?,(b),data/mmvp/MMVP Images/171.jpg,data/mmvp/MMVP Images/171.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_007
+mmvp_001_no_image,mmvp_001,13,MMVP,Is the image more likely of a single ear of corn or multiple ears?,(a),,,no_image,mmvp_no_image_v1,yes,,
+mmvp_001_blank_image,mmvp_001,13,MMVP,Is the image more likely of a single ear of corn or multiple ears?,(a),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
+mmvp_007_blank_image,mmvp_007,171,MMVP,Does the snowman in the picture have a mouth?,(a),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
+mmvp_001_mismatched_image,mmvp_001,13,MMVP,Is the image more likely of a single ear of corn or multiple ears?,(a),data/mmvp/MMVP Images/45.jpg,data/mmvp/MMVP Images/45.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_002
+mmvp_006_no_image,mmvp_006,118,MMVP,How many eyes of the cat can you see in the picture?,(b),,,no_image,mmvp_no_image_v1,yes,,
+mmvp_007_mismatched_image,mmvp_007,171,MMVP,Does the snowman in the picture have a mouth?,(a),data/mmvp/MMVP Images/289.jpg,data/mmvp/MMVP Images/289.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_008
+mmvp_006_blank_image,mmvp_006,118,MMVP,How many eyes of the cat can you see in the picture?,(b),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
+mmvp_005_blank_image,mmvp_005,106,MMVP,Is the camera positioned at eye level or looking down from above?,(b),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
 mmvp_008_mismatched_image,mmvp_008,289,MMVP,Is the following statement correct: There are different colors of grapes in the image.,(a),data/mmvp/MMVP Images/13.jpg,data/mmvp/MMVP Images/13.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_001
-
-
-
-
+mmvp_006_image_present,mmvp_006,118,MMVP,How many eyes of the cat can you see in the picture?,(b),data/mmvp/MMVP Images/118.jpg,,image_present,mmvp_image_present_v1,yes,,
+mmvp_002_mismatched_image,mmvp_002,45,MMVP,Are the wheels of the school bus visible in the image?,(b),data/mmvp/MMVP Images/75.jpg,data/mmvp/MMVP Images/75.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_003
+mmvp_003_blank_image,mmvp_003,75,MMVP,Do you see this flower from the top or the side?,(a),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
+mmvp_004_blank_image,mmvp_004,91,MMVP,Are there any words displayed on the vehicle's lightbar?,(b),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
+mmvp_008_image_present,mmvp_008,289,MMVP,Is the following statement correct: There are different colors of grapes in the image.,(a),data/mmvp/MMVP Images/289.jpg,,image_present,mmvp_image_present_v1,yes,,
+mmvp_005_mismatched_image,mmvp_005,106,MMVP,Is the camera positioned at eye level or looking down from above?,(b),data/mmvp/MMVP Images/118.jpg,data/mmvp/MMVP Images/118.jpg,mismatched_image,mmvp_mismatched_image_v1,yes,,Image from bundle mmvp_006
+mmvp_002_blank_image,mmvp_002,45,MMVP,Are the wheels of the school bus visible in the image?,(b),data/generated/blank_image_white.png,,blank_image,mmvp_blank_image_v1,yes,,
