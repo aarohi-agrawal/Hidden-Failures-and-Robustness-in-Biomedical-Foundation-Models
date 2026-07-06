@@ -1,0 +1,1 @@
+case_id,bundle_id,source_id,dataset,question,gold_answer,image_path,mismatched_image_path,condition,prompt_version,include_in_eval,evaluation_reason,notes
