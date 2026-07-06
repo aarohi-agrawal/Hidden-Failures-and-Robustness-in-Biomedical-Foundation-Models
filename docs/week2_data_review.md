@@ -1,8 +1,5 @@
 # Data Review Notes
 
-## MMVP Data Path
-The shared MMVP data folder is located at the following path: 
-
 ## Questions.csv Inspection
 ### 1. How many rows are there?
 There are 300 rows of questions in Questions.csv.
