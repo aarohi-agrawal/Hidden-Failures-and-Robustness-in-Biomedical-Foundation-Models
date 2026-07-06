@@ -33,6 +33,7 @@ The blank white image has a size of 224 x 224.
 The image was created through Python in the terminal using the following commands:
 
 ```img = Image.new("RGB", (224, 224), "white")```
+
 ```img.save("data/generated/blank_image_white.png")```
 
 ### 3. What is the file path?
