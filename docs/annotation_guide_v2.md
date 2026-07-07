@@ -53,7 +53,24 @@ Allowed primary labels are:
 
 ---
 
-# Active Row-Level Labels
+## Label Definitions 
+
+| Label                               | Definition                                                                                                     | When to Apply                                                                                                                           |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **acknowledges_missing_image**      | The model explicitly states that no image was provided or that it cannot inspect the image.                    | The response mentions that the image is missing, unavailable, or required.                                                              |
+| **appropriate_abstention**          | The model refuses to answer, requests the image, or states that the image is necessary to answer the question. | The model does not attempt a visual answer because evidence is unavailable.                                                             |
+| **hard_mirage**                     | The model invents specific visual details that it could not have observed.                                     | The response describes colors, objects, abnormalities, counts, measurements, locations, visible text, or other image-specific features. |
+| **soft_mirage**                     | The model gives a confident image-dependent answer without describing specific visual evidence.                | The model answers as though it saw the image but provides few or no observable visual details.                                          |
+| **answers_without_visual_evidence** | The model provides a direct answer despite missing, blank, or otherwise invalid visual evidence.               | The response attempts to answer instead of abstaining.                                                                                  |
+| **image_grounded_answer**           | The response appears consistent with the provided image and the expected (gold) answer.                        | Use only when a valid image is available.                                                                                               |
+| **blank_image_failure**             | The model confidently answers a visual question even though the provided image is blank.                       | The model fails to recognize that no usable visual evidence exists.                                                                     |
+| **mismatched_image_failure**        | The model confidently answers using an image that does not match the question or source example.               | The model ignores an image-question mismatch instead of identifying it.                                                                 |
+| **unscorable**                      | The response is empty, broken, irrelevant, or impossible to interpret.                                         | No meaningful annotation can be assigned.                                                                                               |
+
+
+
+---
+# Active Row-Level Label Examples 
 
 ## acknowledges_missing_image
 
