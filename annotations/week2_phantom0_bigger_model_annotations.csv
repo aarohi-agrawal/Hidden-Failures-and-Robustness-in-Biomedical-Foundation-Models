@@ -1,0 +1,1 @@
+run_id,case_id,source_id,model_name,condition,question,raw_response,acknowledges_missing_image,appropriate_abstention,hard_mirage,soft_mirage,answers_without_visual_evidence,possible_text_prior,unscorable,primary_label,annotator,notes
