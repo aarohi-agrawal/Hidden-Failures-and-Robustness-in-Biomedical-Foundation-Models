@@ -35,3 +35,15 @@ The image was created through Python in the terminal using the following command
 
 ### 3. What is the file path?
 `data/generated/blank_image_white.png`
+
+## Unity MMVP image storage
+
+MMVP image files are stored on Unity at:
+
+/work/pi_cics-ur_umass_edu/mirage_shared/data/mmvp/MMVP Images
+
+The repo uses a symlink:
+
+data/mmvp/MMVP Images -> /work/pi_cics-ur_umass_edu/mirage_shared/data/mmvp/MMVP Images
+
+Image files are not committed to GitHub.
