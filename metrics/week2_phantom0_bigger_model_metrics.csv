@@ -1,0 +1,9 @@
+metric,week1_smolvlm_256m,week2_qwen2_5_vl_3b
+total_outputs,40,40
+acknowledges_missing_image_count,2,35
+appropriate_abstention_count,2,33
+hard_mirage_count,25,1
+soft_mirage_count,12,2
+answers_without_visual_evidence_count,38,7
+possible_text_prior_count (week1: text_prior_answer_count),1,4
+unscorable_count,0,0
