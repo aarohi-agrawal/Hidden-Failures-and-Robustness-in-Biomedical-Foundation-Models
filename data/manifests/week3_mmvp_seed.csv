@@ -1,0 +1,17 @@
+bundle_id,source_id,dataset,category,question,gold_answer,original_image_path,selection_notes
+mmvp_w3_001,1,MMVP,unknown,Are the butterfly's wings closer to being open or closed?,(a),data/mmvp/MMVP Images/1.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_002,21,MMVP,unknown,Is the duck's entire beak visible in the picture?,(a),data/mmvp/MMVP Images/21.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_003,41,MMVP,unknown,"Based on the image, is the following statement correct: The spider has 8 legs?",(a),data/mmvp/MMVP Images/41.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_004,61,MMVP,unknown,"Can you see letter ""J"" in the image?",(a),data/mmvp/MMVP Images/61.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_005,82,MMVP,unknown,Is this a hammerhead shark?,(b),data/mmvp/MMVP Images/82.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_006,102,MMVP,unknown,What is the woman more likely to do?,(b),data/mmvp/MMVP Images/102.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_007,123,MMVP,unknown,Is this duck facing left or right from the camera's perspective?,(a),data/mmvp/MMVP Images/123.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_008,143,MMVP,unknown,Is the ladybug positioned upright or upside down?,(a),data/mmvp/MMVP Images/143.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_009,162,MMVP,unknown,Is the minute hand of the clock closer to 12 or closer to 1?,(b),data/mmvp/MMVP Images/162.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_010,183,MMVP,unknown,Are the teddy bears holding hands or leaning against each other?,(a),data/mmvp/MMVP Images/183.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_011,202,MMVP,unknown,What are the words in the image:,(b),data/mmvp/MMVP Images/202.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_012,221,MMVP,unknown,"In the photo, is one of the man's hands blocked by the woman?",(a),data/mmvp/MMVP Images/221.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_013,241,MMVP,unknown,Is the photo taken directly above the coffee or from the side?,(a),data/mmvp/MMVP Images/241.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_014,260,MMVP,unknown,"In the picture, are the elderly people moving to the left or to the right?",(b),data/mmvp/MMVP Images/260.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_015,280,MMVP,unknown,Is the elderly person standing or sitting in the picture?,(b),data/mmvp/MMVP Images/280.jpg,Week 2 examples excluded; image opened successfully (224x224).
+mmvp_w3_016,300,MMVP,unknown,How would you describe the background of the image?,(b),data/mmvp/MMVP Images/300.jpg,Week 2 examples excluded; image opened successfully (224x224).
