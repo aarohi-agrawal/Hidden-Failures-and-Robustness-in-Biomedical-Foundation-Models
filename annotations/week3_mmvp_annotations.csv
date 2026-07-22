@@ -1,0 +1,1 @@
+run_id,case_id,bundle_id,source_id,model_name,condition,question,gold_answer,raw_response,response_mode,evidence_issue_acknowledged,evidence_issue_type,specific_visual_claim,answer_correct,annotator,adjudicated,notes
