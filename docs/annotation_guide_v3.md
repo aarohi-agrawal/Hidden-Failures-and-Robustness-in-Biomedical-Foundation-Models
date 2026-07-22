@@ -1,9 +1,13 @@
 # Annotation Guide - v3
 
+## Important Notes:
+- The label text_prior_answer is not a primary label for week 3.
+- Hard/Soft MIRAGE is not included as a primary label, but is included as a derived outcome.  This means that an example's status as a Hard/Soft MIRAGE can only be computed after all of the primary annotation fields have been filled out.
+
 ## Primary Labels 
 
-### Note:
-For all labels whose options are not explicitly stated, the default options are yes and no.
+### Options:
+For all labels whose options are not explicitly stated, the default options are yes and no. 
 
 ### explicit_abstention
 The model does not select a candidate answer and explicitly says that an answer cannot be given with the evidence currently available.
@@ -43,12 +47,7 @@ The model claims to see a specific visual detail, like an object, count, attribu
 Ex. "The image contains 4 blue houses."
 
 ### answer_correct
-The model gives a response that is consistent with the MMVP gold answer, regardless of whether or not there is sufficient visual evidence.
+The model gives a response that is consistent with the MMVP gold answer, regardless of whether or not there is sufficient visual evidence.  Correct answers with insufficient visual evidence are not necessarily reliable, and incorrect answers with sufficient visual evidence are entirely possible.
 **Valid options are yes, no, unclear, or not_applicable.**
 
 Ex. "The answer is (a), the book is turned upside down." (Given that (a) is the gold answer)
-
-## Derived Outcomes
-
-
-## Additional Labels
