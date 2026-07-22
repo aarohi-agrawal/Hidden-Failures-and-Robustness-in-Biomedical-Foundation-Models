@@ -30,13 +30,13 @@ The model gives a response that is blank, irrelevant, illogical, or otherwise un
 Ex. "The person in this photo looks around 204 years old."
 
 ### evidence_issue_acknowledged
-The model directly states that the image provided is missing, blank, mismatched, irrelevant, or insufficient.
+The model directly states that the image provided is missing, blank, mismatched, irrelevant, or insufficient.\
 **Valid options are yes, no, or not_applicable (for image_present cases).**
 
 Ex. "You asked a question regarding an x-ray image, but the image you've provided is of a flower."
 
 ### evidence_issue_type
-The model notices an evidence issue, but does not identify it by name, so a label is used to classify it.
+The model notices an evidence issue, but does not identify it by name, so a label is used to classify it.\
 **Valid options are blank, missing, mismatched, insufficient, unclear, or none.**
 
 Ex. "The image that you described is different from the one attached." (mismatched)
