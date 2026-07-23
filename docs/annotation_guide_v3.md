@@ -47,7 +47,7 @@ The model claims to see a specific visual detail, like an object, count, attribu
 Ex. "The image contains 4 blue houses."
 
 ### answer_correct
-The model gives a response that is consistent with the MMVP gold answer, regardless of whether or not there is sufficient visual evidence.  Correct answers with insufficient visual evidence are not necessarily reliable, and incorrect answers with sufficient visual evidence are entirely possible.
+The model gives a response that is consistent with the MMVP gold answer, regardless of whether or not there is sufficient visual evidence.  Correct answers with insufficient visual evidence are not necessarily reliable, and incorrect answers with sufficient visual evidence are entirely possible.\
 **Valid options are yes, no, unclear, or not_applicable.**
 
 Ex. "The answer is (a), the book is turned upside down." (Given that (a) is the gold answer)
