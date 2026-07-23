@@ -1,4 +1,4 @@
-# Annotation Adjucation
+# Annotation Adjudication
 
 ## Hard Mirage Disagreements
 
