@@ -1,1 +1,3 @@
-model_name,condition,total outputs,explicit abstention rate,hedged answer rate,confident answer rate,evidence-issue acknowledgment rate,specific visual claim rate,gold-answer match rate,unscorable rate
+model_name,condition,total_outputs,explicit_abstention_rate,hedged_answer_rate,confident_answer_rate,evidence_issue_acknowledgment_rate,specific_visual_claim_rate,gold_answer_match_rate,unscorable_rate
+HuggingFaceTB/SmolVLM-256M-Instruct,image_present,16,0.00,0.00,1.00,0.00,0.75,0.50,0.00
+HuggingFaceTB/SmolVLM-256M-Instruct,no_image,16,0.125,0.00,0.875,0.00,0.75,0.4375,0.0625
