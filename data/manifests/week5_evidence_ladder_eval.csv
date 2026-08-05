@@ -1,0 +1,201 @@
+case_id,category,gold_answer,condition,image_id,mismatch_source_id,difficulty_rating,notes
+27,Animals,(a),correct_image,27,,,Original MMVP image
+27,Animals,(a),no_image,,,,Image removed
+27,Animals,(a),blank_image,mmvp_w5_001_blank.png,,,Matched blank image
+27,Animals,(a),far_mismatch,66,66,,Original question concerns an animal; mismatched image is a technology device and provides no relevant visual evidence.
+27,Animals,(a),hard_mismatch,132,132,3,"Both involve animals with visibility/pose reasoning, but the mismatch image should not answer the original question."
+58,Animals,(b),correct_image,58,,,Original MMVP image
+58,Animals,(b),no_image,,,,Image removed
+58,Animals,(b),blank_image,mmvp_w5_002_blank.png,,,Matched blank image
+58,Animals,(b),far_mismatch,167,167,,Original question concerns an animal; mismatched image is food and cannot answer the original question.
+58,Animals,(b),hard_mismatch,120,120,3,"Both are animals with body-part visibility reasoning, but depict different subjects."
+74,Object,(b),correct_image,74,,,Original MMVP image
+74,Object,(b),no_image,,,,Image removed
+74,Object,(b),blank_image,mmvp_w5_003_blank.png,,,Matched blank image
+74,Object,(b),far_mismatch,271,271,,Original question concerns an object; mismatched image depicts a human and provides no relevant evidence.
+74,Object,(b),hard_mismatch,233,233,2,Both involve environmental scene interpretation rather than object identity.
+176,Human/Object,(b),correct_image,176,,,Original MMVP image
+176,Human/Object,(b),no_image,,,,Image removed
+176,Human/Object,(b),blank_image,mmvp_w5_004_blank.png,,,Matched blank image
+176,Human/Object,(b),far_mismatch,284,284,,Original question concerns a human/object interaction; mismatched image is food and is unrelated to the original task.
+176,Human/Object,(b),hard_mismatch,246,246,2,Both involve human body pose/orientation but different actions.
+216,Vehicle,(b),correct_image,216,,,Original MMVP image
+216,Vehicle,(b),no_image,,,,Image removed
+216,Vehicle,(b),blank_image,mmvp_w5_005_blank.png,,,Matched blank image
+216,Vehicle,(b),far_mismatch,39,39,,Original question concerns a vehicle; mismatched image depicts an animal and cannot support the original answer.
+216,Vehicle,(b),hard_mismatch,158,158,3,Both are vehicle-focused images requiring fine-grained visual reasoning.
+111,Animals,(a),correct_image,111,,,Original MMVP image
+111,Animals,(a),no_image,,,,Image removed
+111,Animals,(a),blank_image,mmvp_w5_006_blank.png,,,Matched blank image
+111,Animals,(a),far_mismatch,276,276,,Original question concerns an animal; mismatched image is a house/building and provides no relevant evidence.
+111,Animals,(a),hard_mismatch,141,141,3,Both involve elephant trunk attributes but ask different questions.
+136,Object,(b),correct_image,136,,,Original MMVP image
+136,Object,(b),no_image,,,,Image removed
+136,Object,(b),blank_image,mmvp_w5_007_blank.png,,,Matched blank image
+136,Object,(b),far_mismatch,205,205,,Original question concerns an object; mismatched image is food and is unrelated to the original question.
+136,Object,(b),hard_mismatch,225,225,2,Both involve counting or arrangement of objects in tabletop scenes.
+233,Landscape,(a),correct_image,233,,,Original MMVP image
+233,Landscape,(a),no_image,,,,Image removed
+233,Landscape,(a),blank_image,mmvp_w5_008_blank.png,,,Matched blank image
+233,Landscape,(a),far_mismatch,11,11,,Original question concerns a landscape; mismatched image depicts an animal and cannot answer the original question.
+233,Landscape,(a),hard_mismatch,299,299,2,Both involve interpreting the sky or background but different scenes.
+295,Pattern/Counting,(a),correct_image,295,,,Original MMVP image
+295,Pattern/Counting,(a),no_image,,,,Image removed
+295,Pattern/Counting,(a),blank_image,mmvp_w5_009_blank.png,,,Matched blank image
+295,Pattern/Counting,(a),far_mismatch,151,151,,Original question concerns a pattern/counting task; mismatched image depicts a human and provides no relevant evidence.
+295,Pattern/Counting,(a),hard_mismatch,273,273,1,Both involve pattern recognition but different objects.
+267,Human,(a),correct_image,267,,,Original MMVP image
+267,Human,(a),no_image,,,,Image removed
+267,Human,(a),blank_image,mmvp_w5_010_blank.png,,,Matched blank image
+267,Human,(a),far_mismatch,36,36,,Original question concerns a human; mismatched image is food and is unrelated to the original task.
+267,Human,(a),hard_mismatch,271,271,2,Both involve people and body orientation or clothing cues.
+6,Animals,(b),correct_image,6,,,Original MMVP image
+6,Animals,(b),no_image,,,,Image removed
+6,Animals,(b),blank_image,mmvp_w5_011_blank.png,,,Matched blank image
+6,Animals,(b),far_mismatch,292,292,,Original question concerns an animal; mismatched image depicts a character and cannot answer the question.
+6,Animals,(b),hard_mismatch,85,85,2,Both involve animals with pose or orientation reasoning.
+11,Animals,(a),correct_image,11,,,Original MMVP image
+11,Animals,(a),no_image,,,,Image removed
+11,Animals,(a),blank_image,mmvp_w5_012_blank.png,,,Matched blank image
+11,Animals,(a),far_mismatch,158,158,,Original question concerns an animal; mismatched image is a vehicle and provides no relevant evidence.
+11,Animals,(a),hard_mismatch,27,27,2,Both involve peacocks but different visual attributes.
+18,Vehicle,(b),correct_image,18,,,Original MMVP image
+18,Vehicle,(b),no_image,,,,Image removed
+18,Vehicle,(b),blank_image,mmvp_w5_013_blank.png,,,Matched blank image
+18,Vehicle,(b),far_mismatch,263,263,,Original question concerns a vehicle; mismatched image is food and cannot support the original answer.
+18,Vehicle,(b),hard_mismatch,216,216,2,Both are vehicle appearance questions with different evidence.
+97,Technology Devices,(a),correct_image,97,,,Original MMVP image
+97,Technology Devices,(a),no_image,,,,Image removed
+97,Technology Devices,(a),blank_image,mmvp_w5_014_blank.png,,,Matched blank image
+97,Technology Devices,(a),far_mismatch,120,120,,Original question concerns a technology device; mismatched image depicts an animal and is unrelated.
+97,Technology Devices,(a),hard_mismatch,66,66,3,Both involve keyboards or devices with different evidence requirements.
+36,Food,(b),correct_image,36,,,Original MMVP image
+36,Food,(b),no_image,,,,Image removed
+36,Food,(b),blank_image,mmvp_w5_015_blank.png,,,Matched blank image
+36,Food,(b),far_mismatch,216,216,,Original question concerns food; mismatched image is a vehicle and provides no relevant evidence.
+36,Food,(b),hard_mismatch,193,193,2,Both involve food imagery but different reasoning tasks.
+66,Technology Devices,(b),correct_image,66,,,Original MMVP image
+66,Technology Devices,(b),no_image,,,,Image removed
+66,Technology Devices,(b),blank_image,mmvp_w5_016_blank.png,,,Matched blank image
+66,Technology Devices,(b),far_mismatch,193,193,,Original question concerns a technology device; mismatched image is food and cannot answer the original question.
+66,Technology Devices,(b),hard_mismatch,97,97,3,Similar technology devices with different evidence requirements.
+70,Animals,(b),correct_image,70,,,Original MMVP image
+70,Animals,(b),no_image,,,,Image removed
+70,Animals,(b),blank_image,mmvp_w5_017_blank.png,,,Matched blank image
+70,Animals,(b),far_mismatch,233,233,,Original question concerns an animal; mismatched image is a landscape and is unrelated.
+70,Animals,(b),hard_mismatch,79,79,2,Both involve snakes but different visual cues.
+79,Animals,(a),correct_image,79,,,Original MMVP image
+79,Animals,(a),no_image,,,,Image removed
+79,Animals,(a),blank_image,mmvp_w5_018_blank.png,,,Matched blank image
+79,Animals,(a),far_mismatch,150,150,,Original question concerns an animal; mismatched image is an object and provides no relevant evidence.
+79,Animals,(a),hard_mismatch,70,70,2,Both involve snakes but different pose reasoning.
+87,Technology Devices,(a),correct_image,87,,,Original MMVP image
+87,Technology Devices,(a),no_image,,,,Image removed
+87,Technology Devices,(a),blank_image,mmvp_w5_019_blank.png,,,Matched blank image
+87,Technology Devices,(a),far_mismatch,225,225,,Original question concerns a technology device; mismatched image is food and cannot answer the original question.
+87,Technology Devices,(a),hard_mismatch,97,97,2,Both involve computer peripherals but different questions.
+155,Furniture,(a),correct_image,155,,,Original MMVP image
+155,Furniture,(a),no_image,,,,Image removed
+155,Furniture,(a),blank_image,mmvp_w5_020_blank.png,,,Matched blank image
+155,Furniture,(a),far_mismatch,109,109,,Original question concerns furniture; mismatched image depicts an animal and is unrelated.
+155,Furniture,(a),hard_mismatch,269,269,2,Both depict indoor furniture or interior layouts.
+114,Object,(b),correct_image,114,,,Original MMVP image
+114,Object,(b),no_image,,,,Image removed
+114,Object,(b),blank_image,mmvp_w5_021_blank.png,,,Matched blank image
+114,Object,(b),far_mismatch,267,267,,Original question concerns an object; mismatched image depicts a human and cannot answer the original question.
+114,Object,(b),hard_mismatch,125,125,2,Both involve object visibility inside scenes.
+120,Animals,(b),correct_image,120,,,Original MMVP image
+120,Animals,(b),no_image,,,,Image removed
+120,Animals,(b),blank_image,mmvp_w5_022_blank.png,,,Matched blank image
+120,Animals,(b),far_mismatch,136,136,,Original question concerns an animal; mismatched image is an object and provides no relevant evidence.
+120,Animals,(b),hard_mismatch,117,117,2,Both ask about visible eyes on animals.
+132,Animals,(b),correct_image,132,,,Original MMVP image
+132,Animals,(b),no_image,,,,Image removed
+132,Animals,(b),blank_image,mmvp_w5_023_blank.png,,,Matched blank image
+132,Animals,(b),far_mismatch,176,176,,Original question concerns an animal; mismatched image depicts a human/object interaction and is unrelated.
+132,Animals,(b),hard_mismatch,131,131,2,Same subject category with different positional reasoning.
+145,Object,(a),correct_image,145,,,Original MMVP image
+145,Object,(a),no_image,,,,Image removed
+145,Object,(a),blank_image,mmvp_w5_024_blank.png,,,Matched blank image
+145,Object,(a),far_mismatch,58,58,,Original question concerns an object; mismatched image depicts an animal and cannot answer the original question.
+145,Object,(a),hard_mismatch,105,105,3,Both ask about camera viewpoint or perspective.
+151,Human,(a),correct_image,151,,,Original MMVP image
+151,Human,(a),no_image,,,,Image removed
+151,Human,(a),blank_image,mmvp_w5_025_blank.png,,,Matched blank image
+151,Human,(a),far_mismatch,295,295,,Original question concerns a human; mismatched image is a pattern/counting task and provides no relevant evidence.
+151,Human,(a),hard_mismatch,219,219,2,Both involve human motion or orientation.
+158,Vehicle,(b),correct_image,158,,,Original MMVP image
+158,Vehicle,(b),no_image,,,,Image removed
+158,Vehicle,(b),blank_image,mmvp_w5_026_blank.png,,,Matched blank image
+158,Vehicle,(b),far_mismatch,74,74,,Original question concerns a vehicle; mismatched image is an object and is unrelated.
+158,Vehicle,(b),hard_mismatch,157,157,2,Same motorcycle subject but different visual attributes.
+167,Food,(a),correct_image,167,,,Original MMVP image
+167,Food,(a),no_image,,,,Image removed
+167,Food,(a),blank_image,mmvp_w5_027_blank.png,,,Matched blank image
+167,Food,(a),far_mismatch,18,18,,Original question concerns food; mismatched image is a vehicle and cannot answer the original question.
+167,Food,(a),hard_mismatch,205,205,2,Both involve food or drink scenes with different evidence.
+186,Human/Object,(b),correct_image,186,,,Original MMVP image
+186,Human/Object,(b),no_image,,,,Image removed
+186,Human/Object,(b),blank_image,mmvp_w5_028_blank.png,,,Matched blank image
+186,Human/Object,(b),far_mismatch,70,70,,Original question concerns a human/object interaction; mismatched image depicts an animal and is unrelated.
+186,Human/Object,(b),hard_mismatch,197,197,2,Both involve people on weighing scales but different questions.
+193,Food,(a),correct_image,193,,,Original MMVP image
+193,Food,(a),no_image,,,,Image removed
+193,Food,(a),blank_image,mmvp_w5_029_blank.png,,,Matched blank image
+193,Food,(a),far_mismatch,145,145,,Original question concerns food; mismatched image is an object and cannot support the original answer.
+193,Food,(a),hard_mismatch,167,167,2,Similar food category with different scene evidence.
+198,Human/Object,(b),correct_image,198,,,Original MMVP image
+198,Human/Object,(b),no_image,,,,Image removed
+198,Human/Object,(b),blank_image,mmvp_w5_030_blank.png,,,Matched blank image
+198,Human/Object,(b),far_mismatch,111,111,,Original question concerns a human/object interaction; mismatched image depicts an animal and provides no relevant evidence.
+198,Human/Object,(b),hard_mismatch,211,211,2,Both involve human hands or body positioning.
+205,Food,(a),correct_image,205,,,Original MMVP image
+205,Food,(a),no_image,,,,Image removed
+205,Food,(a),blank_image,mmvp_w5_031_blank.png,,,Matched blank image
+205,Food,(a),far_mismatch,87,87,,Original question concerns food; mismatched image is a technology device and cannot answer the original question.
+205,Food,(a),hard_mismatch,251,251,2,Beverage or container reasoning with different questions.
+212,Human/Object,(b),correct_image,212,,,Original MMVP image
+212,Human/Object,(b),no_image,,,,Image removed
+212,Human/Object,(b),blank_image,mmvp_w5_032_blank.png,,,Matched blank image
+212,Human/Object,(b),far_mismatch,27,27,,Original question concerns a human/object interaction; mismatched image depicts an animal and is unrelated.
+212,Human/Object,(b),hard_mismatch,211,211,3,Both involve hand position and object placement.
+225,Food,(a),correct_image,225,,,Original MMVP image
+225,Food,(a),no_image,,,,Image removed
+225,Food,(a),blank_image,mmvp_w5_033_blank.png,,,Matched blank image
+225,Food,(a),far_mismatch,97,97,,Original question concerns food; mismatched image is a technology device and provides no relevant evidence.
+225,Food,(a),hard_mismatch,229,229,2,Both involve arrangements of containers on a surface.
+263,Food,(a),correct_image,263,,,Original MMVP image
+263,Food,(a),no_image,,,,Image removed
+263,Food,(a),blank_image,mmvp_w5_034_blank.png,,,Matched blank image
+263,Food,(a),far_mismatch,176,176,,Original question concerns food; mismatched image depicts a human/object interaction and cannot answer the original question.
+263,Food,(a),hard_mismatch,249,249,2,Both involve cakes or desserts but different visual cues.
+271,Human,(a),correct_image,271,,,Original MMVP image
+271,Human,(a),no_image,,,,Image removed
+271,Human,(a),blank_image,mmvp_w5_035_blank.png,,,Matched blank image
+271,Human,(a),far_mismatch,74,74,,Original question concerns a human; mismatched image is an object and provides no relevant evidence.
+271,Human,(a),hard_mismatch,267,267,2,Human appearance or orientation reasoning.
+276,House,(b),correct_image,276,,,Original MMVP image
+276,House,(b),no_image,,,,Image removed
+276,House,(b),blank_image,mmvp_w5_036_blank.png,,,Matched blank image
+276,House,(b),far_mismatch,58,58,,Original question concerns a house/building; mismatched image depicts an animal and is unrelated.
+276,House,(b),hard_mismatch,275,275,2,Same treehouse subject with different counting reasoning.
+284,Food,(b),correct_image,284,,,Original MMVP image
+284,Food,(b),no_image,,,,Image removed
+284,Food,(b),blank_image,mmvp_w5_037_blank.png,,,Matched blank image
+284,Food,(b),far_mismatch,114,114,,Original question concerns food; mismatched image is an object and cannot support the original answer.
+284,Food,(b),hard_mismatch,263,263,2,Both involve prepared food items but different questions.
+292,Character,(b),correct_image,292,,,Original MMVP image
+292,Character,(b),no_image,,,,Image removed
+292,Character,(b),blank_image,mmvp_w5_038_blank.png,,,Matched blank image
+292,Character,(b),far_mismatch,216,216,,Original question concerns a character; mismatched image is a vehicle and provides no relevant evidence.
+292,Character,(b),hard_mismatch,253,253,1,Both involve illustrated or cartoon characters.
+150,Object,(b),correct_image,150,,,Original MMVP image
+150,Object,(b),no_image,,,,Image removed
+150,Object,(b),blank_image,mmvp_w5_039_blank.png,,,Matched blank image
+150,Object,(b),far_mismatch,79,79,,Original question concerns an object; mismatched image depicts an animal and is unrelated.
+150,Object,(b),hard_mismatch,149,149,3,Same piano object with different viewpoint reasoning.
+39,Animals,(a),correct_image,39,,,Original MMVP image
+39,Animals,(a),no_image,,,,Image removed
+39,Animals,(a),blank_image,mmvp_w5_040_blank.png,,,Matched blank image
+39,Animals,(a),far_mismatch,186,186,,Original question concerns an animal; mismatched image depicts a human/object interaction and cannot answer the original question.
+39,Animals,(a),hard_mismatch,21,21,2,Both involve ducks but different visual evidence.

@@ -39,4 +39,3 @@ case_id,category,gold_answer,verified,notes
 292,Character,(b),TRUE,Manual check
 150,Object,(b),TRUE,Manual check
 39,Animals,(a),TRUE,Manual check
-109,Animals,(a),TRUE,Manual check
