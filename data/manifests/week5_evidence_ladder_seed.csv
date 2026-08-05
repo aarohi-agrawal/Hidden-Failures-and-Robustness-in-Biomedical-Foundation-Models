@@ -1,43 +1,42 @@
-| Case ID | Category           | Gold Answer | Verified | Notes        |
-| ------- | ------------------ | ----------- | -------- | ------------ |
-| 27      | Animals            | (a)         | TRUE     | Manual check |
-| 58      | Animals            | (b)         | TRUE     | Manual check |
-| 74      | Object             | (b)         | TRUE     | Manual check |
-| 176     | Human/Object       | (b)         | TRUE     | Manual check |
-| 216     | Vehicle            | (b)         | TRUE     | Manual check |
-| 111     | Animals            | (a)         | TRUE     | Manual check |
-| 136     | Object             | (b)         | TRUE     | Manual check |
-| 233     | Landscape          | (a)         | TRUE     | Manual check |
-| 295     | Pattern/Counting   | (a)         | TRUE     | Manual check |
-| 267     | Human              | (a)         | TRUE     | Manual check |
-| 6       | Animals            | (b)         | TRUE     | Manual check |
-| 11      | Animals            | (a)         | TRUE     | Manual check |
-| 18      | Vehicle            | (b)         | TRUE     | Manual check |
-| 97      | Technology Devices | (a)         | TRUE     | Manual check |
-| 36      | Food               | (b)         | TRUE     | Manual check |
-| 66      | Technology Devices | (b)         | TRUE     | Manual check |
-| 70      | Animals            | (b)         | TRUE     | Manual check |
-| 79      | Animals            | (a)         | TRUE     | Manual check |
-| 87      | Technology Devices | (a)         | TRUE     | Manual check |
-| 155     | Furniture          | (a)         | TRUE     | Manual check |
-| 114     | Object             | (b)         | TRUE     | Manual check |
-| 120     | Animals            | (b)         | TRUE     | Manual check |
-| 132     | Animals            | (b)         | TRUE     | Manual check |
-| 145     | Object             | (a)         | TRUE     | Manual check |
-| 151     | Human              | (a)         | TRUE     | Manual check |
-| 158     | Vehicle            | (b)         | TRUE     | Manual check |
-| 167     | Food               | (a)         | TRUE     | Manual check |
-| 186     | Human/Object       | (b)         | TRUE     | Manual check |
-| 193     | Food               | (a)         | TRUE     | Manual check |
-| 198     | Human/Object       | (b)         | TRUE     | Manual check |
-| 205     | Food               | (a)         | TRUE     | Manual check |
-| 212     | Human/Object       | (b)         | TRUE     | Manual check |
-| 225     | Food               | (a)         | TRUE     | Manual check |
-| 263     | Food               | (a)         | TRUE     | Manual check |
-| 271     | Human              | (a)         | TRUE     | Manual check |
-| 276     | House              | (b)         | TRUE     | Manual check |
-| 284     | Food               | (b)         | TRUE     | Manual check |
-| 292     | Character          | (b)         | TRUE     | Manual check |
-| 150     | Object             | (b)         | TRUE     | Manual check |
-| 39      | Animals            | (a)         | TRUE     | Manual check |
-| 109     | Animals            | (a)         | TRUE     | Manual check |
+case_id,category,gold_answer,verified,notes
+27,Animals,(a),TRUE,Manual check
+58,Animals,(b),TRUE,Manual check
+74,Object,(b),TRUE,Manual check
+176,Human/Object,(b),TRUE,Manual check
+216,Vehicle,(b),TRUE,Manual check
+111,Animals,(a),TRUE,Manual check
+136,Object,(b),TRUE,Manual check
+233,Landscape,(a),TRUE,Manual check
+295,Pattern/Counting,(a),TRUE,Manual check
+267,Human,(a),TRUE,Manual check
+6,Animals,(b),TRUE,Manual check
+11,Animals,(a),TRUE,Manual check
+18,Vehicle,(b),TRUE,Manual check
+97,Technology Devices,(a),TRUE,Manual check
+36,Food,(b),TRUE,Manual check
+66,Technology Devices,(b),TRUE,Manual check
+70,Animals,(b),TRUE,Manual check
+79,Animals,(a),TRUE,Manual check
+87,Technology Devices,(a),TRUE,Manual check
+155,Furniture,(a),TRUE,Manual check
+114,Object,(b),TRUE,Manual check
+120,Animals,(b),TRUE,Manual check
+132,Animals,(b),TRUE,Manual check
+145,Object,(a),TRUE,Manual check
+151,Human,(a),TRUE,Manual check
+158,Vehicle,(b),TRUE,Manual check
+167,Food,(a),TRUE,Manual check
+186,Human/Object,(b),TRUE,Manual check
+193,Food,(a),TRUE,Manual check
+198,Human/Object,(b),TRUE,Manual check
+205,Food,(a),TRUE,Manual check
+212,Human/Object,(b),TRUE,Manual check
+225,Food,(a),TRUE,Manual check
+263,Food,(a),TRUE,Manual check
+271,Human,(a),TRUE,Manual check
+276,House,(b),TRUE,Manual check
+284,Food,(b),TRUE,Manual check
+292,Character,(b),TRUE,Manual check
+150,Object,(b),TRUE,Manual check
+39,Animals,(a),TRUE,Manual check
+109,Animals,(a),TRUE,Manual check
