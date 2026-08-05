@@ -501,3 +501,105 @@ The three blank images were verified programmatically to be uniformly white with
 
 Manual visual inspection of the six source/mismatch images is required to confirm semantic identity and should be completed before the final experiment is considered fully validated.
 
+# Final Week 3 Input and Output QA Audit
+
+## Purpose
+
+Following completion of the Week 3 MMVP evidence-integrity experiments, a final audit was performed to verify that every evaluation condition was executed as intended and that the generated outputs matched the evaluation manifest.
+
+## Audit Summary
+
+The audit covered all 16 MMVP bundles across both evaluated models:
+
+- Qwen2.5-VL-3B-Instruct
+- SmolVLM-256M-Instruct
+
+Each bundle was evaluated under four evidence conditions:
+
+- image_present
+- no_image
+- blank_image
+- mismatched_image
+
+This corresponds to:
+
+- 16 bundles
+- 64 evaluation rows per model
+- 128 total model outputs
+
+## Verification Results
+
+### 1. Manifest and output counts
+
+The Week 3 evaluation manifest contains all expected evaluation rows.
+
+Both model output files contain the expected number of completed generations, with one output corresponding to each manifest row.
+
+Verified:
+
+- 16 bundles
+- 4 conditions per bundle
+- 64 outputs for Qwen2.5-VL-3B-Instruct
+- 64 outputs for SmolVLM-256M-Instruct
+
+### 2. Blank-image validation
+
+All 16 generated blank images were verified.
+
+Checks performed:
+
+- every blank image exists
+- blank images are loaded for the blank_image condition
+- images retain the intended blank appearance
+
+No missing or substituted blank images were observed.
+
+### 3. Mismatched-image validation
+
+The mismatch mappings were verified against the evaluation outputs.
+
+Checks performed:
+
+- image_path corresponds to the intended mismatched image
+- mismatch_source_id matches the loaded image
+- original source image is not accidentally reused
+
+No inconsistencies were observed.
+
+### 4. No-image validation
+
+The no_image condition was verified for every bundle.
+
+Checks performed:
+
+- image_path is empty
+- no placeholder image is supplied
+- the model receives only the text prompt
+
+All no-image rows were configured correctly.
+
+### 5. Evidence-condition verification
+
+Each bundle was confirmed to contain exactly one instance of every required condition:
+
+- image_present
+- no_image
+- blank_image
+- mismatched_image
+
+No missing or duplicate conditions were identified.
+
+## Annotation QA
+
+Primary annotations and overlap annotations were completed according to the Week 3 annotation guide.
+
+Model behaviour was reviewed across all evidence conditions to verify that responses were consistent with the supplied visual evidence.
+
+## Conclusion
+
+The Week 3 evidence-integrity dataset passed the final input and output quality audit.
+
+No manifest inconsistencies, missing conditions, incorrect image assignments, blank-image failures, or no-image configuration errors were identified.
+
+The Week 3 evaluation data is considered validated and suitable for use as the foundation for the Week 5 evidence-difficulty benchmark.
+
