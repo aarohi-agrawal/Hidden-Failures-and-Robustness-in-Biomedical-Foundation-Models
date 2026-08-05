@@ -1,0 +1,11 @@
+case_id,category,gold_answer,verified,notes
+179,Vehicle,(a),TRUE,Manual check
+286,Object,(b),TRUE,Manual check
+264,Food,(b),TRUE,Manual check
+188,Human,(b),TRUE,Manual check
+160,Human,(b),TRUE,Manual check
+148,Animals,(b),TRUE,Manual check
+139,Vehicle,(a),TRUE,Manual check
+224,Food,(b),TRUE,Manual check
+194,Food,(b),TRUE,Manual check
+246,Human,(b),TRUE,Manual check
