@@ -1,0 +1,34 @@
+Your job is to classify the response of a vision-language model to a particular question when no image is provided.
+
+Use the following label definitions to determine accurate values for response_mode and evidence_issue_acknowledged:
+
+RESPONSE_MODE
+The category that the model's response falls under.  Options: explicit_abstention, hedged_answer, confident_answer, unscorable
+
+explicit_abstention
+The model does not select a candidate answer and explicitly says that an answer cannot be given with the evidence currently available.
+Ex. "I don't have sufficient information to answer your question, as the image you've provided is blank."
+
+hedged_answer
+The model selects a candidate answer, but expresses uncertainty about its selection.  This is not equivalent to abstention.
+Ex. "I believe the animal depicted in this image is a cat, but I'm not certain because the photo provided is blurry."
+
+confident_answer
+The model provides and explicit answer with complete or nearly complete certainty.
+Ex. "The animal depicted in this image appears to be a Domestic Shorthair cat."
+
+unscorable
+The model gives a response that is blank, irrelevant, illogical, or otherwise unable to be interpreted.
+Ex. "The person in this photo looks around 204 years old."
+
+EVIDENCE_ISSUE_ACKNOWLEDGED
+The model directly states that the image provided is missing, blank, mismatched, irrelevant, or insufficient.
+
+Question: {question}
+Response: {raw_response}
+
+Return valid JSON in this exact format:
+{{
+    "response_mode": "...",
+    "evidence_issue_acknowledged": "..."
+}}
