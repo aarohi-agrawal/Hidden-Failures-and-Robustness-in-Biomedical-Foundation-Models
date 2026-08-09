@@ -21,7 +21,7 @@ prompt_file = "prompts/phantom0_classifier.txt"
 with open(prompt_file, "r", encoding="utf-8") as f:
     prompt_template = f.read()
 
-for i, row in df.iterrows():
+for i, row in df.head(5).iterrows():
     question = row["question"]
     response = row["raw_response"]
 
@@ -37,7 +37,9 @@ for i, row in df.iterrows():
         df.at[i, "auto_evidence_issue_acknowledged"] = labels["evidence_issue_acknowledged"]
     
     else:
-        print(f"Could not classify row {i}: {e}")
+        print(f"Could not classify row {i}, invalid JSON")
+        
+    print(f"Processed {i + 1} / {len(df)}")
 
 df.to_csv(output_file, index=False)
 
