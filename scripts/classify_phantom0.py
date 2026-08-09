@@ -21,7 +21,7 @@ prompt_file = "prompts/phantom0_classifier.txt"
 with open(prompt_file, "r", encoding="utf-8") as f:
     prompt_template = f.read()
 
-for i, row in df.head(5).iterrows():
+for i, row in df.iterrows():
     question = row["question"]
     response = row["raw_response"]
 
