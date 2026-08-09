@@ -2,8 +2,8 @@ import pandas as pd
 import json
 from transformers import pipeline
 
-input_file = "annotations/week4_phantom0_annotation_input.csv"
-output_file = "annotations/week4_phantom0_annotation_input.csv"
+input_file = "annotations/week4_phantom0_manual_audit.csv"
+output_file = "annotations/week4_phantom0_manual_audit.csv"
 
 classifier = pipeline(
     "text-generation",
@@ -29,16 +29,16 @@ for i, row in df.iterrows():
     result = classifier(prompt, max_new_tokens=100, do_sample = False, return_full_text=False)[0]["generated_text"]
     print(f"Result {i}: {result}")
 
-#     try:
-#         labels = json.loads(result)
+    try:
+        labels = json.loads(result)
 
-#         df.at[i, "auto_response_mode"] = labels["response_mode"]
-#         df.at[i, "auto_evidence_issue_acknowledged"] = labels["evidence_issue_acknowledged"]
+        df.at[i, "auto_response_mode"] = labels["response_mode"]
+        df.at[i, "auto_evidence_issue_acknowledged"] = labels["evidence_issue_acknowledged"]
     
-#     except Exception as e:
-#         print(f"Could not classify row {i}: {e}")
+    except Exception as e:
+        print(f"Could not classify row {i}: {e}")
 
-# df.to_csv(output_file, index=False)
+df.to_csv(output_file, index=False)
 
 
 
