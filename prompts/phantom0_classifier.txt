@@ -27,7 +27,7 @@ The model directly states that the image provided is missing, blank, mismatched,
 Question: {question}
 Response: {raw_response}
 
-Return valid JSON in this exact format:
+Return only valid JSON in this exact format, with no other textual content:
 {{
     "response_mode": "...",
     "evidence_issue_acknowledged": "..."
