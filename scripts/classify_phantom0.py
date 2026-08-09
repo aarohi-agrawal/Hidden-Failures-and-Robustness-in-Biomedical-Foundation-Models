@@ -2,8 +2,8 @@ import pandas as pd
 import json
 from transformers import pipeline
 
-input_file = "annotations/week4/phantom0_annotation_input.csv"
-output_file = "annotations/week4/phantom0_annotation_input.csv"
+input_file = "annotations/week4_phantom0_annotation_input.csv"
+output_file = "annotations/week4_phantom0_annotation_input.csv"
 
 classifier = pipeline(
     "text-generation",
