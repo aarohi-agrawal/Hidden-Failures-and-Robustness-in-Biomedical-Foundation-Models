@@ -42,7 +42,3 @@ for i, row in df.iterrows():
     print(f"Processed {i + 1} / {len(df)}")
 
 df.to_csv(output_file, index=False)
-
-
-
-    
