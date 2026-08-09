@@ -18,7 +18,7 @@ The model provides and explicit answer with complete or nearly complete certaint
 Ex. "The animal depicted in this image appears to be a Domestic Shorthair cat."
 
 unscorable
-The model gives a response that is blank, irrelevant, illogical, or otherwise unable to be interpreted.
+The model gives a response that is blank, irrelevant, illogical, or otherwise unable to be interpreted.  Options: yes, no
 Ex. "The person in this photo looks around 204 years old."
 
 EVIDENCE_ISSUE_ACKNOWLEDGED
