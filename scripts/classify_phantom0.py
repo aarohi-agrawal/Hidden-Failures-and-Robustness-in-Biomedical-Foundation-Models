@@ -1,5 +1,6 @@
 import pandas as pd
 import json
+import re
 from transformers import pipeline
 
 input_file = "annotations/week4_phantom0_manual_audit.csv"
@@ -27,15 +28,15 @@ for i, row in df.iterrows():
     prompt = prompt_template.format(question=question, raw_response=response)
 
     result = classifier(prompt, max_new_tokens=100, do_sample = False, return_full_text=False)[0]["generated_text"]
-    print(f"Result {i}: {result}")
+    match = re.search(r'\{.*\}', result, re.DOTALL)
 
-    try:
-        labels = json.loads(result)
+    if match:
+        labels = json.loads(match.group())
 
         df.at[i, "auto_response_mode"] = labels["response_mode"]
         df.at[i, "auto_evidence_issue_acknowledged"] = labels["evidence_issue_acknowledged"]
     
-    except Exception as e:
+    else:
         print(f"Could not classify row {i}: {e}")
 
 df.to_csv(output_file, index=False)
