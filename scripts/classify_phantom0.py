@@ -15,7 +15,7 @@ df = pd.read_csv(input_file)
 df["auto_response_mode"] = ""
 df["auto_evidence_issue_acknowledged"] = ""
 
-prompt_file = "phantom0_classifier.txt"
+prompt_file = "prompts/phantom0_classifier.txt"
 
 with open(prompt_file, "r", encoding="utf-8") as f:
     prompt_template = f.read()
@@ -26,18 +26,19 @@ for i, row in df.iterrows():
 
     prompt = prompt_template.format(question=question, raw_response=response)
 
-    result = classifier(prompt, max_new_tokens=100)[0]["generated_text"]
+    result = classifier(prompt, max_new_tokens=100, return_full_text=False)[0]["generated_text"]
+    print(f"Result {i}: {result}")
 
-    try:
-        labels = json.loads(result)
+#     try:
+#         labels = json.loads(result)
 
-        df.at[i, "auto_response_mode"] = labels["response_mode"]
-        df.at[i, "auto_evidence_issue_acknowledged"] = labels["evidence_issue_acknowledged"]
+#         df.at[i, "auto_response_mode"] = labels["response_mode"]
+#         df.at[i, "auto_evidence_issue_acknowledged"] = labels["evidence_issue_acknowledged"]
     
-    except Exception as e:
-        print(f"Could not classify row {i}: {e}")
+#     except Exception as e:
+#         print(f"Could not classify row {i}: {e}")
 
-df.to_csv(output_file, index=False)
+# df.to_csv(output_file, index=False)
 
 
 
