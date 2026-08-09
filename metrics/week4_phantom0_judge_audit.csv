@@ -1,0 +1,9 @@
+label,model_name,condition,agreements,total,raw_percent_agreement
+response_mode,SmolVLM,implicit_no_image,12,25,0.48
+response_mode,SmolVLM,explicit_missing_image,9,25,0.36
+response_mode,Qwen,implicit_no_image,15,25,0.60
+response_mode,Qwen,explicit_missing_image,24,25,0.96
+evidence_issue_acknowledged,SmolVLM,implicit_no_image,,25,
+evidence_issue_acknowledged,SmolVLM,explicit_missing_image,,25,
+evidence_issue_acknowledged,Qwen,implicit_no_image,,25,
+evidence_issue_acknowledged,Qwen,explicit_missing_image,,25,
