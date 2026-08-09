@@ -26,7 +26,7 @@ for i, row in df.iterrows():
 
     prompt = prompt_template.format(question=question, raw_response=response)
 
-    result = classifier(prompt, max_new_tokens=100, return_full_text=False)[0]["generated_text"]
+    result = classifier(prompt, max_new_tokens=100, do_sample = False, return_full_text=False)[0]["generated_text"]
     print(f"Result {i}: {result}")
 
 #     try:
