@@ -1,6 +1,5 @@
 import pandas as pd
 import json
-import re
 from transformers import pipeline
 
 input_file = "annotations/week4/phantom0_annotation_input.csv"
@@ -23,9 +22,22 @@ for i, row in df.iterrows():
     prompt_file = "phantom0_classifier.txt"
 
     with open(prompt_file, "r", encoding="utf-8") as f:
-            prompt_template = f.read()
-            prompt = prompt_template.format(question=question, raw_response=response)
+        prompt_template = f.read()
+        prompt = prompt_template.format(question=question, raw_response=response)
 
+    result = classifier(prompt, max_new_tokens=100)[0]["generated_text"]
+
+    try:
+        labels = json.loads(result)
+
+        df.at[i, "auto_response_mode"] = labels["response_mode"]
+        df.at[i, "auto_evidence_issue_acknowledged"] = labels["evidence_issue_acknowledged"]
     
+    except Exception as e:
+        print(f"Could now classify row {i}: {e}")
+
+df.to_csv(output_file, index=False)
+
+
 
     
