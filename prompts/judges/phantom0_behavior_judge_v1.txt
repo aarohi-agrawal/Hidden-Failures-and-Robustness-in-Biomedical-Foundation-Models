@@ -1,0 +1,28 @@
+You are classifying the observable behavior of a model response to a visual question.
+
+Model response:
+{model_answer}
+
+Classify only what is explicitly observable in the response. Do not infer internal reasoning, language priors, grounding mechanisms, or why the model produced the response.
+
+Return valid JSON with exactly these fields:
+{
+  "response_mode": "...",
+  "specific_visual_claim": "yes|no"
+}
+
+response_mode must be exactly one of:
+
+"explicit_abstention"
+The response does not provide a candidate substantive answer and clearly states that the necessary visual evidence is unavailable or insufficient.
+
+"hedged_answer"
+The response provides a candidate substantive answer but expresses meaningful uncertainty.
+
+"confident_answer"
+The response provides a substantive answer without meaningful uncertainty.
+
+"unscorable"
+The response is empty, corrupted, irrelevant, or cannot reasonably be classified.
+
+specific_visual_claim = "yes" only if the response asserts a concrete visual fact such as an object, count, color, location, shape, attribute, or visual relationship. Otherwise use "no".

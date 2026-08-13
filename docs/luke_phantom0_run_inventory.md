@@ -1,0 +1,70 @@
+# Luke Phantom-0 Run Inventory
+
+## Purpose
+
+This document inventories the completed and missing Phantom-0 Week 5 model-condition cells before quantitative scoring. Per the Week 5 plan, completed cells should be reused and only missing cells should be run.
+
+## Dataset
+
+- Dataset: Phantom-0
+- Source questions: 200
+- Conditions:
+  - `implicit_no_image`
+  - `explicit_missing_image`
+- Planned maximum table:
+  - 200 questions × 2 conditions × 3 models = 1,200 outputs
+
+## Completed runs
+
+### SmolVLM
+
+- Model/checkpoint: `HuggingFaceTB/SmolVLM-256M-Instruct`
+- Output file: `outputs/raw/week4_phantom0_smolvlm.jsonl`
+- Rows: 400
+- Conditions:
+  - `implicit_no_image`: 200
+  - `explicit_missing_image`: 200
+- Final error count: 0
+- Notes: Final successful run used CUDA disabled / CPU-only after an earlier GPU out-of-memory attempt.
+
+### Qwen 3B
+
+- Model/checkpoint: `Qwen/Qwen2.5-VL-3B-Instruct`
+- Output file: `outputs/raw/week4_phantom0_qwen.jsonl`
+- Rows: 400
+- Conditions:
+  - `implicit_no_image`: 200
+  - `explicit_missing_image`: 200
+- Final error count: 0
+- Notes: Final successful run was completed through `sbatch` after an interrupted interactive run.
+
+## Missing runs
+
+### Qwen 7B
+
+- Model/checkpoint: `Qwen/Qwen2.5-VL-7B-Instruct`
+- Needed rows: 400
+- Conditions needed:
+  - `implicit_no_image`: 200
+  - `explicit_missing_image`: 200
+- Status: not yet run / needs confirmation
+
+## Judge prompts frozen
+
+- MIRAGE-compatible judge prompt:
+  - `prompts/judges/phantom0_mirage_judge_v1.txt`
+- Behavioral judge prompt:
+  - `prompts/judges/phantom0_behavior_judge_v1.txt`
+
+## Blocking questions before scoring
+
+1. Do we have project access to GPT-5 for the automatic judge?
+2. Should the Qwen 7B checkpoint be exactly `Qwen/Qwen2.5-VL-7B-Instruct`?
+3. Should Qwen 7B be run on the same Week 4 runner with the same manifest and prompt versions?
+
+## Current status
+
+- SmolVLM complete.
+- Qwen 3B complete.
+- Qwen 7B appears to be the only missing model cell.
+- Scoring should not begin until judge access and Qwen 7B status are confirmed.
