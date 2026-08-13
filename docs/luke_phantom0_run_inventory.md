@@ -81,3 +81,16 @@ This document inventories the completed and missing Phantom-0 Week 5 model-condi
 - Full 400-row run submitted through `sbatch`.
 - Status: running / pending validation.
 - Notes: The 4-row test took approximately 270 seconds, so the full 400-row run may take several hours because Qwen-7B appears to use GPU plus CPU offload on the available hardware.
+
+## Qwen 7B full-run attempt
+
+- Model/checkpoint: `Qwen/Qwen2.5-VL-7B-Instruct`
+- Planned output file: `outputs/raw/week5_phantom0_qwen7b.jsonl`
+- Slurm job ID: `62851019`
+- GPU allocated: NVIDIA A16, approximately 15GB VRAM
+- A 4-row validation run completed successfully with 0 errors.
+- The full 400-row run was submitted through `sbatch`.
+- After more than 5 hours of runtime, the output file was still 0 bytes / 0 rows.
+- The log showed the model loaded and that some parameters were offloaded to CPU.
+- Status: full Qwen-7B run unresolved / likely stalled under current A16 + CPU-offload setup.
+- Protocol decision: do not change checkpoint, quantization, or generation setup silently before team confirmation.
