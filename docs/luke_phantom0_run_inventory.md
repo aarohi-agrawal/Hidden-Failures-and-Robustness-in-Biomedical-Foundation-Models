@@ -106,3 +106,11 @@ This document inventories the completed and missing Phantom-0 Week 5 model-condi
 - Status: completed
 - Validation: 400 rows, success rows only, 0 errors
 - Notes: Full run completed successfully on Unity after extended runtime on A16 GPU with CPU offload. It took 5.47 hours
+
+## Scoring blocker: GPT-5 judge access
+
+Automatic scoring is currently blocked because GPT-5 API/project access has not been confirmed.
+
+The raw model outputs are complete, the scoring input has been prepared, and the human audit sample has been prepared. However, the Week 5 runbook requires GPT-5 for the frozen automatic judge setup and says not to silently substitute another judge if GPT-5 is unavailable.
+
+Status: blocked pending team confirmation.
