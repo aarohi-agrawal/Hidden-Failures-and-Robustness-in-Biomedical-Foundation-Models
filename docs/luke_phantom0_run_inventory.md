@@ -94,3 +94,15 @@ This document inventories the completed and missing Phantom-0 Week 5 model-condi
 - The log showed the model loaded and that some parameters were offloaded to CPU.
 - Status: full Qwen-7B run unresolved / likely stalled under current A16 + CPU-offload setup.
 - Protocol decision: do not change checkpoint, quantization, or generation setup silently before team confirmation.
+
+## Qwen 7B Phantom-0 run
+
+- Model/checkpoint: `Qwen/Qwen2.5-VL-7B-Instruct`
+- Output file: `outputs/raw/week5_phantom0_qwen7b.jsonl`
+- Rows: 400
+- Conditions:
+  - `implicit_no_image`: 200
+  - `explicit_missing_image`: 200
+- Status: completed
+- Validation: 400 rows, success rows only, 0 errors
+- Notes: Full run completed successfully on Unity after extended runtime on A16 GPU with CPU offload. It took 5.47 hours
