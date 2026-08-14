@@ -2,6 +2,7 @@ import csv
 import json
 from datetime import date
 from transformers import AutoProcessor, AutoModelForImageTextToText
+from PIL import Image
 
 file_path = "data/manifests/mmstar_60case_frozen.csv"
 mismatch_path = "data/manifests/mmstar_mismatch_map.csv"
@@ -33,9 +34,19 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
     reader = csv.DictReader(file)
 
     for row in reader:
+        mismatch = mismatch_map[row["source_id"]]
+
         mismatch_source_ids = {
-            "far_mismatch": mismatch_map["far_mismatch_source_id"],
-            "hard_mismatch": mismatch_map["hard_mismatch_source_id"],
+            "far_mismatch": mismatch["far_mismatch_source_id"],
+            "hard_mismatch": mismatch["hard_mismatch_source_id"],
+        }
+
+        image_paths = {
+            "correct_image": row["image_path"],
+            "no_image": "",
+            "blank_image": "data/generated/blank_image_white.png",
+            "far_mismatch": mismatch["far_mismatch_image_path"],
+            "hard_mismatch": mismatch["hard_mismatch_image_path"]
         }
 
         for condition in image_conditions:
@@ -50,11 +61,16 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
 
             prompt = prompt_template.format(question=question, options=options)
 
+            image_path = image_paths[condition]
+
+            if image_path:
+                image = Image.open(image_path).convert("RGB")
+            
             try:
                 chat = [
                     {
                         "role": "user",
-                        "content":[{"type":"text", "text":prompt}]
+                        "content":[{"type":"image", "image":image}, {"type":"text", "text":prompt}]
                     }
                 ]
 
@@ -84,7 +100,7 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
                 "options": options,
                 "official_gold": row["answer"],
                 "image_path": row["image_path"],
-                "mismatch_source_id": mismatch_source_ids["condition"],
+                "mismatch_source_id": mismatch_source_ids.get(condition),
                 "raw_response": raw_response,
                 "prompt_version": prompt_version,
                 "temperature": 0.0,
@@ -94,6 +110,8 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
             }
 
             output_file.write(json.dumps(output) + "\n")
+        
+        bundle_id += 1
            
     output_file.close()
         
