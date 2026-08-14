@@ -13,13 +13,13 @@ processor = AutoProcessor.from_pretrained(model_name)
 model = AutoModelForImageTextToText.from_pretrained(model_name)
 bundle_id = 0
 
-image_conditions = {
+image_conditions = [
     "correct_image",
     "no_image",
     "blank_image",
     "far_mismatch",
     "hard_mismatch"
-}
+]
 
 mismatch_map = {}
 
