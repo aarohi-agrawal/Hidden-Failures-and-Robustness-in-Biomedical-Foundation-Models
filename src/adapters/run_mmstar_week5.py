@@ -65,12 +65,15 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
 
             if image_path:
                 image = Image.open(image_path).convert("RGB")
-            
+                content = [{"type":"image", "image":image}, {"type":"text", "text":prompt}]
+            else:
+                content = [{"type":"text", "text":prompt}]
+
             try:
                 chat = [
                     {
                         "role": "user",
-                        "content":[{"type":"image", "image":image}, {"type":"text", "text":prompt}]
+                        "content":content
                     }
                 ]
 
