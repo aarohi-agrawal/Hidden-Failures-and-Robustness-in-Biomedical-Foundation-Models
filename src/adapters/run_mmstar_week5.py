@@ -69,7 +69,7 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
                     chat = [
                         {
                             "role": "user",
-                            "content":[{"type":"image", "image":image}, {"type":"text", "text":prompt}]
+                            "content":[{"type":"image"}, {"type":"text", "text":prompt}]
                         }
                     ]
 
