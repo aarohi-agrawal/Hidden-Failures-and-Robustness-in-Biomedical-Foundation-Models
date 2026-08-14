@@ -7,16 +7,18 @@ source_id,far_mismatch_source_id,far_mismatch_image_path,hard_mismatch_source_id
 62,428,../mmstar/images/mmstar428.jpg,85,../mmstar/images/mmstar85.jpg,yes,"Manually reviewed"
 57,1114,../mmstar/images/mmstar1114.jpg,27,../mmstar/images/mmstar27.jpg,yes,"Manually reviewed"
 35,697,../mmstar/images/mmstar697.jpg,65,../mmstar/images/mmstar65.jpg,yes,"Manually reviewed"
-188,304,../mmstar/images/mmstar304.jpg,
-26,1109,../mmstar/images/mmstar1109.jpg,
-413,61,../mmstar/images/mmstar61.jpg,
-278,707,../mmstar/images/mmstar707.jpg,
-320,726,../mmstar/images/mmstar726.jpg,
-256,1284,../mmstar/images/mmstar1284.jpg,
-439,1482,../mmstar/images/mmstar1482.jpg,
-285,54,../mmstar/images/mmstar54.jpg,
-438,1399,../mmstar/images/mmstar1399.jpg,
-276,657,../mmstar/images/mmstar657.jpg,
+188,304,../mmstar/images/mmstar304.jpg,138,../mmstar/images/mmstar138.jpg,yes,"Manually reviewed"
+26,1109,../mmstar/images/mmstar1109.jpg,55,../mmstar/images/mmstar55.jpg,yes,"Manually reviewed"
+413,61,../mmstar/images/mmstar61.jpg,414,../mmstar/images/mmstar414.jpg,yes,"Manually reviewed"
+278,707,../mmstar/images/mmstar707.jpg,283,../mmstar/images/mmstar283.jpg,yes,"Manually reviewed"
+256,726,../mmstar/images/mmstar726.jpg,254,../mmstar/images/mmstar254.jpg,yes,"Manually reviewed"
+439,1284,../mmstar/images/mmstar1284.jpg,423,../mmstar/images/mmstar423.jpg,yes,"Manually reviewed"
+320,1482,../mmstar/images/mmstar1482.jpg,416,../mmstar/images/mmstar416.jpg,yes,"Manually reviewed"
+312,54,../mmstar/images/mmstar54.jpg,354,../mmstar/images/mmstar354.jpg,yes,"Manually reviewed"
+307,1399,../mmstar/images/mmstar1399.jpg,250,../mmstar/images/mmstar250.jpg,yes,"Manually reviewed"
+285,657,../mmstar/images/mmstar657.jpg,359,../mmstar/images/mmstar359.jpg,yes,"Manually reviewed"
+438,33,../mmstar/images/mmstar33.jpg,443,../mmstar/images/mmstar443.jpg,yes,"Manually reviewed"
+276,860,../mmstar/images/mmstar860.jpg,315,../mmstar/images/mmstar315.jpg,yes,"Manually reviewed"
 
 
 
