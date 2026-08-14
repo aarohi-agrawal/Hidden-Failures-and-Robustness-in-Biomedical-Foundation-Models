@@ -3,6 +3,7 @@ import json
 from transformers import AutoProcessor, AutoModelForImageTextToText
 
 file_path = "data/manifests/mmstar_60case_frozen.csv"
+mismatch_path = "data/manifests/mmstar_mismatch_map.csv"
 model_name = "HuggingFaceTB/SmolVLM-256M-Instruct"
 output_file = open(f"outputs/raw/mmstar_{model_name}.jsonl", "w", encoding="utf-8")
 
@@ -17,6 +18,15 @@ image_conditions = {
     "far_mismatch",
     "hard_mismatch"
 }
+
+mismatch_map = {}
+
+with open(mismatch_path, mode='r', newline='', encoding='utf-8') as file:
+    reader = csv.DictReader(file)
+
+    # Load each row into mismatch map dictionary for easy access
+    for row in reader:
+        mismatch_map[row["source_id"]] = row
 
 with open(file_path, mode='r', newline='', encoding='utf-8') as file:
     reader = csv.DictReader(file)
@@ -36,7 +46,8 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
                 "question": row["question"],
                 "options": row["options"],
                 "official_gold": row["answer"],
-                "question": row["question"],
+                "image_path": row["image_path"],
+                "mismatch_source_id":
                 "raw_response": raw_response,
                 "temperature": 0.0,
                 "max_new_tokens": 128,
