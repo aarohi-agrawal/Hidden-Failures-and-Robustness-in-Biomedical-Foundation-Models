@@ -60,25 +60,31 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
                 prompt_template = f.read()
 
             prompt = prompt_template.format(question=question, options=options)
-
             image_path = image_paths[condition]
 
-            if image_path:
-                image = Image.open(image_path).convert("RGB")
-                content = [{"type":"image", "image":image}, {"type":"text", "text":prompt}]
-            else:
-                content = [{"type":"text", "text":prompt}]
-
             try:
-                chat = [
-                    {
-                        "role": "user",
-                        "content":content
-                    }
-                ]
+                if image_path:
+                    image = Image.open(image_path).convert("RGB")
+                
+                    chat = [
+                        {
+                            "role": "user",
+                            "content":[{"type":"image", "image":image}, {"type":"text", "text":prompt}]
+                        }
+                    ]
 
-                text = processor.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
-                inputs = processor(text=text, return_tensors="pt")
+                    text = processor.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
+                    inputs = processor(text=text, images=[image], return_tensors="pt")
+                else:
+                    chat = [
+                        {
+                            "role": "user",
+                            "content":[{"type":"text", "text":prompt}]
+                        }
+                    ]
+
+                    text = processor.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
+                    inputs = processor(text=text, return_tensors="pt")
 
                 generated_ids = model.generate(**inputs, max_new_tokens=128)
                 generated_ids = generated_ids[:, inputs["input_ids"].shape[1]:]
