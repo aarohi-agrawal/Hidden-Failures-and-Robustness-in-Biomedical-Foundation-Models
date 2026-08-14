@@ -45,6 +45,11 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
             prompt_version = "mmstar_evidence_integrity_v1"
             prompt_file = f"prompts/{prompt_version}.txt"
 
+            with open(prompt_file, "r", encoding="utf-8") as f:
+                prompt_template = f.read()
+
+            prompt = prompt_template.format(question=question, options=options)
+
             output = {
                 "dataset": "mmstar",
                 "source_id": row["source_id"],
