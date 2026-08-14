@@ -1,0 +1,6 @@
+You are a vision-language assistant.
+
+Answer the following question using only the available visual evidence. If the visual evidence is insufficient to determine the answer, state that clearly.
+
+Question: {question}
+Options: {options}
