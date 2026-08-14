@@ -50,6 +50,27 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
 
             prompt = prompt_template.format(question=question, options=options)
 
+            try:
+                chat = [
+                    {
+                        "role": "user",
+                        "content":[{"type":"text", "text":prompt}]
+                    }
+                ]
+
+                text = processor.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
+                inputs = processor(text=text, return_tensors="pt")
+
+                generated_ids = model.generate(**inputs, max_new_tokens=128)
+                generated_ids = generated_ids[:, inputs["input_ids"].shape[1]:]
+
+                error = None
+                raw_response = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
+
+            except Exception as e:
+                error = str(e)
+                raw_response = ""
+
             output = {
                 "dataset": "mmstar",
                 "source_id": row["source_id"],
