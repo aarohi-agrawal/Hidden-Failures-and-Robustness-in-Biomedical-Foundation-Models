@@ -89,3 +89,19 @@ The next step is to complete the human audit and compute judge-human agreement f
 - specific_visual_claim
 
 If judge agreement is strong, the automatic results can support the final table. If agreement is weak for a headline field, that metric should not be reported as a reliable full-table result without adjustment.
+## Human Audit Validation
+
+A stratified human audit was completed across the model-condition cells. The human labels were compared against the automatic GPT-5.6 Luna judge outputs for the three observable fields used in scoring.
+
+Judge agreement results:
+
+| Field | N Compared | Percent Agreement | Cohen's Kappa | Skipped |
+|---|---:|---:|---:|---:|
+| acknowledges_missing_or_uncertain | 179 | 0.9106 | 0.8163 | 1 |
+| response_mode | 180 | 0.8111 | 0.6643 | 0 |
+| specific_visual_claim | 180 | 0.8389 | 0.6041 | 0 |
+
+The strongest agreement was for missing-evidence acknowledgement, which is the primary field for MIRAGE versus recognition. Agreement was lower but still usable for response mode and specific visual claim. The specific visual claim field should be interpreted with the most caution because it is more subjective and directly affects the hard versus soft MIRAGE split.
+
+Based on this audit, the automatic judge appears reliable enough for the headline acknowledgement/MIRAGE table, but hard and soft MIRAGE should be reported with a caveat that they depend on the more subjective specific_visual_claim field.
+
