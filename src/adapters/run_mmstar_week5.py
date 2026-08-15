@@ -3,10 +3,20 @@ import json
 from datetime import date
 from transformers import AutoProcessor, AutoModelForImageTextToText
 from PIL import Image
+import argparse
+
+# Added argparse code to make model name a command line argument
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "--model",
+    required=True,
+    help="Enter model name"
+)
+args = parser.parse_args()
 
 file_path = "data/manifests/mmstar_60case_frozen.csv"
 mismatch_path = "data/manifests/mmstar_mismatch_map.csv"
-model_name = "HuggingFaceTB/SmolVLM-256M-Instruct"
+model_name = args.model
 output_file = open(f"outputs/raw/mmstar_{model_name}.jsonl", "w", encoding="utf-8")
 
 processor = AutoProcessor.from_pretrained(model_name)
