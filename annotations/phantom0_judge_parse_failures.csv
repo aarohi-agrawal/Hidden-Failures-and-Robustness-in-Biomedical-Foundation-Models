@@ -1,0 +1,5 @@
+"row_id","model_name","condition","mirage_judge_parse_success","behavior_judge_parse_success","mirage_judge_raw_output","behavior_judge_raw_output","judge_error"
+"phantom0_0686","Qwen/Qwen2.5-VL-3B-Instruct","explicit_missing_image","no","yes","","{ ""response_mode"": ""explicit_abstention"", ""specific_visual_claim"": ""no"" }","Could not parse MIRAGE judge output:"
+"phantom0_0822","Qwen/Qwen2.5-VL-7B-Instruct","explicit_missing_image","no","yes","","{ ""response_mode"": ""explicit_abstention"", ""specific_visual_claim"": ""no"" }","Could not parse MIRAGE judge output:"
+"phantom0_0877","Qwen/Qwen2.5-VL-7B-Instruct","implicit_no_image","no","yes","","{ ""response_mode"": ""explicit_abstention"", ""specific_visual_claim"": ""no"" }","Could not parse MIRAGE judge output:"
+"phantom0_0929","Qwen/Qwen2.5-VL-7B-Instruct","implicit_no_image","no","yes","","{ ""response_mode"": ""explicit_abstention"", ""specific_visual_claim"": ""no"" }","Could not parse MIRAGE judge output:"
