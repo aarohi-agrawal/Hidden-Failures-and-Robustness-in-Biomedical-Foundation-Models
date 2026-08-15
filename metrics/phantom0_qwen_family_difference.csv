@@ -1,0 +1,2 @@
+comparison,mirage_q7_minus_q3,recognition_q7_minus_q3,explicit_abstention_q7_minus_q3,hedged_answer_q7_minus_q3,confident_answer_q7_minus_q3,hard_mirage_q7_minus_q3,soft_mirage_q7_minus_q3
+Qwen-7B minus Qwen-3B under implicit,-0.0362,0.0362,0.1027,-0.0432,-0.0594,-0.0541,0.0003
