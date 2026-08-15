@@ -1,3 +1,9 @@
 .venv/
 __pycache__/
 *.pyc
+
+.env
+.env.local
+.env.*
+*.key
+openai_key.txt
