@@ -120,7 +120,7 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
                 "question": question,
                 "options": options,
                 "official_gold": row["answer"],
-                "image_path": row["image_path"],
+                "image_path": image_path,
                 "mismatch_source_id": mismatch_source_ids.get(condition),
                 "raw_response": raw_response,
                 "prompt_version": prompt_version,
