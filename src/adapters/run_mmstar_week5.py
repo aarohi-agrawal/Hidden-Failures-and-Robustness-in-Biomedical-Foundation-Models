@@ -17,7 +17,9 @@ args = parser.parse_args()
 file_path = "data/manifests/mmstar_60case_frozen.csv"
 mismatch_path = "data/manifests/mmstar_mismatch_map.csv"
 model_name = args.model
-output_file = open(f"outputs/raw/mmstar_{model_name}.jsonl", "w", encoding="utf-8")
+
+formatted_name = model_name.split("/")[-1]
+output_file = open(f"outputs/raw/mmstar_{formatted_name}.jsonl", "w", encoding="utf-8")
 
 processor = AutoProcessor.from_pretrained(model_name)
 model = AutoModelForImageTextToText.from_pretrained(model_name)
