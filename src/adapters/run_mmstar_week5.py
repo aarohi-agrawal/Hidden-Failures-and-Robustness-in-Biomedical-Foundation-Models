@@ -129,6 +129,7 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
             }
 
             output_file.write(json.dumps(output) + "\n")
+            print(f"{condition} row for bundle_{bundle_id} completed")
         
         bundle_id += 1
            
