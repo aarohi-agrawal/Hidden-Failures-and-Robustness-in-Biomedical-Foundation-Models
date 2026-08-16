@@ -4,6 +4,7 @@ from datetime import date
 from transformers import AutoProcessor, AutoModelForImageTextToText
 from PIL import Image
 import argparse
+import torch
 
 # Added argparse code to make model name a command line argument
 parser = argparse.ArgumentParser()
@@ -22,7 +23,9 @@ formatted_name = model_name.split("/")[-1]
 output_file = open(f"outputs/raw/mmstar_{formatted_name}.jsonl", "w", encoding="utf-8")
 
 processor = AutoProcessor.from_pretrained(model_name)
-model = AutoModelForImageTextToText.from_pretrained(model_name)
+model = AutoModelForImageTextToText.from_pretrained(model_name, torch_dtype=torch.float16).to("cuda")
+model.eval()
+
 bundle_id = 0
 
 image_conditions = [
@@ -98,7 +101,12 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
                     text = processor.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
                     inputs = processor(text=text, return_tensors="pt")
 
-                generated_ids = model.generate(**inputs, max_new_tokens=128)
+                # Move inputs to GPU
+                inputs = {key: value.to("cuda") for key, value in inputs.items()}
+
+                with torch.inference_mode():
+                    generated_ids = model.generate(**inputs, max_new_tokens=128, do_sample=False)
+                    
                 generated_ids = generated_ids[:, inputs["input_ids"].shape[1]:]
 
                 error = None
