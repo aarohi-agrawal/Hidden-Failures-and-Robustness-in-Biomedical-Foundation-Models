@@ -4,7 +4,7 @@ import hashlib
 import pandas as pd
 from PIL import Image
 
-MMVP_DIR = Path("/Users/surabhiagrawal/Downloads/MMVP Images")
+MMVP_DIR = Path("data/mmvp/MMVP Images")
 
 
 SEED_CSV = Path("data/manifests/week5_evidence_ladder_seed.csv")

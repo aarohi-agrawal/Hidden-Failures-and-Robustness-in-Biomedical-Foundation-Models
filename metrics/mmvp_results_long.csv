@@ -1,0 +1,368 @@
+case_id,category,condition,question,options,gold_answer,parsed_answer,correct,raw_response,image_id,image_path,mismatch_source_id,model_name,model_revision,prompt_version
+27,Animals,correct_image,Is the peacock's head visible in the image?,(a) Yes (b) No,(a),a,True," Yes, the head of the peacock is visible in the image.",27,data/mmvp/MMVP Images/27.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+27,Animals,no_image,Is the peacock's head visible in the image?,(a) Yes (b) No,(a),a,True," Step 1: Identify the subject of the image
+The subject of the image is the peacock.
+
+Step 2: Determine the location of the peacock
+The peacock is located in the center of the image.
+
+Step 3: Determine the type of image
+The image is a photograph.
+
+Step 4: Answer the question
+The peacock's head is visible in the image.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+27,Animals,blank_image,Is the peacock's head visible in the image?,(a) Yes (b) No,(a),b,False, No,mmvp_w5_001_blank.png,data/generated/week5_blank_images/mmvp_w5_001_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+27,Animals,far_mismatch,Is the peacock's head visible in the image?,(a) Yes (b) No,(a),b,False," No, the peacock's head is not visible in the image.",66,data/mmvp/MMVP Images/66.jpg,66.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+27,Animals,hard_mismatch,Is the peacock's head visible in the image?,(a) Yes (b) No,(a),b,False," No, the peacock's head is not visible in the image.",132,data/mmvp/MMVP Images/132.jpg,132.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+58,Animals,correct_image,Is the crocodile submerged in the water?,(a) Yes (b) No,(b),a,False," Yes, the crocodile is submerged in the water.",58,data/mmvp/MMVP Images/58.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+58,Animals,no_image,Is the crocodile submerged in the water?,(a) Yes (b) No,(b),b,True," 1. The crocodile is not submerged in the water.
+2. The crocodile is not on the surface of the water.
+3. The crocodile is not in the water.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+58,Animals,blank_image,Is the crocodile submerged in the water?,(a) Yes (b) No,(b),b,True, No,mmvp_w5_002_blank.png,data/generated/week5_blank_images/mmvp_w5_002_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+58,Animals,far_mismatch,Is the crocodile submerged in the water?,(a) Yes (b) No,(b),b,True, No,167,data/mmvp/MMVP Images/167.jpg,167.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+58,Animals,hard_mismatch,Is the crocodile submerged in the water?,(a) Yes (b) No,(b),b,True, No,120,data/mmvp/MMVP Images/120.jpg,120.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+74,Object,correct_image,Is the ground wet?,(a) Yes (b) No,(b),b,True, No,74,data/mmvp/MMVP Images/74.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+74,Object,no_image,Is the ground wet?,(a) Yes (b) No,(b),b,True," 1. To determine if the ground is wet, we need to consider the presence of water on the ground.
+2. Water can be found on the ground in various ways, such as through runoff from the ground, through the movement of water in the air, or through the deposition of water in the ground.
+3. If the ground is wet, it can be inferred that there is water on the ground, as it is a common occurrence in many areas.
+
+Based on the information provided, the ground is not wet.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+74,Object,blank_image,Is the ground wet?,(a) Yes (b) No,(b),b,True, No,mmvp_w5_003_blank.png,data/generated/week5_blank_images/mmvp_w5_003_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+74,Object,far_mismatch,Is the ground wet?,(a) Yes (b) No,(b),b,True, No,271,data/mmvp/MMVP Images/271.jpg,271.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+74,Object,hard_mismatch,Is the ground wet?,(a) Yes (b) No,(b),b,True," No, the ground is not wet in the image.",233,data/mmvp/MMVP Images/233.jpg,233.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+176,Human/Object,correct_image,"In the image, is the nail polish on the toes dark or light in color?",(a) Dark (b) Light,(b),b,True, Light in color,176,data/mmvp/MMVP Images/176.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+176,Human/Object,no_image,"In the image, is the nail polish on the toes dark or light in color?",(a) Dark (b) Light,(b),a,False," To answer this question, I will follow these steps:
+
+1. Identify the main elements in the image: The image contains a nail polish on the toes.
+2. Analyze the color of the nail polish: The nail polish is dark in color.
+3. Compare the color of the nail polish to the image: The nail polish is dark in color, which is consistent with the image.
+
+Based on the analysis, the nail polish on the toes is dark in color.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+176,Human/Object,blank_image,"In the image, is the nail polish on the toes dark or light in color?",(a) Dark (b) Light,(b),a,False, Dark,mmvp_w5_004_blank.png,data/generated/week5_blank_images/mmvp_w5_004_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+176,Human/Object,far_mismatch,"In the image, is the nail polish on the toes dark or light in color?",(a) Dark (b) Light,(b),a,False, Dark,284,data/mmvp/MMVP Images/284.jpg,284.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+176,Human/Object,hard_mismatch,"In the image, is the nail polish on the toes dark or light in color?",(a) Dark (b) Light,(b),a,False, Dark,246,data/mmvp/MMVP Images/246.jpg,246.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+216,Vehicle,correct_image,Are there black stripes on the roof of the car?,(a) Yes (b) No,(b),a,False," Yes, there are black stripes on the roof of the car in the first image.",216,data/mmvp/MMVP Images/216.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+216,Vehicle,no_image,Are there black stripes on the roof of the car?,(a) Yes (b) No,(b),b,True," 1. To determine if there are black stripes on the roof of the car, we need to examine the car's exterior and identify any visible black lines or patterns.
+2. If the car has a roof with black stripes, we can confirm this by examining the car's exterior.
+3. If the car has no visible black stripes, we can conclude that there are no black stripes on the roof of the car.
+
+Based on the above analysis, we can conclude that there are no black stripes on the roof of the car.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+216,Vehicle,blank_image,Are there black stripes on the roof of the car?,(a) Yes (b) No,(b),b,True, No,mmvp_w5_005_blank.png,data/generated/week5_blank_images/mmvp_w5_005_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+216,Vehicle,far_mismatch,Are there black stripes on the roof of the car?,(a) Yes (b) No,(b),b,True, No,39,data/mmvp/MMVP Images/39.jpg,39.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+216,Vehicle,hard_mismatch,Are there black stripes on the roof of the car?,(a) Yes (b) No,(b),b,True," No, the car has no visible black stripes on the roof.",158,data/mmvp/MMVP Images/158.jpg,158.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+111,Animals,correct_image,Is the end of the elephant's trunk pointing inward or outward?,(a) Inward (b) Outward,(a),b,False, The end of the elephant's trunk is pointing outward.,111,data/mmvp/MMVP Images/111.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+111,Animals,no_image,Is the end of the elephant's trunk pointing inward or outward?,(a) Inward (b) Outward,(a),?,False," To determine the direction of the end of the elephant's trunk, we need to consider the direction of the trunk's movement. The trunk is a long, thin appendage that extends from the top of the head to the bottom of the trunk.
+
+The trunk is a flexible appendage that can move in various directions. When the trunk is extended, it can move in a wide, curved manner. When the trunk is bent, it can move in a narrow, curved manner.
+
+When the trunk is bent, it can move in a wide, curved manner, and when it is bent, it can move in a narrow,",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+111,Animals,blank_image,Is the end of the elephant's trunk pointing inward or outward?,(a) Inward (b) Outward,(a),a,True, inward,mmvp_w5_006_blank.png,data/generated/week5_blank_images/mmvp_w5_006_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+111,Animals,far_mismatch,Is the end of the elephant's trunk pointing inward or outward?,(a) Inward (b) Outward,(a),a,True," In the second image, the end of the elephant's trunk points inward.",276,data/mmvp/MMVP Images/276.jpg,276.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+111,Animals,hard_mismatch,Is the end of the elephant's trunk pointing inward or outward?,(a) Inward (b) Outward,(a),a,True, Inward,141,data/mmvp/MMVP Images/141.jpg,141.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+136,Object,correct_image,How many cup(s) of drink are there in the image?,(a) 1 (b) 2,(b),a,False, There is only one glass in the image.,136,data/mmvp/MMVP Images/136.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+136,Object,no_image,How many cup(s) of drink are there in the image?,(a) 1 (b) 2,(b),a,False, There are 1 cup of drink in the image.,,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+136,Object,blank_image,How many cup(s) of drink are there in the image?,(a) 1 (b) 2,(b),?,False, 0,mmvp_w5_007_blank.png,data/generated/week5_blank_images/mmvp_w5_007_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+136,Object,far_mismatch,How many cup(s) of drink are there in the image?,(a) 1 (b) 2,(b),a,False, There is one cup in the image.,205,data/mmvp/MMVP Images/205.jpg,205.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+136,Object,hard_mismatch,How many cup(s) of drink are there in the image?,(a) 1 (b) 2,(b),?,False, There are no cups present in the image.,225,data/mmvp/MMVP Images/225.jpg,225.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+233,Landscape,correct_image,Is the sky in the background dark blue or light blue?,(a) Dark blue (b) Light blue,(a),a,True, Dark blue.,233,data/mmvp/MMVP Images/233.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+233,Landscape,no_image,Is the sky in the background dark blue or light blue?,(a) Dark blue (b) Light blue,(a),a,True, The sky is dark blue.,,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+233,Landscape,blank_image,Is the sky in the background dark blue or light blue?,(a) Dark blue (b) Light blue,(a),b,False, light blue,mmvp_w5_008_blank.png,data/generated/week5_blank_images/mmvp_w5_008_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+233,Landscape,far_mismatch,Is the sky in the background dark blue or light blue?,(a) Dark blue (b) Light blue,(a),a,True, Dark blue.,11,data/mmvp/MMVP Images/11.jpg,11.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+233,Landscape,hard_mismatch,Is the sky in the background dark blue or light blue?,(a) Dark blue (b) Light blue,(a),a,True, Dark blue.,299,data/mmvp/MMVP Images/299.jpg,299.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+295,Pattern/Counting,correct_image,Is the edge of the heart in the picture white or dark-colored?,(a) White (b) Dark-colored,(a),a,True, White,295,data/mmvp/MMVP Images/295.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+295,Pattern/Counting,no_image,Is the edge of the heart in the picture white or dark-colored?,(a) White (b) Dark-colored,(a),a,True," To determine if the edge of the heart is white or dark-colored, we need to examine the shape and color of the heart.
+
+Step 1: Identify the shape of the heart
+The heart is a round, muscular structure that is essential for pumping blood throughout the body. The shape of the heart is generally described as a heart shape, which is a circular shape with a curved top and bottom.
+
+Step 2: Examine the color of the heart
+The color of the heart is typically white, as it is the most common color of the heart.
+
+Step 3: Compare the shape and color of",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+295,Pattern/Counting,blank_image,Is the edge of the heart in the picture white or dark-colored?,(a) White (b) Dark-colored,(a),b,False, dark-colored,mmvp_w5_009_blank.png,data/generated/week5_blank_images/mmvp_w5_009_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+295,Pattern/Counting,far_mismatch,Is the edge of the heart in the picture white or dark-colored?,(a) White (b) Dark-colored,(a),b,False, The edge of the heart is dark-colored.,151,data/mmvp/MMVP Images/151.jpg,151.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+295,Pattern/Counting,hard_mismatch,Is the edge of the heart in the picture white or dark-colored?,(a) White (b) Dark-colored,(a),a,True, Answer: white.,273,data/mmvp/MMVP Images/273.jpg,273.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+267,Human,correct_image,Is the child in the picture facing forward or in profile?,(a) Facing forward (b) In profile,(a),a,True," In the first image, the child is facing forward while in the second image, the child is facing backward.",267,data/mmvp/MMVP Images/267.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+267,Human,no_image,Is the child in the picture facing forward or in profile?,(a) Facing forward (b) In profile,(a),a,True, The child in the picture is facing forward.,,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+267,Human,blank_image,Is the child in the picture facing forward or in profile?,(a) Facing forward (b) In profile,(a),a,True, Forward,mmvp_w5_010_blank.png,data/generated/week5_blank_images/mmvp_w5_010_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+267,Human,far_mismatch,Is the child in the picture facing forward or in profile?,(a) Facing forward (b) In profile,(a),b,False, Answer: profile,36,data/mmvp/MMVP Images/36.jpg,36.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+267,Human,hard_mismatch,Is the child in the picture facing forward or in profile?,(a) Facing forward (b) In profile,(a),a,True," In the first image, the child is facing forward while in the second image, the child is facing backward.",271,data/mmvp/MMVP Images/271.jpg,271.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+6,Animals,correct_image,Is the dog facing left or right from the camera's perspective?,(a) Left (b) Right,(b),b,True," From the camera's perspective, the dog is facing right.",6,data/mmvp/MMVP Images/6.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+6,Animals,no_image,Is the dog facing left or right from the camera's perspective?,(a) Left (b) Right,(b),a,False, The dog is facing left from the camera's perspective.,,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+6,Animals,blank_image,Is the dog facing left or right from the camera's perspective?,(a) Left (b) Right,(b),a,False, Left,mmvp_w5_011_blank.png,data/generated/week5_blank_images/mmvp_w5_011_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+6,Animals,far_mismatch,Is the dog facing left or right from the camera's perspective?,(a) Left (b) Right,(b),b,True, Right.,292,data/mmvp/MMVP Images/292.jpg,292.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+6,Animals,hard_mismatch,Is the dog facing left or right from the camera's perspective?,(a) Left (b) Right,(b),b,True," From the camera's perspective, the dog is facing right.",85,data/mmvp/MMVP Images/85.jpg,85.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+11,Animals,correct_image,Has the peacock opened its tail?,(a) Yes (b) No,(a),a,True," Yes, the peacock has its tail spread.",11,data/mmvp/MMVP Images/11.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+11,Animals,no_image,Has the peacock opened its tail?,(a) Yes (b) No,(a),b,False," Step 1: Identify the question
+The question is asking about the peacock's tail opening.
+
+Step 2: Research the peacock
+The peacock is a large bird that is native to South America. It is known for its distinctive tail feathers, which are a key feature of its appearance.
+
+Step 3: Research the peacock's tail opening
+The peacock's tail is a unique feature that allows it to open its tail in various ways. The tail feathers are made up of a series of feathers that are attached to the head and the tail. The tail feathers are held in place by a series",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+11,Animals,blank_image,Has the peacock opened its tail?,(a) Yes (b) No,(a),b,False, No,mmvp_w5_012_blank.png,data/generated/week5_blank_images/mmvp_w5_012_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+11,Animals,far_mismatch,Has the peacock opened its tail?,(a) Yes (b) No,(a),b,False," No, the peacock has closed its tail.",158,data/mmvp/MMVP Images/158.jpg,158.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+11,Animals,hard_mismatch,Has the peacock opened its tail?,(a) Yes (b) No,(a),a,True," Yes, the peacock has its tail spread.",27,data/mmvp/MMVP Images/27.jpg,27.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+18,Vehicle,correct_image,Is the front of the school bus protruding?,(a) Yes (b) No,(b),a,False," Yes, the front of the school bus is visible.",18,data/mmvp/MMVP Images/18.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+18,Vehicle,no_image,Is the front of the school bus protruding?,(a) Yes (b) No,(b),b,True," No, the front of the school bus is not a protruding feature. The front of a school bus is a part of the vehicle, and it is designed to carry passengers and other objects.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+18,Vehicle,blank_image,Is the front of the school bus protruding?,(a) Yes (b) No,(b),b,True, No,mmvp_w5_013_blank.png,data/generated/week5_blank_images/mmvp_w5_013_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+18,Vehicle,far_mismatch,Is the front of the school bus protruding?,(a) Yes (b) No,(b),b,True, No,263,data/mmvp/MMVP Images/263.jpg,263.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+18,Vehicle,hard_mismatch,Is the front of the school bus protruding?,(a) Yes (b) No,(b),b,True, No,216,data/mmvp/MMVP Images/216.jpg,216.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+97,Technology Devices,correct_image,Does the keyboard have a backlight?,(a) Yes (b) No,(a),a,True," Yes, the keyboard has a backlight.",97,data/mmvp/MMVP Images/97.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+97,Technology Devices,no_image,Does the keyboard have a backlight?,(a) Yes (b) No,(a),b,False, The keyboard does not have a backlight.,,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+97,Technology Devices,blank_image,Does the keyboard have a backlight?,(a) Yes (b) No,(a),b,False, No,mmvp_w5_014_blank.png,data/generated/week5_blank_images/mmvp_w5_014_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+97,Technology Devices,far_mismatch,Does the keyboard have a backlight?,(a) Yes (b) No,(a),b,False, No,120,data/mmvp/MMVP Images/120.jpg,120.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+97,Technology Devices,hard_mismatch,Does the keyboard have a backlight?,(a) Yes (b) No,(a),a,True," Yes, the keyboard has a backlight.",66,data/mmvp/MMVP Images/66.jpg,66.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+36,Food,correct_image,Do the vegetables have spikes?,(a) Yes (b) No,(b),a,False," Yes, the cucumbers have visible spikes.",36,data/mmvp/MMVP Images/36.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+36,Food,no_image,Do the vegetables have spikes?,(a) Yes (b) No,(b),b,True," 
+The vegetables do not have spikes.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+36,Food,blank_image,Do the vegetables have spikes?,(a) Yes (b) No,(b),b,True, No,mmvp_w5_015_blank.png,data/generated/week5_blank_images/mmvp_w5_015_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+36,Food,far_mismatch,Do the vegetables have spikes?,(a) Yes (b) No,(b),b,True, No,216,data/mmvp/MMVP Images/216.jpg,216.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+36,Food,hard_mismatch,Do the vegetables have spikes?,(a) Yes (b) No,(b),b,True, No,193,data/mmvp/MMVP Images/193.jpg,193.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+66,Technology Devices,correct_image,Is the following statement correct: There is no letter D on this image., (a) Correct (b) Incorrect,(b),b,True, No.,66,data/mmvp/MMVP Images/66.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+66,Technology Devices,no_image,Is the following statement correct: There is no letter D on this image., (a) Correct (b) Incorrect,(b),a,False," No, the following statement is not correct. The image does not have any letter D on it.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+66,Technology Devices,blank_image,Is the following statement correct: There is no letter D on this image., (a) Correct (b) Incorrect,(b),b,True, No.,mmvp_w5_016_blank.png,data/generated/week5_blank_images/mmvp_w5_016_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+66,Technology Devices,far_mismatch,Is the following statement correct: There is no letter D on this image., (a) Correct (b) Incorrect,(b),b,True, No.,193,data/mmvp/MMVP Images/193.jpg,193.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+66,Technology Devices,hard_mismatch,Is the following statement correct: There is no letter D on this image., (a) Correct (b) Incorrect,(b),b,True, No.,97,data/mmvp/MMVP Images/97.jpg,97.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+70,Animals,correct_image,Did the snake stick out its tongue and touch its skin?,(a) Yes (b) No,(b),b,True, No,70,data/mmvp/MMVP Images/70.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+70,Animals,no_image,Did the snake stick out its tongue and touch its skin?,(a) Yes (b) No,(b),a,False," 1. To answer the question, I will analyze the given statement: ""The snake stuck out its tongue and touched its skin.""
+2. I will examine the statement to determine if the snake is a reptile or an amphibian.
+3. I will compare the snake's tongue and skin to the characteristics of reptiles and amphibians.
+
+Step 1: Analyze the statement
+The statement states that the snake has a tongue that sticks out its mouth. This suggests that the snake is a reptile.
+
+Step 2: Compare the snake's tongue and skin
+The snake's tongue is a long, flexible, and sticky structure",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+70,Animals,blank_image,Did the snake stick out its tongue and touch its skin?,(a) Yes (b) No,(b),b,True, No,mmvp_w5_017_blank.png,data/generated/week5_blank_images/mmvp_w5_017_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+70,Animals,far_mismatch,Did the snake stick out its tongue and touch its skin?,(a) Yes (b) No,(b),b,True, No,233,data/mmvp/MMVP Images/233.jpg,233.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+70,Animals,hard_mismatch,Did the snake stick out its tongue and touch its skin?,(a) Yes (b) No,(b),b,True, No,79,data/mmvp/MMVP Images/79.jpg,79.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+79,Animals,correct_image,"In the image, is the snake's head oriented facing upwards or directed forwards?",(a) Upwards (b) Forward,(a),a,True, The snake's head is oriented facing upwards.,79,data/mmvp/MMVP Images/79.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+79,Animals,no_image,"In the image, is the snake's head oriented facing upwards or directed forwards?",(a) Upwards (b) Forward,(a),a,True, The snake's head is oriented facing upwards.,,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+79,Animals,blank_image,"In the image, is the snake's head oriented facing upwards or directed forwards?",(a) Upwards (b) Forward,(a),a,True, The snake's head is oriented facing upwards.,mmvp_w5_018_blank.png,data/generated/week5_blank_images/mmvp_w5_018_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+79,Animals,far_mismatch,"In the image, is the snake's head oriented facing upwards or directed forwards?",(a) Upwards (b) Forward,(a),b,False, Answer: directed forwards.,150,data/mmvp/MMVP Images/150.jpg,150.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+79,Animals,hard_mismatch,"In the image, is the snake's head oriented facing upwards or directed forwards?",(a) Upwards (b) Forward,(a),?,False, The snake's head is oriented towards the right.,70,data/mmvp/MMVP Images/70.jpg,70.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+87,Technology Devices,correct_image,Is there a hand using the mouse in the image?,(a) Yes (b) No,(a),a,True," Yes, there is a hand on the mouse in the second image.",87,data/mmvp/MMVP Images/87.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+87,Technology Devices,no_image,Is there a hand using the mouse in the image?,(a) Yes (b) No,(a),a,True," Step 1: Identify the main subject in the image
+The main subject in the image is the mouse.
+
+Step 2: Determine if the mouse is using the mouse in the image
+The mouse is the main subject in the image.
+
+Step 3: Determine if the mouse is using the mouse in the image
+The mouse is using the mouse in the image.
+
+Step 4: Determine if the mouse is using the mouse in the image
+The mouse is using the mouse in the image.
+
+Step 5: Answer the question based on the analysis
+The mouse is using the mouse in the",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+87,Technology Devices,blank_image,Is there a hand using the mouse in the image?,(a) Yes (b) No,(a),b,False, No,mmvp_w5_019_blank.png,data/generated/week5_blank_images/mmvp_w5_019_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+87,Technology Devices,far_mismatch,Is there a hand using the mouse in the image?,(a) Yes (b) No,(a),b,False," No, there is no hand or mouse present in the image.",225,data/mmvp/MMVP Images/225.jpg,225.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+87,Technology Devices,hard_mismatch,Is there a hand using the mouse in the image?,(a) Yes (b) No,(a),b,False, The image does not show a hand using the mouse; it only shows the keyboard.,97,data/mmvp/MMVP Images/97.jpg,97.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+155,Furniture,correct_image,Is the vase beside the bedside table or on the windowsill?,(a) Beside the bedside Table (b) On the Windowsill,(a),b,False," No, the vase is on the windowsill.",155,data/mmvp/MMVP Images/155.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+155,Furniture,no_image,Is the vase beside the bedside table or on the windowsill?,(a) Beside the bedside Table (b) On the Windowsill,(a),a,True," To determine if the vase is on the windowsill or beside the bedside table, we need to examine the position of the vase and the surrounding objects.
+
+Step 1: Identify the vase
+The vase is placed beside the bedside table.
+
+Step 2: Examine the surrounding objects
+The vase is on the windowsill.
+
+Step 3: Compare the positions of the vase and the surrounding objects
+The vase is on the windowsill, while the surrounding objects are on the windowsill.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+155,Furniture,blank_image,Is the vase beside the bedside table or on the windowsill?,(a) Beside the bedside Table (b) On the Windowsill,(a),?,False, No,mmvp_w5_020_blank.png,data/generated/week5_blank_images/mmvp_w5_020_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+155,Furniture,far_mismatch,Is the vase beside the bedside table or on the windowsill?,(a) Beside the bedside Table (b) On the Windowsill,(a),b,False," No, the vase is on the windowsill.",109,data/mmvp/MMVP Images/109.jpg,109.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+155,Furniture,hard_mismatch,Is the vase beside the bedside table or on the windowsill?,(a) Beside the bedside Table (b) On the Windowsill,(a),b,False," No, the vase is on the windowsill.",269,data/mmvp/MMVP Images/269.jpg,269.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+114,Object,correct_image,Do you see any window in this image?,(a) Yes (b) No,(b),a,False," Yes, there is a window in the image.",114,data/mmvp/MMVP Images/114.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+114,Object,no_image,Do you see any window in this image?,(a) Yes (b) No,(b),b,True," No, there are no windows present in the image.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+114,Object,blank_image,Do you see any window in this image?,(a) Yes (b) No,(b),b,True, No,mmvp_w5_021_blank.png,data/generated/week5_blank_images/mmvp_w5_021_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+114,Object,far_mismatch,Do you see any window in this image?,(a) Yes (b) No,(b),b,True, No,267,data/mmvp/MMVP Images/267.jpg,267.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+114,Object,hard_mismatch,Do you see any window in this image?,(a) Yes (b) No,(b),b,True," No, there is no window visible in this image.",125,data/mmvp/MMVP Images/125.jpg,125.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+120,Animals,correct_image,"In this image, how many eyes can you see on the animal?",(a) 1 (b) 2,(b),b,True, 2,120,data/mmvp/MMVP Images/120.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+120,Animals,no_image,"In this image, how many eyes can you see on the animal?",(a) 1 (b) 2,(b),a,False, 1,,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+120,Animals,blank_image,"In this image, how many eyes can you see on the animal?",(a) 1 (b) 2,(b),?,False, 0,mmvp_w5_022_blank.png,data/generated/week5_blank_images/mmvp_w5_022_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+120,Animals,far_mismatch,"In this image, how many eyes can you see on the animal?",(a) 1 (b) 2,(b),?,False, 0,136,data/mmvp/MMVP Images/136.jpg,136.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+120,Animals,hard_mismatch,"In this image, how many eyes can you see on the animal?",(a) 1 (b) 2,(b),b,True, 2.,117,data/mmvp/MMVP Images/117.jpg,117.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+132,Animals,correct_image,Where is the yellow animal's head lying in this image?,(a) Floor (b) Carpet,(b),b,True, It is lying on the rug.,132,data/mmvp/MMVP Images/132.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+132,Animals,no_image,Where is the yellow animal's head lying in this image?,(a) Floor (b) Carpet,(b),?,False, The yellow animal's head is lying on the ground.,,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+132,Animals,blank_image,Where is the yellow animal's head lying in this image?,(a) Floor (b) Carpet,(b),?,False, Answer: center,mmvp_w5_023_blank.png,data/generated/week5_blank_images/mmvp_w5_023_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+132,Animals,far_mismatch,Where is the yellow animal's head lying in this image?,(a) Floor (b) Carpet,(b),?,False, There is no yellow animal present in this image.,176,data/mmvp/MMVP Images/176.jpg,176.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+132,Animals,hard_mismatch,Where is the yellow animal's head lying in this image?,(a) Floor (b) Carpet,(b),b,True," In the first image, the yellow animal's head is lying on the rug.",131,data/mmvp/MMVP Images/131.jpg,131.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+145,Object,correct_image,Is the photo taken looking down from above or looking up from below?,(a) Looking down from above (b) Looking up from below,(a),a,True, Above.,145,data/mmvp/MMVP Images/145.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+145,Object,no_image,Is the photo taken looking down from above or looking up from below?,(a) Looking down from above (b) Looking up from below,(a),a,True," The photo taken looking down from above is likely to be taken from a top-down perspective, as the camera is angled down to capture the bottom of the frame.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+145,Object,blank_image,Is the photo taken looking down from above or looking up from below?,(a) Looking down from above (b) Looking up from below,(a),a,True, looking down from above,mmvp_w5_024_blank.png,data/generated/week5_blank_images/mmvp_w5_024_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+145,Object,far_mismatch,Is the photo taken looking down from above or looking up from below?,(a) Looking down from above (b) Looking up from below,(a),a,True, Looking down from above,58,data/mmvp/MMVP Images/58.jpg,58.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+145,Object,hard_mismatch,Is the photo taken looking down from above or looking up from below?,(a) Looking down from above (b) Looking up from below,(a),a,True, Down from above.,105,data/mmvp/MMVP Images/105.jpg,105.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+151,Human,correct_image,The image captures a woman running from:,(a) Back view (b) Side view,(a),?,False, sunset,151,data/mmvp/MMVP Images/151.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+151,Human,no_image,The image captures a woman running from:,(a) Back view (b) Side view,(a),?,False, The image captures a woman running from:,,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+151,Human,blank_image,The image captures a woman running from:,(a) Back view (b) Side view,(a),?,False, The woman is running from:,mmvp_w5_025_blank.png,data/generated/week5_blank_images/mmvp_w5_025_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+151,Human,far_mismatch,The image captures a woman running from:,(a) Back view (b) Side view,(a),?,False, Answer: no,295,data/mmvp/MMVP Images/295.jpg,295.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+151,Human,hard_mismatch,The image captures a woman running from:,(a) Back view (b) Side view,(a),?,False, in a field,219,data/mmvp/MMVP Images/219.jpg,219.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+158,Vehicle,correct_image,Is the frame at the front of the motorcycle primarily silver or black in color?,(a) Silver (b) Black,(b),a,False, Silver,158,data/mmvp/MMVP Images/158.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+158,Vehicle,no_image,Is the frame at the front of the motorcycle primarily silver or black in color?,(a) Silver (b) Black,(b),a,False," To determine the color of the frame at the front of the motorcycle, we need to consider the composition of the frame and the color of the frame.
+
+The frame at the front of the motorcycle is primarily silver. This is because the frame is made of metal and is typically silver in color. The silver color is a common color for motorcycles, as it is a shiny, reflective material that is easy to see and clean.
+
+The frame at the front of the motorcycle is primarily black. This is because the frame is made of a black material, which is typically black in color. Black is a color that is difficult to see",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+158,Vehicle,blank_image,Is the frame at the front of the motorcycle primarily silver or black in color?,(a) Silver (b) Black,(b),a,False, Silver,mmvp_w5_026_blank.png,data/generated/week5_blank_images/mmvp_w5_026_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+158,Vehicle,far_mismatch,Is the frame at the front of the motorcycle primarily silver or black in color?,(a) Silver (b) Black,(b),a,False, Silver,74,data/mmvp/MMVP Images/74.jpg,74.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+158,Vehicle,hard_mismatch,Is the frame at the front of the motorcycle primarily silver or black in color?,(a) Silver (b) Black,(b),a,False, Silver,157,data/mmvp/MMVP Images/157.jpg,157.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+167,Food,correct_image,Are some fruits cut open or are all the fruits uncut?,(a) Some are cut open (b) All are uncut,(a),b,False, All the fruits are uncut.,167,data/mmvp/MMVP Images/167.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+167,Food,no_image,Are some fruits cut open or are all the fruits uncut?,(a) Some are cut open (b) All are uncut,(a),a,True," 1. To answer the question, I will analyze the given statement and determine if it is true or false.
+
+Statement: Some fruits cut open are uncut.
+
+Step 1: Identify the subject of the statement.
+The subject of the statement is ""some fruits cut open.""
+
+Step 2: Analyze the statement to determine if it is true or false.
+The statement states that some fruits are cut open.
+
+Step 3: Compare the statement to the given statement.
+The statement states that some fruits are cut open.
+
+Step 4: Compare the statement to the given statement",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+167,Food,blank_image,Are some fruits cut open or are all the fruits uncut?,(a) Some are cut open (b) All are uncut,(a),a,True," Some fruits are cut open, while all the fruits are uncut.",mmvp_w5_027_blank.png,data/generated/week5_blank_images/mmvp_w5_027_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+167,Food,far_mismatch,Are some fruits cut open or are all the fruits uncut?,(a) Some are cut open (b) All are uncut,(a),?,False, None,18,data/mmvp/MMVP Images/18.jpg,18.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+167,Food,hard_mismatch,Are some fruits cut open or are all the fruits uncut?,(a) Some are cut open (b) All are uncut,(a),b,False, All the fruits are uncut,205,data/mmvp/MMVP Images/205.jpg,205.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+186,Human/Object,correct_image,Is the person in the picture already standing on the weighing scale?,(a) Yes (b) No,(b),b,True," No, the person in the picture is walking on the floor.",186,data/mmvp/MMVP Images/186.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+186,Human/Object,no_image,Is the person in the picture already standing on the weighing scale?,(a) Yes (b) No,(b),b,True," No, the person in the picture is not standing on the weighing scale. The person is standing on the floor.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+186,Human/Object,blank_image,Is the person in the picture already standing on the weighing scale?,(a) Yes (b) No,(b),b,True, No,mmvp_w5_028_blank.png,data/generated/week5_blank_images/mmvp_w5_028_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+186,Human/Object,far_mismatch,Is the person in the picture already standing on the weighing scale?,(a) Yes (b) No,(b),b,True," No, the person in the picture is not standing on the weighing scale.",70,data/mmvp/MMVP Images/70.jpg,70.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+186,Human/Object,hard_mismatch,Is the person in the picture already standing on the weighing scale?,(a) Yes (b) No,(b),b,True, No,197,data/mmvp/MMVP Images/197.jpg,197.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+193,Food,correct_image,Are these vegetables placed on the floor or on the soil?,(a) Floor (b) Soil,(a),b,False, On the soil,193,data/mmvp/MMVP Images/193.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+193,Food,no_image,Are these vegetables placed on the floor or on the soil?,(a) Floor (b) Soil,(a),a,True," To determine if the vegetables are placed on the floor or on the soil, we need to consider the type of soil and the type of vegetables.
+
+Step 1: Identify the type of soil
+The soil is likely made of soil, as it is a mixture of soil particles and organic matter.
+
+Step 2: Determine the type of vegetables
+The vegetables are likely to be vegetables, as they are plants that grow on the ground.
+
+Step 3: Compare the type of soil with the vegetables
+The soil is likely made of soil, as it is a mixture of soil particles and organic matter.
+
+",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+193,Food,blank_image,Are these vegetables placed on the floor or on the soil?,(a) Floor (b) Soil,(a),b,False, On the soil,mmvp_w5_029_blank.png,data/generated/week5_blank_images/mmvp_w5_029_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+193,Food,far_mismatch,Are these vegetables placed on the floor or on the soil?,(a) Floor (b) Soil,(a),a,True," No, these vegetables are not placed on the floor.",145,data/mmvp/MMVP Images/145.jpg,145.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+193,Food,hard_mismatch,Are these vegetables placed on the floor or on the soil?,(a) Floor (b) Soil,(a),b,False, On the soil,167,data/mmvp/MMVP Images/167.jpg,167.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+198,Human/Object,correct_image,Is the person weighing themselves barefoot?,(a) Yes (b) No,(b),b,True," No, the person is wearing white sandals and not barefoot.",198,data/mmvp/MMVP Images/198.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+198,Human/Object,no_image,Is the person weighing themselves barefoot?,(a) Yes (b) No,(b),b,True," No, the person is not barefoot. They are wearing a pair of shoes.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+198,Human/Object,blank_image,Is the person weighing themselves barefoot?,(a) Yes (b) No,(b),b,True, No,mmvp_w5_030_blank.png,data/generated/week5_blank_images/mmvp_w5_030_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+198,Human/Object,far_mismatch,Is the person weighing themselves barefoot?,(a) Yes (b) No,(b),b,True," No, the person is not weighing themselves barefoot.",111,data/mmvp/MMVP Images/111.jpg,111.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+198,Human/Object,hard_mismatch,Is the person weighing themselves barefoot?,(a) Yes (b) No,(b),b,True, No,211,data/mmvp/MMVP Images/211.jpg,211.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+205,Food,correct_image,Is the coffee cup made of glass?,(a) Yes (b) No,(a),b,False, No,205,data/mmvp/MMVP Images/205.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+205,Food,no_image,Is the coffee cup made of glass?,(a) Yes (b) No,(a),b,False," No, the coffee cup is not made of glass. It is made of a different material, which is made of a material called coffee.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+205,Food,blank_image,Is the coffee cup made of glass?,(a) Yes (b) No,(a),b,False, No,mmvp_w5_031_blank.png,data/generated/week5_blank_images/mmvp_w5_031_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+205,Food,far_mismatch,Is the coffee cup made of glass?,(a) Yes (b) No,(a),b,False, No,87,data/mmvp/MMVP Images/87.jpg,87.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+205,Food,hard_mismatch,Is the coffee cup made of glass?,(a) Yes (b) No,(a),b,False, No,251,data/mmvp/MMVP Images/251.jpg,251.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+212,Human/Object,correct_image,Is the heart-shaped object resting on the palm or being held by the fingers?,(a) Palm (b) Fingers,(b),a,False," In the first image, the heart-shaped object is being held by the fingers, while in the second image, the heart-shaped object is resting on the palm.",212,data/mmvp/MMVP Images/212.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+212,Human/Object,no_image,Is the heart-shaped object resting on the palm or being held by the fingers?,(a) Palm (b) Fingers,(b),a,False, The heart-shaped object is resting on the palm.,,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+212,Human/Object,blank_image,Is the heart-shaped object resting on the palm or being held by the fingers?,(a) Palm (b) Fingers,(b),a,False, The heart-shaped object is resting on the palm.,mmvp_w5_032_blank.png,data/generated/week5_blank_images/mmvp_w5_032_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+212,Human/Object,far_mismatch,Is the heart-shaped object resting on the palm or being held by the fingers?,(a) Palm (b) Fingers,(b),a,False, The heart-shaped object is on the palm.,27,data/mmvp/MMVP Images/27.jpg,27.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+212,Human/Object,hard_mismatch,Is the heart-shaped object resting on the palm or being held by the fingers?,(a) Palm (b) Fingers,(b),a,False, On the palm,211,data/mmvp/MMVP Images/211.jpg,211.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+225,Food,correct_image,Are all the cups and bottles in the picture the same height?,(a) Yes (b) No,(a),b,False," No, not all the cups and bottles in the picture are the same height.",225,data/mmvp/MMVP Images/225.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+225,Food,no_image,Are all the cups and bottles in the picture the same height?,(a) Yes (b) No,(a),?,False," To answer this question, I will analyze the image and compare it with a few different types of objects.
+
+Step 1: Identify the main objects in the image
+- cups and bottles
+- a table
+- a chair
+- a window
+- a door
+- a wall
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+225,Food,blank_image,Are all the cups and bottles in the picture the same height?,(a) Yes (b) No,(a),b,False, No,mmvp_w5_033_blank.png,data/generated/week5_blank_images/mmvp_w5_033_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+225,Food,far_mismatch,Are all the cups and bottles in the picture the same height?,(a) Yes (b) No,(a),b,False, No,97,data/mmvp/MMVP Images/97.jpg,97.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+225,Food,hard_mismatch,Are all the cups and bottles in the picture the same height?,(a) Yes (b) No,(a),b,False," No
+
+### Answer:
+No, all the cups and bottles in the picture are not the same height.",229,data/mmvp/MMVP Images/229.jpg,229.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+263,Food,correct_image,Is it a slice of cake or a whole cake in the picture?,(a) Slice (b) Whole,(a),?,False," No, there is no cake present in the picture.",263,data/mmvp/MMVP Images/263.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+263,Food,no_image,Is it a slice of cake or a whole cake in the picture?,(a) Slice (b) Whole,(a),a,True," To answer this question, I will analyze the image and compare it to the concept of a slice of cake.
+
+Step 1: Identify the main elements in the image.
+- The image contains a slice of cake.
+- The slice is a slice of cake.
+
+Step 2: Compare the elements of the image.
+- The slice of cake is a slice of cake.
+- The slice is a slice of cake.
+
+Step 3: Determine if the image represents a slice of cake or a whole cake.
+- The slice of cake is a slice of cake.
+- The whole cake",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+263,Food,blank_image,Is it a slice of cake or a whole cake in the picture?,(a) Slice (b) Whole,(a),b,False, Answer: whole cake,mmvp_w5_034_blank.png,data/generated/week5_blank_images/mmvp_w5_034_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+263,Food,far_mismatch,Is it a slice of cake or a whole cake in the picture?,(a) Slice (b) Whole,(a),a,True, There is no slice of cake or whole cake present in the image.,176,data/mmvp/MMVP Images/176.jpg,176.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+263,Food,hard_mismatch,Is it a slice of cake or a whole cake in the picture?,(a) Slice (b) Whole,(a),b,False, Both the cake and the whole cake are on a white plate.,249,data/mmvp/MMVP Images/249.jpg,249.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+271,Human,correct_image,Is the male in the picture wearing a shirt or a T-shirt?,(a) Shirt (b) T-shirt,(a),a,True, The male in the picture is wearing a shirt.,271,data/mmvp/MMVP Images/271.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+271,Human,no_image,Is the male in the picture wearing a shirt or a T-shirt?,(a) Shirt (b) T-shirt,(a),a,True," To determine if the male in the picture is wearing a shirt or a T-shirt, I will follow these steps:
+
+1. Identify the clothing: The male in the picture is wearing a shirt.
+2. Compare the clothing: The shirt is visible and is the only item of clothing visible in the picture.
+3. Determine the gender: Based on the visible clothing and the gender of the person, I can conclude that the male in the picture is wearing a shirt.
+
+Answer: Yes, the male in the picture is wearing a shirt.",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+271,Human,blank_image,Is the male in the picture wearing a shirt or a T-shirt?,(a) Shirt (b) T-shirt,(a),?,False, No,mmvp_w5_035_blank.png,data/generated/week5_blank_images/mmvp_w5_035_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+271,Human,far_mismatch,Is the male in the picture wearing a shirt or a T-shirt?,(a) Shirt (b) T-shirt,(a),a,True," No, the male in the picture is not wearing a shirt.",74,data/mmvp/MMVP Images/74.jpg,74.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+271,Human,hard_mismatch,Is the male in the picture wearing a shirt or a T-shirt?,(a) Shirt (b) T-shirt,(a),a,True," In the first image, the male is wearing a shirt while in the second image, the male is wearing a T-shirt.",267,data/mmvp/MMVP Images/267.jpg,267.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+276,House,correct_image,How many trees are the treehouse built on?,(a) One (b) More than one,(b),b,True, The treehouse is built on a variety of trees.,276,data/mmvp/MMVP Images/276.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+276,House,no_image,How many trees are the treehouse built on?,(a) One (b) More than one,(b),a,False, 1,,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+276,House,blank_image,How many trees are the treehouse built on?,(a) One (b) More than one,(b),?,False, 0,mmvp_w5_036_blank.png,data/generated/week5_blank_images/mmvp_w5_036_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+276,House,far_mismatch,How many trees are the treehouse built on?,(a) One (b) More than one,(b),?,False, 0,58,data/mmvp/MMVP Images/58.jpg,58.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+276,House,hard_mismatch,How many trees are the treehouse built on?,(a) One (b) More than one,(b),?,False, The treehouse is built on trees.,275,data/mmvp/MMVP Images/275.jpg,275.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+284,Food,correct_image,"In the image, is it a salmon fillet or a salmon steak?",(a) Salmon fillet (b) Salmon steak,(b),a,False, Salmon fillet,284,data/mmvp/MMVP Images/284.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+284,Food,no_image,"In the image, is it a salmon fillet or a salmon steak?",(a) Salmon fillet (b) Salmon steak,(b),a,False," Salmon fillet
+Salmon steak",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+284,Food,blank_image,"In the image, is it a salmon fillet or a salmon steak?",(a) Salmon fillet (b) Salmon steak,(b),a,False, Salmon fillet,mmvp_w5_037_blank.png,data/generated/week5_blank_images/mmvp_w5_037_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+284,Food,far_mismatch,"In the image, is it a salmon fillet or a salmon steak?",(a) Salmon fillet (b) Salmon steak,(b),a,False, Salmon fillet,114,data/mmvp/MMVP Images/114.jpg,114.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+284,Food,hard_mismatch,"In the image, is it a salmon fillet or a salmon steak?",(a) Salmon fillet (b) Salmon steak,(b),a,False," No, it is not a salmon fillet. It is a salmon steak.",263,data/mmvp/MMVP Images/263.jpg,263.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+292,Character,correct_image,Is the minion in the image smiling with its tongue out?,(a) Yes (b) No,(b),b,True," No, the minion in the image is not smiling with its tongue out.",292,data/mmvp/MMVP Images/292.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+292,Character,no_image,Is the minion in the image smiling with its tongue out?,(a) Yes (b) No,(b),b,True," Step 1: Identify the question
+The question is asking if the minion in the image is smiling with its tongue out.
+
+Step 2: Analyze the image
+The image shows a minion, which is a small, friendly, and friendly creature. The minion is wearing a red and white striped shirt and has a red tongue. The minion's tongue is out, and it is smiling.
+
+Step 3: Compare the minion's facial expression
+The minion's tongue is out, which means it is not smiling.
+
+Step 4: Determine if the minion is smiling
+The",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+292,Character,blank_image,Is the minion in the image smiling with its tongue out?,(a) Yes (b) No,(b),b,True, No,mmvp_w5_038_blank.png,data/generated/week5_blank_images/mmvp_w5_038_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+292,Character,far_mismatch,Is the minion in the image smiling with its tongue out?,(a) Yes (b) No,(b),b,True," No, the minion in the image is not smiling with its tongue out.",216,data/mmvp/MMVP Images/216.jpg,216.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+292,Character,hard_mismatch,Is the minion in the image smiling with its tongue out?,(a) Yes (b) No,(b),b,True," No, the minion in the image is not smiling with its tongue out.",253,data/mmvp/MMVP Images/253.jpg,253.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+150,Object,correct_image,Is the piano's back panel on the left or right side?,(a) Left (b) Right,(b),a,False, left side,150,data/mmvp/MMVP Images/150.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+150,Object,no_image,Is the piano's back panel on the left or right side?,(a) Left (b) Right,(b),a,False, The piano's back panel is on the left side.,,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+150,Object,blank_image,Is the piano's back panel on the left or right side?,(a) Left (b) Right,(b),a,False, On the left side,mmvp_w5_039_blank.png,data/generated/week5_blank_images/mmvp_w5_039_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+150,Object,far_mismatch,Is the piano's back panel on the left or right side?,(a) Left (b) Right,(b),b,True, Right side,79,data/mmvp/MMVP Images/79.jpg,79.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+150,Object,hard_mismatch,Is the piano's back panel on the left or right side?,(a) Left (b) Right,(b),a,False, On the left side,149,data/mmvp/MMVP Images/149.jpg,149.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+39,Animals,correct_image,Is the duck floating?,(a) Yes (b) No,(a),a,True," Yes, the duck is floating in the water.",39,data/mmvp/MMVP Images/39.jpg,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+39,Animals,no_image,Is the duck floating?,(a) Yes (b) No,(a),a,True," 1. To determine if the duck is floating, we need to consider the buoyancy of the duck.
+2. The buoyancy of a duck is determined by its weight, which is the sum of its mass and its volume.
+3. The mass of a duck is given by the formula: mass = weight + volume.
+4. The volume of a duck is given by the formula: volume = mass * weight.
+5. The weight of a duck is given by the formula: weight = mass * volume.
+6. The buoyancy of a duck is determined by the difference in height between the top and bottom of the",,,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+39,Animals,blank_image,Is the duck floating?,(a) Yes (b) No,(a),b,False, No,mmvp_w5_040_blank.png,data/generated/week5_blank_images/mmvp_w5_040_blank.png,,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+39,Animals,far_mismatch,Is the duck floating?,(a) Yes (b) No,(a),b,False, No,186,data/mmvp/MMVP Images/186.jpg,186.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
+39,Animals,hard_mismatch,Is the duck floating?,(a) Yes (b) No,(a),b,False, No,21,data/mmvp/MMVP Images/21.jpg,21.0,HuggingFaceTB/SmolVLM-256M-Instruct,main,mmvp_evidence_integrity_v1
