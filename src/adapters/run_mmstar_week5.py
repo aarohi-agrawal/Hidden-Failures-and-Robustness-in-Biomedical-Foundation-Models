@@ -46,9 +46,6 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
     reader = csv.DictReader(file)
 
     for row in reader:
-        if bundle_id >= 3:
-            break
-
         mismatch = mismatch_map[row["source_id"]]
 
         mismatch_source_ids = {
