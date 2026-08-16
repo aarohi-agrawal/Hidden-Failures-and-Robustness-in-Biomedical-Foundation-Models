@@ -1,0 +1,4 @@
+model_label,mirage_explicit_minus_implicit,recognition_explicit_minus_implicit,explicit_abstention_explicit_minus_implicit,hedged_answer_explicit_minus_implicit,confident_answer_explicit_minus_implicit,hard_mirage_explicit_minus_implicit,soft_mirage_explicit_minus_implicit
+Qwen-3B,-0.1735,0.1735,0.1673,-0.0874,-0.0798,-0.0684,-0.0222
+Qwen-7B,-0.1521,0.1521,0.0744,-0.0442,-0.0302,-0.0293,-0.0174
+SmolVLM,-0.0825,0.0825,0.0978,-0.0274,-0.0704,-0.1002,0.0294

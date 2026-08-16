@@ -1,0 +1,4 @@
+field,n_compared,n_agree,percent_agreement,cohens_kappa,n_skipped,auto_distribution,human_distribution
+acknowledges_missing_or_uncertain,179,163,0.9106,0.8163,1,"{'no': 79, 'yes': 100}","{'no': 69, 'yes': 110}"
+response_mode,180,146,0.8111,0.6643,0,"{'confident_answer': 56, 'explicit_abstention': 105, 'unscorable': 10, 'hedged_answer': 9}","{'confident_answer': 46, 'hedged_answer': 5, 'unscorable': 21, 'explicit_abstention': 108}"
+specific_visual_claim,180,151,0.8389,0.6041,0,"{'yes': 61, 'no': 119}","{'yes': 38, 'no': 142}"
