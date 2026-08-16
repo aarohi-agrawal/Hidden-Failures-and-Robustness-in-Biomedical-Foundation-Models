@@ -1,0 +1,42 @@
+source_id,mismatch_source_id,reason
+27,66,Original question concerns an animal; mismatched image is a technology device and provides no relevant visual evidence.
+58,167,Original question concerns an animal; mismatched image is food and cannot answer the original question.
+74,271,Original question concerns an object; mismatched image depicts a human and provides no relevant evidence.
+176,284,Original question concerns a human/object interaction; mismatched image is food and is unrelated to the original task.
+216,39,Original question concerns a vehicle; mismatched image depicts an animal and cannot support the original answer.
+111,276,Original question concerns an animal; mismatched image is a house/building and provides no relevant evidence.
+136,205,Original question concerns an object; mismatched image is food and is unrelated to the original question.
+233,11,Original question concerns a landscape; mismatched image depicts an animal and cannot answer the original question.
+295,151,Original question concerns a pattern/counting task; mismatched image depicts a human and provides no relevant evidence.
+267,36,Original question concerns a human; mismatched image is food and is unrelated to the original task.
+6,292,Original question concerns an animal; mismatched image depicts a character and cannot answer the question.
+11,158,Original question concerns an animal; mismatched image is a vehicle and provides no relevant evidence.
+18,263,Original question concerns a vehicle; mismatched image is food and cannot support the original answer.
+97,120,Original question concerns a technology device; mismatched image depicts an animal and is unrelated.
+36,216,Original question concerns food; mismatched image is a vehicle and provides no relevant evidence.
+66,193,Original question concerns a technology device; mismatched image is food and cannot answer the original question.
+70,233,Original question concerns an animal; mismatched image is a landscape and is unrelated.
+79,150,Original question concerns an animal; mismatched image is an object and provides no relevant evidence.
+87,225,Original question concerns a technology device; mismatched image is food and cannot answer the original question.
+155,109,Original question concerns furniture; mismatched image depicts an animal and is unrelated.
+114,267,Original question concerns an object; mismatched image depicts a human and cannot answer the original question.
+120,136,Original question concerns an animal; mismatched image is an object and provides no relevant evidence.
+132,176,Original question concerns an animal; mismatched image depicts a human/object interaction and is unrelated.
+145,58,Original question concerns an object; mismatched image depicts an animal and cannot answer the original question.
+151,295,Original question concerns a human; mismatched image is a pattern/counting task and provides no relevant evidence.
+158,74,Original question concerns a vehicle; mismatched image is an object and is unrelated.
+167,18,Original question concerns food; mismatched image is a vehicle and cannot answer the original question.
+186,70,Original question concerns a human/object interaction; mismatched image depicts an animal and is unrelated.
+193,145,Original question concerns food; mismatched image is an object and cannot support the original answer.
+198,111,Original question concerns a human/object interaction; mismatched image depicts an animal and provides no relevant evidence.
+205,87,Original question concerns food; mismatched image is a technology device and cannot answer the original question.
+212,27,Original question concerns a human/object interaction; mismatched image depicts an animal and is unrelated.
+225,97,Original question concerns food; mismatched image is a technology device and provides no relevant evidence.
+263,176,Original question concerns food; mismatched image depicts a human/object interaction and cannot answer the original question.
+271,74,Original question concerns a human; mismatched image is an object and provides no relevant evidence.
+276,58,Original question concerns a house/building; mismatched image depicts an animal and is unrelated.
+284,114,Original question concerns food; mismatched image is an object and cannot support the original answer.
+292,216,Original question concerns a character; mismatched image is a vehicle and provides no relevant evidence.
+150,79,Original question concerns an object; mismatched image depicts an animal and is unrelated.
+39,186,Original question concerns an animal; mismatched image depicts a human/object interaction and cannot answer the original question.
+109,233,Original question concerns an animal; mismatched image is a landscape and provides no relevant evidence.

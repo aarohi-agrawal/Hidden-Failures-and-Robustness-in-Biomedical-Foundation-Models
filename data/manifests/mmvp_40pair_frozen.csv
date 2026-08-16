@@ -1,0 +1,41 @@
+pair_id,source_id,partner_source_id,question,options,official_gold,partner_gold,category,verified,human_review_1,human_review_2,suspected_benchmark_error,include_primary,notes
+mmvp_pair_027_028,27,28,Is the peacock's head visible in the image?,(a) Yes (b) No,(a),(b),Animals,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_057_058,58,57,Is the crocodile submerged in the water?,(a) Yes (b) No,(b),(a),Animals,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_073_074,74,73,Is the ground wet?,(a) Yes (b) No,(b),(a),Object,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_175_176,176,175,"In the image, is the nail polish on the toes dark or light in color?",(a) Dark (b) Light,(b),(a),Human/Object,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_215_216,216,215,Are there black stripes on the roof of the car?,(a) Yes (b) No,(b),(a),Vehicle,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_111_112,111,112,Is the end of the elephant's trunk pointing inward or outward?,(a) Inward (b) Outward,(a),(b),Animals,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_135_136,136,135,How many cup(s) of drink are there in the image?,(a) 1 (b) 2,(b),(a),Object,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_233_234,233,234,Is the sky in the background dark blue or light blue?,(a) Dark blue (b) Light blue,(a),(b),Landscape,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_295_296,295,296,Is the edge of the heart in the picture white or dark-colored?,(a) White (b) Dark-colored,(a),(b),Pattern/Counting,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_267_268,267,268,Is the child in the picture facing forward or in profile?,(a) Facing forward (b) In profile,(a),(b),Human,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_005_006,6,5,Is the dog facing left or right from the camera's perspective?,(a) Left (b) Right,(b),(a),Animals,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_011_012,11,12,Has the peacock opened its tail?,(a) Yes (b) No,(a),(b),Animals,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_017_018,18,17,Is the front of the school bus protruding?,(a) Yes (b) No,(b),(a),Vehicle,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_097_098,97,98,Does the keyboard have a backlight?,(a) Yes (b) No,(a),(b),Technology Devices,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_035_036,36,35,Do the vegetables have spikes?,(a) Yes (b) No,(b),(a),Food,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_065_066,66,65,Is the following statement correct: There is no letter D on this image.,(a) Correct (b) Incorrect,(b),(a),Technology Devices,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_069_070,70,69,Did the snake stick out its tongue and touch its skin?,(a) Yes (b) No,(b),(a),Animals,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_079_080,79,80,"In the image, is the snake's head oriented facing upwards or directed forwards?",(a) Upwards (b) Forward,(a),(b),Animals,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_087_088,87,88,Is there a hand using the mouse in the image?,(a) Yes (b) No,(a),(b),Technology Devices,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_155_156,155,156,Is the vase beside the bedside table or on the windowsill?,(a) Beside the bedside Table (b) On the Windowsill,(a),(b),Furniture,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_113_114,114,113,Do you see any window in this image?,(a) Yes (b) No,(b),(a),Object,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_119_120,120,119,"In this image, how many eyes can you see on the animal?",(a) 1 (b) 2,(b),(a),Animals,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_131_132,132,131,Where is the yellow animal's head lying in this image?,(a) Floor (b) Carpet,(b),(a),Animals,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_145_146,145,146,Is the photo taken looking down from above or looking up from below?,(a) Looking down from above (b) Looking up from below,(a),(b),Object,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_151_152,151,152,The image captures a woman running from:,(a) Back view (b) Side view,(a),(b),Human,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_157_158,158,157,Is the frame at the front of the motorcycle primarily silver or black in color?,(a) Silver (b) Black,(b),(a),Vehicle,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_167_168,167,168,Are some fruits cut open or are all the fruits uncut?,(a) Some are cut open (b) All are uncut,(a),(b),Food,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_185_186,186,185,Is the person in the picture already standing on the weighing scale?,(a) Yes (b) No,(b),(a),Human/Object,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_193_194,193,194,Are these vegetables placed on the floor or on the soil?,(a) Floor (b) Soil,(a),(b),Food,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_197_198,198,197,Is the person weighing themselves barefoot?,(a) Yes (b) No,(b),(a),Human/Object,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_205_206,205,206,Is the coffee cup made of glass?,(a) Yes (b) No,(a),(b),Food,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_211_212,212,211,Is the heart-shaped object resting on the palm or being held by the fingers?,(a) Palm (b) Fingers,(b),(a),Human/Object,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_225_226,225,226,Are all the cups and bottles in the picture the same height?,(a) Yes (b) No,(a),(b),Food,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_263_264,263,264,Is it a slice of cake or a whole cake in the picture?,(a) Slice (b) Whole,(a),(b),Food,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_271_272,271,272,Is the male in the picture wearing a shirt or a T-shirt?,(a) Shirt (b) T-shirt,(a),(b),Human,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_275_276,276,275,How many trees are the treehouse built on?,(a) One (b) More than one,(b),(a),House,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_283_284,284,283,"In the image, is it a salmon fillet or a salmon steak?",(a) Salmon fillet (b) Salmon steak,(b),(a),Food,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_291_292,292,291,Is the minion in the image smiling with its tongue out?,(a) Yes (b) No,(b),(a),Character,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_149_150,150,149,Is the piano's back panel on the left or right side?,(a) Left (b) Right,(b),(a),Object,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check
+mmvp_pair_039_040,39,40,Is the duck floating?,(a) Yes (b) No,(a),(b),Animals,True,not_yet_reviewed,not_yet_reviewed,no,yes,Manual check

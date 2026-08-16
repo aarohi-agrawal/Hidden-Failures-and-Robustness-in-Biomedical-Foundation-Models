@@ -1,0 +1,368 @@
+case_id,condition,question,options,gold_answer,parsed_answer,correct,raw_response,model_name
+27,correct_image,Is the peacock's head visible in the image?,(a) Yes (b) No,(a),a,True," Yes, the head of the peacock is visible in the image.",HuggingFaceTB/SmolVLM-256M-Instruct
+27,no_image,Is the peacock's head visible in the image?,(a) Yes (b) No,(a),a,True," Step 1: Identify the subject of the image
+The subject of the image is the peacock.
+
+Step 2: Determine the location of the peacock
+The peacock is located in the center of the image.
+
+Step 3: Determine the type of image
+The image is a photograph.
+
+Step 4: Answer the question
+The peacock's head is visible in the image.",HuggingFaceTB/SmolVLM-256M-Instruct
+27,blank_image,Is the peacock's head visible in the image?,(a) Yes (b) No,(a),b,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+27,far_mismatch,Is the peacock's head visible in the image?,(a) Yes (b) No,(a),b,False," No, the peacock's head is not visible in the image.",HuggingFaceTB/SmolVLM-256M-Instruct
+27,hard_mismatch,Is the peacock's head visible in the image?,(a) Yes (b) No,(a),b,False," No, the peacock's head is not visible in the image.",HuggingFaceTB/SmolVLM-256M-Instruct
+58,correct_image,Is the crocodile submerged in the water?,(a) Yes (b) No,(b),a,False," Yes, the crocodile is submerged in the water.",HuggingFaceTB/SmolVLM-256M-Instruct
+58,no_image,Is the crocodile submerged in the water?,(a) Yes (b) No,(b),b,True," 1. The crocodile is not submerged in the water.
+2. The crocodile is not on the surface of the water.
+3. The crocodile is not in the water.",HuggingFaceTB/SmolVLM-256M-Instruct
+58,blank_image,Is the crocodile submerged in the water?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+58,far_mismatch,Is the crocodile submerged in the water?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+58,hard_mismatch,Is the crocodile submerged in the water?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+74,correct_image,Is the ground wet?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+74,no_image,Is the ground wet?,(a) Yes (b) No,(b),b,True," 1. To determine if the ground is wet, we need to consider the presence of water on the ground.
+2. Water can be found on the ground in various ways, such as through runoff from the ground, through the movement of water in the air, or through the deposition of water in the ground.
+3. If the ground is wet, it can be inferred that there is water on the ground, as it is a common occurrence in many areas.
+
+Based on the information provided, the ground is not wet.",HuggingFaceTB/SmolVLM-256M-Instruct
+74,blank_image,Is the ground wet?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+74,far_mismatch,Is the ground wet?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+74,hard_mismatch,Is the ground wet?,(a) Yes (b) No,(b),b,True," No, the ground is not wet in the image.",HuggingFaceTB/SmolVLM-256M-Instruct
+176,correct_image,"In the image, is the nail polish on the toes dark or light in color?",(a) Dark (b) Light,(b),b,True, Light in color,HuggingFaceTB/SmolVLM-256M-Instruct
+176,no_image,"In the image, is the nail polish on the toes dark or light in color?",(a) Dark (b) Light,(b),a,False," To answer this question, I will follow these steps:
+
+1. Identify the main elements in the image: The image contains a nail polish on the toes.
+2. Analyze the color of the nail polish: The nail polish is dark in color.
+3. Compare the color of the nail polish to the image: The nail polish is dark in color, which is consistent with the image.
+
+Based on the analysis, the nail polish on the toes is dark in color.",HuggingFaceTB/SmolVLM-256M-Instruct
+176,blank_image,"In the image, is the nail polish on the toes dark or light in color?",(a) Dark (b) Light,(b),a,False, Dark,HuggingFaceTB/SmolVLM-256M-Instruct
+176,far_mismatch,"In the image, is the nail polish on the toes dark or light in color?",(a) Dark (b) Light,(b),a,False, Dark,HuggingFaceTB/SmolVLM-256M-Instruct
+176,hard_mismatch,"In the image, is the nail polish on the toes dark or light in color?",(a) Dark (b) Light,(b),a,False, Dark,HuggingFaceTB/SmolVLM-256M-Instruct
+216,correct_image,Are there black stripes on the roof of the car?,(a) Yes (b) No,(b),a,False," Yes, there are black stripes on the roof of the car in the first image.",HuggingFaceTB/SmolVLM-256M-Instruct
+216,no_image,Are there black stripes on the roof of the car?,(a) Yes (b) No,(b),b,True," 1. To determine if there are black stripes on the roof of the car, we need to examine the car's exterior and identify any visible black lines or patterns.
+2. If the car has a roof with black stripes, we can confirm this by examining the car's exterior.
+3. If the car has no visible black stripes, we can conclude that there are no black stripes on the roof of the car.
+
+Based on the above analysis, we can conclude that there are no black stripes on the roof of the car.",HuggingFaceTB/SmolVLM-256M-Instruct
+216,blank_image,Are there black stripes on the roof of the car?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+216,far_mismatch,Are there black stripes on the roof of the car?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+216,hard_mismatch,Are there black stripes on the roof of the car?,(a) Yes (b) No,(b),b,True," No, the car has no visible black stripes on the roof.",HuggingFaceTB/SmolVLM-256M-Instruct
+111,correct_image,Is the end of the elephant's trunk pointing inward or outward?,(a) Inward (b) Outward,(a),b,False, The end of the elephant's trunk is pointing outward.,HuggingFaceTB/SmolVLM-256M-Instruct
+111,no_image,Is the end of the elephant's trunk pointing inward or outward?,(a) Inward (b) Outward,(a),?,False," To determine the direction of the end of the elephant's trunk, we need to consider the direction of the trunk's movement. The trunk is a long, thin appendage that extends from the top of the head to the bottom of the trunk.
+
+The trunk is a flexible appendage that can move in various directions. When the trunk is extended, it can move in a wide, curved manner. When the trunk is bent, it can move in a narrow, curved manner.
+
+When the trunk is bent, it can move in a wide, curved manner, and when it is bent, it can move in a narrow,",HuggingFaceTB/SmolVLM-256M-Instruct
+111,blank_image,Is the end of the elephant's trunk pointing inward or outward?,(a) Inward (b) Outward,(a),a,True, inward,HuggingFaceTB/SmolVLM-256M-Instruct
+111,far_mismatch,Is the end of the elephant's trunk pointing inward or outward?,(a) Inward (b) Outward,(a),a,True," In the second image, the end of the elephant's trunk points inward.",HuggingFaceTB/SmolVLM-256M-Instruct
+111,hard_mismatch,Is the end of the elephant's trunk pointing inward or outward?,(a) Inward (b) Outward,(a),a,True, Inward,HuggingFaceTB/SmolVLM-256M-Instruct
+136,correct_image,How many cup(s) of drink are there in the image?,(a) 1 (b) 2,(b),a,False, There is only one glass in the image.,HuggingFaceTB/SmolVLM-256M-Instruct
+136,no_image,How many cup(s) of drink are there in the image?,(a) 1 (b) 2,(b),a,False, There are 1 cup of drink in the image.,HuggingFaceTB/SmolVLM-256M-Instruct
+136,blank_image,How many cup(s) of drink are there in the image?,(a) 1 (b) 2,(b),?,False, 0,HuggingFaceTB/SmolVLM-256M-Instruct
+136,far_mismatch,How many cup(s) of drink are there in the image?,(a) 1 (b) 2,(b),a,False, There is one cup in the image.,HuggingFaceTB/SmolVLM-256M-Instruct
+136,hard_mismatch,How many cup(s) of drink are there in the image?,(a) 1 (b) 2,(b),?,False, There are no cups present in the image.,HuggingFaceTB/SmolVLM-256M-Instruct
+233,correct_image,Is the sky in the background dark blue or light blue?,(a) Dark blue (b) Light blue,(a),a,True, Dark blue.,HuggingFaceTB/SmolVLM-256M-Instruct
+233,no_image,Is the sky in the background dark blue or light blue?,(a) Dark blue (b) Light blue,(a),a,True, The sky is dark blue.,HuggingFaceTB/SmolVLM-256M-Instruct
+233,blank_image,Is the sky in the background dark blue or light blue?,(a) Dark blue (b) Light blue,(a),b,False, light blue,HuggingFaceTB/SmolVLM-256M-Instruct
+233,far_mismatch,Is the sky in the background dark blue or light blue?,(a) Dark blue (b) Light blue,(a),a,True, Dark blue.,HuggingFaceTB/SmolVLM-256M-Instruct
+233,hard_mismatch,Is the sky in the background dark blue or light blue?,(a) Dark blue (b) Light blue,(a),a,True, Dark blue.,HuggingFaceTB/SmolVLM-256M-Instruct
+295,correct_image,Is the edge of the heart in the picture white or dark-colored?,(a) White (b) Dark-colored,(a),a,True, White,HuggingFaceTB/SmolVLM-256M-Instruct
+295,no_image,Is the edge of the heart in the picture white or dark-colored?,(a) White (b) Dark-colored,(a),a,True," To determine if the edge of the heart is white or dark-colored, we need to examine the shape and color of the heart.
+
+Step 1: Identify the shape of the heart
+The heart is a round, muscular structure that is essential for pumping blood throughout the body. The shape of the heart is generally described as a heart shape, which is a circular shape with a curved top and bottom.
+
+Step 2: Examine the color of the heart
+The color of the heart is typically white, as it is the most common color of the heart.
+
+Step 3: Compare the shape and color of",HuggingFaceTB/SmolVLM-256M-Instruct
+295,blank_image,Is the edge of the heart in the picture white or dark-colored?,(a) White (b) Dark-colored,(a),b,False, dark-colored,HuggingFaceTB/SmolVLM-256M-Instruct
+295,far_mismatch,Is the edge of the heart in the picture white or dark-colored?,(a) White (b) Dark-colored,(a),b,False, The edge of the heart is dark-colored.,HuggingFaceTB/SmolVLM-256M-Instruct
+295,hard_mismatch,Is the edge of the heart in the picture white or dark-colored?,(a) White (b) Dark-colored,(a),a,True, Answer: white.,HuggingFaceTB/SmolVLM-256M-Instruct
+267,correct_image,Is the child in the picture facing forward or in profile?,(a) Facing forward (b) In profile,(a),a,True," In the first image, the child is facing forward while in the second image, the child is facing backward.",HuggingFaceTB/SmolVLM-256M-Instruct
+267,no_image,Is the child in the picture facing forward or in profile?,(a) Facing forward (b) In profile,(a),a,True, The child in the picture is facing forward.,HuggingFaceTB/SmolVLM-256M-Instruct
+267,blank_image,Is the child in the picture facing forward or in profile?,(a) Facing forward (b) In profile,(a),a,True, Forward,HuggingFaceTB/SmolVLM-256M-Instruct
+267,far_mismatch,Is the child in the picture facing forward or in profile?,(a) Facing forward (b) In profile,(a),b,False, Answer: profile,HuggingFaceTB/SmolVLM-256M-Instruct
+267,hard_mismatch,Is the child in the picture facing forward or in profile?,(a) Facing forward (b) In profile,(a),a,True," In the first image, the child is facing forward while in the second image, the child is facing backward.",HuggingFaceTB/SmolVLM-256M-Instruct
+6,correct_image,Is the dog facing left or right from the camera's perspective?,(a) Left (b) Right,(b),b,True," From the camera's perspective, the dog is facing right.",HuggingFaceTB/SmolVLM-256M-Instruct
+6,no_image,Is the dog facing left or right from the camera's perspective?,(a) Left (b) Right,(b),a,False, The dog is facing left from the camera's perspective.,HuggingFaceTB/SmolVLM-256M-Instruct
+6,blank_image,Is the dog facing left or right from the camera's perspective?,(a) Left (b) Right,(b),a,False, Left,HuggingFaceTB/SmolVLM-256M-Instruct
+6,far_mismatch,Is the dog facing left or right from the camera's perspective?,(a) Left (b) Right,(b),b,True, Right.,HuggingFaceTB/SmolVLM-256M-Instruct
+6,hard_mismatch,Is the dog facing left or right from the camera's perspective?,(a) Left (b) Right,(b),b,True," From the camera's perspective, the dog is facing right.",HuggingFaceTB/SmolVLM-256M-Instruct
+11,correct_image,Has the peacock opened its tail?,(a) Yes (b) No,(a),a,True," Yes, the peacock has its tail spread.",HuggingFaceTB/SmolVLM-256M-Instruct
+11,no_image,Has the peacock opened its tail?,(a) Yes (b) No,(a),b,False," Step 1: Identify the question
+The question is asking about the peacock's tail opening.
+
+Step 2: Research the peacock
+The peacock is a large bird that is native to South America. It is known for its distinctive tail feathers, which are a key feature of its appearance.
+
+Step 3: Research the peacock's tail opening
+The peacock's tail is a unique feature that allows it to open its tail in various ways. The tail feathers are made up of a series of feathers that are attached to the head and the tail. The tail feathers are held in place by a series",HuggingFaceTB/SmolVLM-256M-Instruct
+11,blank_image,Has the peacock opened its tail?,(a) Yes (b) No,(a),b,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+11,far_mismatch,Has the peacock opened its tail?,(a) Yes (b) No,(a),b,False," No, the peacock has closed its tail.",HuggingFaceTB/SmolVLM-256M-Instruct
+11,hard_mismatch,Has the peacock opened its tail?,(a) Yes (b) No,(a),a,True," Yes, the peacock has its tail spread.",HuggingFaceTB/SmolVLM-256M-Instruct
+18,correct_image,Is the front of the school bus protruding?,(a) Yes (b) No,(b),a,False," Yes, the front of the school bus is visible.",HuggingFaceTB/SmolVLM-256M-Instruct
+18,no_image,Is the front of the school bus protruding?,(a) Yes (b) No,(b),b,True," No, the front of the school bus is not a protruding feature. The front of a school bus is a part of the vehicle, and it is designed to carry passengers and other objects.",HuggingFaceTB/SmolVLM-256M-Instruct
+18,blank_image,Is the front of the school bus protruding?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+18,far_mismatch,Is the front of the school bus protruding?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+18,hard_mismatch,Is the front of the school bus protruding?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+97,correct_image,Does the keyboard have a backlight?,(a) Yes (b) No,(a),a,True," Yes, the keyboard has a backlight.",HuggingFaceTB/SmolVLM-256M-Instruct
+97,no_image,Does the keyboard have a backlight?,(a) Yes (b) No,(a),b,False, The keyboard does not have a backlight.,HuggingFaceTB/SmolVLM-256M-Instruct
+97,blank_image,Does the keyboard have a backlight?,(a) Yes (b) No,(a),b,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+97,far_mismatch,Does the keyboard have a backlight?,(a) Yes (b) No,(a),b,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+97,hard_mismatch,Does the keyboard have a backlight?,(a) Yes (b) No,(a),a,True," Yes, the keyboard has a backlight.",HuggingFaceTB/SmolVLM-256M-Instruct
+36,correct_image,Do the vegetables have spikes?,(a) Yes (b) No,(b),a,False," Yes, the cucumbers have visible spikes.",HuggingFaceTB/SmolVLM-256M-Instruct
+36,no_image,Do the vegetables have spikes?,(a) Yes (b) No,(b),b,True," 
+The vegetables do not have spikes.",HuggingFaceTB/SmolVLM-256M-Instruct
+36,blank_image,Do the vegetables have spikes?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+36,far_mismatch,Do the vegetables have spikes?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+36,hard_mismatch,Do the vegetables have spikes?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+66,correct_image,Is the following statement correct: There is no letter D on this image., (a) Correct (b) Incorrect,(b),b,True, No.,HuggingFaceTB/SmolVLM-256M-Instruct
+66,no_image,Is the following statement correct: There is no letter D on this image., (a) Correct (b) Incorrect,(b),a,False," No, the following statement is not correct. The image does not have any letter D on it.",HuggingFaceTB/SmolVLM-256M-Instruct
+66,blank_image,Is the following statement correct: There is no letter D on this image., (a) Correct (b) Incorrect,(b),b,True, No.,HuggingFaceTB/SmolVLM-256M-Instruct
+66,far_mismatch,Is the following statement correct: There is no letter D on this image., (a) Correct (b) Incorrect,(b),b,True, No.,HuggingFaceTB/SmolVLM-256M-Instruct
+66,hard_mismatch,Is the following statement correct: There is no letter D on this image., (a) Correct (b) Incorrect,(b),b,True, No.,HuggingFaceTB/SmolVLM-256M-Instruct
+70,correct_image,Did the snake stick out its tongue and touch its skin?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+70,no_image,Did the snake stick out its tongue and touch its skin?,(a) Yes (b) No,(b),a,False," 1. To answer the question, I will analyze the given statement: ""The snake stuck out its tongue and touched its skin.""
+2. I will examine the statement to determine if the snake is a reptile or an amphibian.
+3. I will compare the snake's tongue and skin to the characteristics of reptiles and amphibians.
+
+Step 1: Analyze the statement
+The statement states that the snake has a tongue that sticks out its mouth. This suggests that the snake is a reptile.
+
+Step 2: Compare the snake's tongue and skin
+The snake's tongue is a long, flexible, and sticky structure",HuggingFaceTB/SmolVLM-256M-Instruct
+70,blank_image,Did the snake stick out its tongue and touch its skin?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+70,far_mismatch,Did the snake stick out its tongue and touch its skin?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+70,hard_mismatch,Did the snake stick out its tongue and touch its skin?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+79,correct_image,"In the image, is the snake's head oriented facing upwards or directed forwards?",(a) Upwards (b) Forward,(a),a,True, The snake's head is oriented facing upwards.,HuggingFaceTB/SmolVLM-256M-Instruct
+79,no_image,"In the image, is the snake's head oriented facing upwards or directed forwards?",(a) Upwards (b) Forward,(a),a,True, The snake's head is oriented facing upwards.,HuggingFaceTB/SmolVLM-256M-Instruct
+79,blank_image,"In the image, is the snake's head oriented facing upwards or directed forwards?",(a) Upwards (b) Forward,(a),a,True, The snake's head is oriented facing upwards.,HuggingFaceTB/SmolVLM-256M-Instruct
+79,far_mismatch,"In the image, is the snake's head oriented facing upwards or directed forwards?",(a) Upwards (b) Forward,(a),b,False, Answer: directed forwards.,HuggingFaceTB/SmolVLM-256M-Instruct
+79,hard_mismatch,"In the image, is the snake's head oriented facing upwards or directed forwards?",(a) Upwards (b) Forward,(a),?,False, The snake's head is oriented towards the right.,HuggingFaceTB/SmolVLM-256M-Instruct
+87,correct_image,Is there a hand using the mouse in the image?,(a) Yes (b) No,(a),a,True," Yes, there is a hand on the mouse in the second image.",HuggingFaceTB/SmolVLM-256M-Instruct
+87,no_image,Is there a hand using the mouse in the image?,(a) Yes (b) No,(a),a,True," Step 1: Identify the main subject in the image
+The main subject in the image is the mouse.
+
+Step 2: Determine if the mouse is using the mouse in the image
+The mouse is the main subject in the image.
+
+Step 3: Determine if the mouse is using the mouse in the image
+The mouse is using the mouse in the image.
+
+Step 4: Determine if the mouse is using the mouse in the image
+The mouse is using the mouse in the image.
+
+Step 5: Answer the question based on the analysis
+The mouse is using the mouse in the",HuggingFaceTB/SmolVLM-256M-Instruct
+87,blank_image,Is there a hand using the mouse in the image?,(a) Yes (b) No,(a),b,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+87,far_mismatch,Is there a hand using the mouse in the image?,(a) Yes (b) No,(a),b,False," No, there is no hand or mouse present in the image.",HuggingFaceTB/SmolVLM-256M-Instruct
+87,hard_mismatch,Is there a hand using the mouse in the image?,(a) Yes (b) No,(a),b,False, The image does not show a hand using the mouse; it only shows the keyboard.,HuggingFaceTB/SmolVLM-256M-Instruct
+155,correct_image,Is the vase beside the bedside table or on the windowsill?,(a) Beside the bedside Table (b) On the Windowsill,(a),b,False," No, the vase is on the windowsill.",HuggingFaceTB/SmolVLM-256M-Instruct
+155,no_image,Is the vase beside the bedside table or on the windowsill?,(a) Beside the bedside Table (b) On the Windowsill,(a),a,True," To determine if the vase is on the windowsill or beside the bedside table, we need to examine the position of the vase and the surrounding objects.
+
+Step 1: Identify the vase
+The vase is placed beside the bedside table.
+
+Step 2: Examine the surrounding objects
+The vase is on the windowsill.
+
+Step 3: Compare the positions of the vase and the surrounding objects
+The vase is on the windowsill, while the surrounding objects are on the windowsill.",HuggingFaceTB/SmolVLM-256M-Instruct
+155,blank_image,Is the vase beside the bedside table or on the windowsill?,(a) Beside the bedside Table (b) On the Windowsill,(a),?,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+155,far_mismatch,Is the vase beside the bedside table or on the windowsill?,(a) Beside the bedside Table (b) On the Windowsill,(a),b,False," No, the vase is on the windowsill.",HuggingFaceTB/SmolVLM-256M-Instruct
+155,hard_mismatch,Is the vase beside the bedside table or on the windowsill?,(a) Beside the bedside Table (b) On the Windowsill,(a),b,False," No, the vase is on the windowsill.",HuggingFaceTB/SmolVLM-256M-Instruct
+114,correct_image,Do you see any window in this image?,(a) Yes (b) No,(b),a,False," Yes, there is a window in the image.",HuggingFaceTB/SmolVLM-256M-Instruct
+114,no_image,Do you see any window in this image?,(a) Yes (b) No,(b),b,True," No, there are no windows present in the image.",HuggingFaceTB/SmolVLM-256M-Instruct
+114,blank_image,Do you see any window in this image?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+114,far_mismatch,Do you see any window in this image?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+114,hard_mismatch,Do you see any window in this image?,(a) Yes (b) No,(b),b,True," No, there is no window visible in this image.",HuggingFaceTB/SmolVLM-256M-Instruct
+120,correct_image,"In this image, how many eyes can you see on the animal?",(a) 1 (b) 2,(b),b,True, 2,HuggingFaceTB/SmolVLM-256M-Instruct
+120,no_image,"In this image, how many eyes can you see on the animal?",(a) 1 (b) 2,(b),a,False, 1,HuggingFaceTB/SmolVLM-256M-Instruct
+120,blank_image,"In this image, how many eyes can you see on the animal?",(a) 1 (b) 2,(b),?,False, 0,HuggingFaceTB/SmolVLM-256M-Instruct
+120,far_mismatch,"In this image, how many eyes can you see on the animal?",(a) 1 (b) 2,(b),?,False, 0,HuggingFaceTB/SmolVLM-256M-Instruct
+120,hard_mismatch,"In this image, how many eyes can you see on the animal?",(a) 1 (b) 2,(b),b,True, 2.,HuggingFaceTB/SmolVLM-256M-Instruct
+132,correct_image,Where is the yellow animal's head lying in this image?,(a) Floor (b) Carpet,(b),b,True, It is lying on the rug.,HuggingFaceTB/SmolVLM-256M-Instruct
+132,no_image,Where is the yellow animal's head lying in this image?,(a) Floor (b) Carpet,(b),?,False, The yellow animal's head is lying on the ground.,HuggingFaceTB/SmolVLM-256M-Instruct
+132,blank_image,Where is the yellow animal's head lying in this image?,(a) Floor (b) Carpet,(b),?,False, Answer: center,HuggingFaceTB/SmolVLM-256M-Instruct
+132,far_mismatch,Where is the yellow animal's head lying in this image?,(a) Floor (b) Carpet,(b),?,False, There is no yellow animal present in this image.,HuggingFaceTB/SmolVLM-256M-Instruct
+132,hard_mismatch,Where is the yellow animal's head lying in this image?,(a) Floor (b) Carpet,(b),b,True," In the first image, the yellow animal's head is lying on the rug.",HuggingFaceTB/SmolVLM-256M-Instruct
+145,correct_image,Is the photo taken looking down from above or looking up from below?,(a) Looking down from above (b) Looking up from below,(a),a,True, Above.,HuggingFaceTB/SmolVLM-256M-Instruct
+145,no_image,Is the photo taken looking down from above or looking up from below?,(a) Looking down from above (b) Looking up from below,(a),a,True," The photo taken looking down from above is likely to be taken from a top-down perspective, as the camera is angled down to capture the bottom of the frame.",HuggingFaceTB/SmolVLM-256M-Instruct
+145,blank_image,Is the photo taken looking down from above or looking up from below?,(a) Looking down from above (b) Looking up from below,(a),a,True, looking down from above,HuggingFaceTB/SmolVLM-256M-Instruct
+145,far_mismatch,Is the photo taken looking down from above or looking up from below?,(a) Looking down from above (b) Looking up from below,(a),a,True, Looking down from above,HuggingFaceTB/SmolVLM-256M-Instruct
+145,hard_mismatch,Is the photo taken looking down from above or looking up from below?,(a) Looking down from above (b) Looking up from below,(a),a,True, Down from above.,HuggingFaceTB/SmolVLM-256M-Instruct
+151,correct_image,The image captures a woman running from:,(a) Back view (b) Side view,(a),?,False, sunset,HuggingFaceTB/SmolVLM-256M-Instruct
+151,no_image,The image captures a woman running from:,(a) Back view (b) Side view,(a),?,False, The image captures a woman running from:,HuggingFaceTB/SmolVLM-256M-Instruct
+151,blank_image,The image captures a woman running from:,(a) Back view (b) Side view,(a),?,False, The woman is running from:,HuggingFaceTB/SmolVLM-256M-Instruct
+151,far_mismatch,The image captures a woman running from:,(a) Back view (b) Side view,(a),?,False, Answer: no,HuggingFaceTB/SmolVLM-256M-Instruct
+151,hard_mismatch,The image captures a woman running from:,(a) Back view (b) Side view,(a),?,False, in a field,HuggingFaceTB/SmolVLM-256M-Instruct
+158,correct_image,Is the frame at the front of the motorcycle primarily silver or black in color?,(a) Silver (b) Black,(b),a,False, Silver,HuggingFaceTB/SmolVLM-256M-Instruct
+158,no_image,Is the frame at the front of the motorcycle primarily silver or black in color?,(a) Silver (b) Black,(b),a,False," To determine the color of the frame at the front of the motorcycle, we need to consider the composition of the frame and the color of the frame.
+
+The frame at the front of the motorcycle is primarily silver. This is because the frame is made of metal and is typically silver in color. The silver color is a common color for motorcycles, as it is a shiny, reflective material that is easy to see and clean.
+
+The frame at the front of the motorcycle is primarily black. This is because the frame is made of a black material, which is typically black in color. Black is a color that is difficult to see",HuggingFaceTB/SmolVLM-256M-Instruct
+158,blank_image,Is the frame at the front of the motorcycle primarily silver or black in color?,(a) Silver (b) Black,(b),a,False, Silver,HuggingFaceTB/SmolVLM-256M-Instruct
+158,far_mismatch,Is the frame at the front of the motorcycle primarily silver or black in color?,(a) Silver (b) Black,(b),a,False, Silver,HuggingFaceTB/SmolVLM-256M-Instruct
+158,hard_mismatch,Is the frame at the front of the motorcycle primarily silver or black in color?,(a) Silver (b) Black,(b),a,False, Silver,HuggingFaceTB/SmolVLM-256M-Instruct
+167,correct_image,Are some fruits cut open or are all the fruits uncut?,(a) Some are cut open (b) All are uncut,(a),b,False, All the fruits are uncut.,HuggingFaceTB/SmolVLM-256M-Instruct
+167,no_image,Are some fruits cut open or are all the fruits uncut?,(a) Some are cut open (b) All are uncut,(a),a,True," 1. To answer the question, I will analyze the given statement and determine if it is true or false.
+
+Statement: Some fruits cut open are uncut.
+
+Step 1: Identify the subject of the statement.
+The subject of the statement is ""some fruits cut open.""
+
+Step 2: Analyze the statement to determine if it is true or false.
+The statement states that some fruits are cut open.
+
+Step 3: Compare the statement to the given statement.
+The statement states that some fruits are cut open.
+
+Step 4: Compare the statement to the given statement",HuggingFaceTB/SmolVLM-256M-Instruct
+167,blank_image,Are some fruits cut open or are all the fruits uncut?,(a) Some are cut open (b) All are uncut,(a),a,True," Some fruits are cut open, while all the fruits are uncut.",HuggingFaceTB/SmolVLM-256M-Instruct
+167,far_mismatch,Are some fruits cut open or are all the fruits uncut?,(a) Some are cut open (b) All are uncut,(a),?,False, None,HuggingFaceTB/SmolVLM-256M-Instruct
+167,hard_mismatch,Are some fruits cut open or are all the fruits uncut?,(a) Some are cut open (b) All are uncut,(a),b,False, All the fruits are uncut,HuggingFaceTB/SmolVLM-256M-Instruct
+186,correct_image,Is the person in the picture already standing on the weighing scale?,(a) Yes (b) No,(b),b,True," No, the person in the picture is walking on the floor.",HuggingFaceTB/SmolVLM-256M-Instruct
+186,no_image,Is the person in the picture already standing on the weighing scale?,(a) Yes (b) No,(b),b,True," No, the person in the picture is not standing on the weighing scale. The person is standing on the floor.",HuggingFaceTB/SmolVLM-256M-Instruct
+186,blank_image,Is the person in the picture already standing on the weighing scale?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+186,far_mismatch,Is the person in the picture already standing on the weighing scale?,(a) Yes (b) No,(b),b,True," No, the person in the picture is not standing on the weighing scale.",HuggingFaceTB/SmolVLM-256M-Instruct
+186,hard_mismatch,Is the person in the picture already standing on the weighing scale?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+193,correct_image,Are these vegetables placed on the floor or on the soil?,(a) Floor (b) Soil,(a),b,False, On the soil,HuggingFaceTB/SmolVLM-256M-Instruct
+193,no_image,Are these vegetables placed on the floor or on the soil?,(a) Floor (b) Soil,(a),a,True," To determine if the vegetables are placed on the floor or on the soil, we need to consider the type of soil and the type of vegetables.
+
+Step 1: Identify the type of soil
+The soil is likely made of soil, as it is a mixture of soil particles and organic matter.
+
+Step 2: Determine the type of vegetables
+The vegetables are likely to be vegetables, as they are plants that grow on the ground.
+
+Step 3: Compare the type of soil with the vegetables
+The soil is likely made of soil, as it is a mixture of soil particles and organic matter.
+
+",HuggingFaceTB/SmolVLM-256M-Instruct
+193,blank_image,Are these vegetables placed on the floor or on the soil?,(a) Floor (b) Soil,(a),b,False, On the soil,HuggingFaceTB/SmolVLM-256M-Instruct
+193,far_mismatch,Are these vegetables placed on the floor or on the soil?,(a) Floor (b) Soil,(a),a,True," No, these vegetables are not placed on the floor.",HuggingFaceTB/SmolVLM-256M-Instruct
+193,hard_mismatch,Are these vegetables placed on the floor or on the soil?,(a) Floor (b) Soil,(a),b,False, On the soil,HuggingFaceTB/SmolVLM-256M-Instruct
+198,correct_image,Is the person weighing themselves barefoot?,(a) Yes (b) No,(b),b,True," No, the person is wearing white sandals and not barefoot.",HuggingFaceTB/SmolVLM-256M-Instruct
+198,no_image,Is the person weighing themselves barefoot?,(a) Yes (b) No,(b),b,True," No, the person is not barefoot. They are wearing a pair of shoes.",HuggingFaceTB/SmolVLM-256M-Instruct
+198,blank_image,Is the person weighing themselves barefoot?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+198,far_mismatch,Is the person weighing themselves barefoot?,(a) Yes (b) No,(b),b,True," No, the person is not weighing themselves barefoot.",HuggingFaceTB/SmolVLM-256M-Instruct
+198,hard_mismatch,Is the person weighing themselves barefoot?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+205,correct_image,Is the coffee cup made of glass?,(a) Yes (b) No,(a),b,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+205,no_image,Is the coffee cup made of glass?,(a) Yes (b) No,(a),b,False," No, the coffee cup is not made of glass. It is made of a different material, which is made of a material called coffee.",HuggingFaceTB/SmolVLM-256M-Instruct
+205,blank_image,Is the coffee cup made of glass?,(a) Yes (b) No,(a),b,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+205,far_mismatch,Is the coffee cup made of glass?,(a) Yes (b) No,(a),b,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+205,hard_mismatch,Is the coffee cup made of glass?,(a) Yes (b) No,(a),b,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+212,correct_image,Is the heart-shaped object resting on the palm or being held by the fingers?,(a) Palm (b) Fingers,(b),a,False," In the first image, the heart-shaped object is being held by the fingers, while in the second image, the heart-shaped object is resting on the palm.",HuggingFaceTB/SmolVLM-256M-Instruct
+212,no_image,Is the heart-shaped object resting on the palm or being held by the fingers?,(a) Palm (b) Fingers,(b),a,False, The heart-shaped object is resting on the palm.,HuggingFaceTB/SmolVLM-256M-Instruct
+212,blank_image,Is the heart-shaped object resting on the palm or being held by the fingers?,(a) Palm (b) Fingers,(b),a,False, The heart-shaped object is resting on the palm.,HuggingFaceTB/SmolVLM-256M-Instruct
+212,far_mismatch,Is the heart-shaped object resting on the palm or being held by the fingers?,(a) Palm (b) Fingers,(b),a,False, The heart-shaped object is on the palm.,HuggingFaceTB/SmolVLM-256M-Instruct
+212,hard_mismatch,Is the heart-shaped object resting on the palm or being held by the fingers?,(a) Palm (b) Fingers,(b),a,False, On the palm,HuggingFaceTB/SmolVLM-256M-Instruct
+225,correct_image,Are all the cups and bottles in the picture the same height?,(a) Yes (b) No,(a),b,False," No, not all the cups and bottles in the picture are the same height.",HuggingFaceTB/SmolVLM-256M-Instruct
+225,no_image,Are all the cups and bottles in the picture the same height?,(a) Yes (b) No,(a),?,False," To answer this question, I will analyze the image and compare it with a few different types of objects.
+
+Step 1: Identify the main objects in the image
+- cups and bottles
+- a table
+- a chair
+- a window
+- a door
+- a wall
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+- a floor
+",HuggingFaceTB/SmolVLM-256M-Instruct
+225,blank_image,Are all the cups and bottles in the picture the same height?,(a) Yes (b) No,(a),b,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+225,far_mismatch,Are all the cups and bottles in the picture the same height?,(a) Yes (b) No,(a),b,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+225,hard_mismatch,Are all the cups and bottles in the picture the same height?,(a) Yes (b) No,(a),b,False," No
+
+### Answer:
+No, all the cups and bottles in the picture are not the same height.",HuggingFaceTB/SmolVLM-256M-Instruct
+263,correct_image,Is it a slice of cake or a whole cake in the picture?,(a) Slice (b) Whole,(a),?,False," No, there is no cake present in the picture.",HuggingFaceTB/SmolVLM-256M-Instruct
+263,no_image,Is it a slice of cake or a whole cake in the picture?,(a) Slice (b) Whole,(a),a,True," To answer this question, I will analyze the image and compare it to the concept of a slice of cake.
+
+Step 1: Identify the main elements in the image.
+- The image contains a slice of cake.
+- The slice is a slice of cake.
+
+Step 2: Compare the elements of the image.
+- The slice of cake is a slice of cake.
+- The slice is a slice of cake.
+
+Step 3: Determine if the image represents a slice of cake or a whole cake.
+- The slice of cake is a slice of cake.
+- The whole cake",HuggingFaceTB/SmolVLM-256M-Instruct
+263,blank_image,Is it a slice of cake or a whole cake in the picture?,(a) Slice (b) Whole,(a),b,False, Answer: whole cake,HuggingFaceTB/SmolVLM-256M-Instruct
+263,far_mismatch,Is it a slice of cake or a whole cake in the picture?,(a) Slice (b) Whole,(a),a,True, There is no slice of cake or whole cake present in the image.,HuggingFaceTB/SmolVLM-256M-Instruct
+263,hard_mismatch,Is it a slice of cake or a whole cake in the picture?,(a) Slice (b) Whole,(a),b,False, Both the cake and the whole cake are on a white plate.,HuggingFaceTB/SmolVLM-256M-Instruct
+271,correct_image,Is the male in the picture wearing a shirt or a T-shirt?,(a) Shirt (b) T-shirt,(a),a,True, The male in the picture is wearing a shirt.,HuggingFaceTB/SmolVLM-256M-Instruct
+271,no_image,Is the male in the picture wearing a shirt or a T-shirt?,(a) Shirt (b) T-shirt,(a),a,True," To determine if the male in the picture is wearing a shirt or a T-shirt, I will follow these steps:
+
+1. Identify the clothing: The male in the picture is wearing a shirt.
+2. Compare the clothing: The shirt is visible and is the only item of clothing visible in the picture.
+3. Determine the gender: Based on the visible clothing and the gender of the person, I can conclude that the male in the picture is wearing a shirt.
+
+Answer: Yes, the male in the picture is wearing a shirt.",HuggingFaceTB/SmolVLM-256M-Instruct
+271,blank_image,Is the male in the picture wearing a shirt or a T-shirt?,(a) Shirt (b) T-shirt,(a),?,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+271,far_mismatch,Is the male in the picture wearing a shirt or a T-shirt?,(a) Shirt (b) T-shirt,(a),a,True," No, the male in the picture is not wearing a shirt.",HuggingFaceTB/SmolVLM-256M-Instruct
+271,hard_mismatch,Is the male in the picture wearing a shirt or a T-shirt?,(a) Shirt (b) T-shirt,(a),a,True," In the first image, the male is wearing a shirt while in the second image, the male is wearing a T-shirt.",HuggingFaceTB/SmolVLM-256M-Instruct
+276,correct_image,How many trees are the treehouse built on?,(a) One (b) More than one,(b),b,True, The treehouse is built on a variety of trees.,HuggingFaceTB/SmolVLM-256M-Instruct
+276,no_image,How many trees are the treehouse built on?,(a) One (b) More than one,(b),a,False, 1,HuggingFaceTB/SmolVLM-256M-Instruct
+276,blank_image,How many trees are the treehouse built on?,(a) One (b) More than one,(b),?,False, 0,HuggingFaceTB/SmolVLM-256M-Instruct
+276,far_mismatch,How many trees are the treehouse built on?,(a) One (b) More than one,(b),?,False, 0,HuggingFaceTB/SmolVLM-256M-Instruct
+276,hard_mismatch,How many trees are the treehouse built on?,(a) One (b) More than one,(b),?,False, The treehouse is built on trees.,HuggingFaceTB/SmolVLM-256M-Instruct
+284,correct_image,"In the image, is it a salmon fillet or a salmon steak?",(a) Salmon fillet (b) Salmon steak,(b),a,False, Salmon fillet,HuggingFaceTB/SmolVLM-256M-Instruct
+284,no_image,"In the image, is it a salmon fillet or a salmon steak?",(a) Salmon fillet (b) Salmon steak,(b),a,False," Salmon fillet
+Salmon steak",HuggingFaceTB/SmolVLM-256M-Instruct
+284,blank_image,"In the image, is it a salmon fillet or a salmon steak?",(a) Salmon fillet (b) Salmon steak,(b),a,False, Salmon fillet,HuggingFaceTB/SmolVLM-256M-Instruct
+284,far_mismatch,"In the image, is it a salmon fillet or a salmon steak?",(a) Salmon fillet (b) Salmon steak,(b),a,False, Salmon fillet,HuggingFaceTB/SmolVLM-256M-Instruct
+284,hard_mismatch,"In the image, is it a salmon fillet or a salmon steak?",(a) Salmon fillet (b) Salmon steak,(b),a,False," No, it is not a salmon fillet. It is a salmon steak.",HuggingFaceTB/SmolVLM-256M-Instruct
+292,correct_image,Is the minion in the image smiling with its tongue out?,(a) Yes (b) No,(b),b,True," No, the minion in the image is not smiling with its tongue out.",HuggingFaceTB/SmolVLM-256M-Instruct
+292,no_image,Is the minion in the image smiling with its tongue out?,(a) Yes (b) No,(b),b,True," Step 1: Identify the question
+The question is asking if the minion in the image is smiling with its tongue out.
+
+Step 2: Analyze the image
+The image shows a minion, which is a small, friendly, and friendly creature. The minion is wearing a red and white striped shirt and has a red tongue. The minion's tongue is out, and it is smiling.
+
+Step 3: Compare the minion's facial expression
+The minion's tongue is out, which means it is not smiling.
+
+Step 4: Determine if the minion is smiling
+The",HuggingFaceTB/SmolVLM-256M-Instruct
+292,blank_image,Is the minion in the image smiling with its tongue out?,(a) Yes (b) No,(b),b,True, No,HuggingFaceTB/SmolVLM-256M-Instruct
+292,far_mismatch,Is the minion in the image smiling with its tongue out?,(a) Yes (b) No,(b),b,True," No, the minion in the image is not smiling with its tongue out.",HuggingFaceTB/SmolVLM-256M-Instruct
+292,hard_mismatch,Is the minion in the image smiling with its tongue out?,(a) Yes (b) No,(b),b,True," No, the minion in the image is not smiling with its tongue out.",HuggingFaceTB/SmolVLM-256M-Instruct
+150,correct_image,Is the piano's back panel on the left or right side?,(a) Left (b) Right,(b),a,False, left side,HuggingFaceTB/SmolVLM-256M-Instruct
+150,no_image,Is the piano's back panel on the left or right side?,(a) Left (b) Right,(b),a,False, The piano's back panel is on the left side.,HuggingFaceTB/SmolVLM-256M-Instruct
+150,blank_image,Is the piano's back panel on the left or right side?,(a) Left (b) Right,(b),a,False, On the left side,HuggingFaceTB/SmolVLM-256M-Instruct
+150,far_mismatch,Is the piano's back panel on the left or right side?,(a) Left (b) Right,(b),b,True, Right side,HuggingFaceTB/SmolVLM-256M-Instruct
+150,hard_mismatch,Is the piano's back panel on the left or right side?,(a) Left (b) Right,(b),a,False, On the left side,HuggingFaceTB/SmolVLM-256M-Instruct
+39,correct_image,Is the duck floating?,(a) Yes (b) No,(a),a,True," Yes, the duck is floating in the water.",HuggingFaceTB/SmolVLM-256M-Instruct
+39,no_image,Is the duck floating?,(a) Yes (b) No,(a),a,True," 1. To determine if the duck is floating, we need to consider the buoyancy of the duck.
+2. The buoyancy of a duck is determined by its weight, which is the sum of its mass and its volume.
+3. The mass of a duck is given by the formula: mass = weight + volume.
+4. The volume of a duck is given by the formula: volume = mass * weight.
+5. The weight of a duck is given by the formula: weight = mass * volume.
+6. The buoyancy of a duck is determined by the difference in height between the top and bottom of the",HuggingFaceTB/SmolVLM-256M-Instruct
+39,blank_image,Is the duck floating?,(a) Yes (b) No,(a),b,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+39,far_mismatch,Is the duck floating?,(a) Yes (b) No,(a),b,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
+39,hard_mismatch,Is the duck floating?,(a) Yes (b) No,(a),b,False, No,HuggingFaceTB/SmolVLM-256M-Instruct
