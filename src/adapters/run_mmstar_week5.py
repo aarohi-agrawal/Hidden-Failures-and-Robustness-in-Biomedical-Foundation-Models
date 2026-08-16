@@ -26,6 +26,12 @@ processor = AutoProcessor.from_pretrained(model_name)
 model = AutoModelForImageTextToText.from_pretrained(model_name, torch_dtype=torch.float16).to("cuda")
 model.eval()
 
+prompt_version = "mmstar_evidence_integrity_v1"
+prompt_file = f"prompts/{prompt_version}.txt"
+
+with open(prompt_file, "r", encoding="utf-8") as f:
+    prompt_template = f.read()
+
 bundle_id = 0
 
 image_conditions = [
@@ -68,12 +74,6 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
             question = row["question"]
             options = row["options"]
 
-            prompt_version = "mmstar_evidence_integrity_v1"
-            prompt_file = f"prompts/{prompt_version}.txt"
-
-            with open(prompt_file, "r", encoding="utf-8") as f:
-                prompt_template = f.read()
-
             prompt = prompt_template.format(question=question, options=options)
             image_path = image_paths[condition]
 
@@ -106,7 +106,7 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
 
                 with torch.inference_mode():
                     generated_ids = model.generate(**inputs, max_new_tokens=128, do_sample=False)
-                    
+
                 generated_ids = generated_ids[:, inputs["input_ids"].shape[1]:]
 
                 error = None
