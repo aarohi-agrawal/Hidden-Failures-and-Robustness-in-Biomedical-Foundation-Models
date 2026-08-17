@@ -16,7 +16,7 @@ fieldnames = [
     "model_name",
     "condition",
     "question",
-    "gold_answer",
+    "official_gold",
     "raw_response",
     "final_answer",
     "response_mode",
@@ -24,7 +24,7 @@ fieldnames = [
     "specific_visual_claim",
 ]
 
-output_file = open(f"annotation/mmstar_auto_parsed.csv", "a", encoding="utf-8")
+output_file = open(f"annotations/mmstar_auto_parsed.csv", "a", encoding="utf-8")
 writer = csv.DictWriter(output_file, fieldnames=fieldnames)
 
 judge_model = "gpt-5.6"
