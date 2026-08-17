@@ -45,7 +45,10 @@ def parse_evidence_behavior(raw_response):
         
         except Exception:
             if attempt == 1:
-                return "judge_error"
+                return json.dumps({"response_mode": "judge_error", 
+                "evidence_issue_acknowledged": "judge_error", 
+                "specific_visual_claim": "judge_error"
+                })
 
 def deterministic_parse_answer(raw_response):
     matches = re.findall(r"\b[ABCD]\b", raw_response)
