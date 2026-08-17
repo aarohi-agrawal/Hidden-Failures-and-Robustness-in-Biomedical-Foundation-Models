@@ -70,7 +70,10 @@ for input_file in input_files:
             raw_response = row["raw_response"]
 
             evidence_behavior = json.loads(parse_evidence_behavior(raw_response))
-            final_answer = parse_answer(question, options, raw_response)
+            final_answer = deterministic_parse_answer(raw_response)
+
+            if final_answer is None:
+                final_answer = parse_answer(question, options, raw_response)
 
             response_mode = evidence_behavior["response_mode"]
             evidence_issue_acknowledged = evidence_behavior["evidence_issue_acknowledged"]
