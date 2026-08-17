@@ -35,3 +35,20 @@ def parse_answer(question, options, raw_response):
 
     return response.output_text.strip()
 
+for input_file in input_files:
+    with open(input_file, "r", encoding="utf-8") as f:
+        for line in f:
+            row = json.loads(line)
+
+            question = row["question"]
+            options = row["options"]
+            raw_response = row["raw_response"]
+
+            evidence_behavior = json.loads(parse_evidence_behavior(raw_response))
+            final_answer = parse_answer(question, options, raw_response)
+
+            response_mode = evidence_behavior["response_mode"]
+            evidence_issue_acknowledged = evidence_behavior["evidence_issue_acknowledged"]
+            specific_visual_claim = evidence_behavior["specific_visual_claim"]
+
+            
