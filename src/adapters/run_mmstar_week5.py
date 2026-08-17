@@ -23,7 +23,7 @@ formatted_name = model_name.split("/")[-1]
 output_file = open(f"outputs/raw/mmstar_{formatted_name}.jsonl", "w", encoding="utf-8")
 
 processor = AutoProcessor.from_pretrained(model_name)
-model = AutoModelForImageTextToText.from_pretrained(model_name, torch_dtype=torch.float16).to("cuda")
+model = AutoModelForImageTextToText.from_pretrained(model_name, torch_dtype=torch.float16, device_map="auto")
 model.eval()
 
 prompt_version = "mmstar_evidence_integrity_v1"
