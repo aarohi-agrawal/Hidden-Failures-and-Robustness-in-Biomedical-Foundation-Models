@@ -112,6 +112,14 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
                 error = None
                 raw_response = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
+                del generated_ids
+                del inputs
+
+                if image_path:
+                    del image
+
+                torch.cuda.empty_cache()
+
             except Exception as e:
                 error = str(e)
                 raw_response = ""
