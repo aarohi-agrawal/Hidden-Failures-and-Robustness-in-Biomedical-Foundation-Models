@@ -31,3 +31,11 @@ All mismatched images were manually compared with the original questions & image
 - hard_mismatch images are relevant to the original question + can provide a plausible answer
 
 ## Smoke Test Report
+
+Prior to running the 3 models on the full 60-case seed set, a smoke test was conducted on the first 5 rows of the set.  This produced 25 outputs per model (75 in total).  The results of the smoke test showed that:
+
+- Each of the models successfully loaded and produced meaningful outputs.
+- The mismatch map was correctly read for far & hard mismatch image paths.
+- Each of the 5 evidence conditions were evaluated for every bundle. 
+- Valid JSON output was produced and written to the appropriate file.
+
