@@ -82,3 +82,5 @@ for input_file in input_files:
             }
 
             writer.writerow(parsed_row)
+
+output_file.close()
