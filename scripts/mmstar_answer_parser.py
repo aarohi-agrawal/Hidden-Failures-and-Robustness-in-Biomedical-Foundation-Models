@@ -9,7 +9,23 @@ input_files = [
     "outputs/raw/mmstar_Qwen2.5-VL-7B-Instruct.jsonl",
     "outputs/raw/mmstar_SmolVLM-256M-Instruct.jsonl",
 ]
-output_file = open(f"annotation/mmstar_auto_parsed.csv", "w", encoding="utf-8")
+
+fieldnames = [
+    "source_id",
+    "bundle_id",
+    "model_name",
+    "condition",
+    "question",
+    "gold_answer",
+    "raw_response",
+    "final_answer",
+    "response_mode",
+    "evidence_issue_acknowledged",
+    "specific_visual_claim",
+]
+
+output_file = open(f"annotation/mmstar_auto_parsed.csv", "a", encoding="utf-8")
+writer = csv.DictWriter(output_file, fieldnames=fieldnames)
 
 judge_model = "gpt-5.6"
 
@@ -51,4 +67,18 @@ for input_file in input_files:
             evidence_issue_acknowledged = evidence_behavior["evidence_issue_acknowledged"]
             specific_visual_claim = evidence_behavior["specific_visual_claim"]
 
-            
+            parsed_row = {
+                "source_id": row["source_id"],
+                "bundle_id": row["bundle_id"],
+                "model_name": row["model_name"],
+                "condition": row["condition"],
+                "question": row["question"],
+                "official_gold": row["official_gold"],
+                "raw_response": row["raw_response"],
+                "final_answer": final_answer,
+                "response_mode": response_mode,
+                "evidence_issue_acknowledged": evidence_issue_acknowledged,
+                "specific_visual_claim": specific_visual_claim
+            }
+
+            writer.writerow(parsed_row)
