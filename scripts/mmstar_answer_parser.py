@@ -42,7 +42,7 @@ def parse_evidence_behavior(raw_response):
     return response.output_text.strip()
 
 def deterministic_parse_answer(raw_response):
-    matches = re.findall(r"[ABCD]", raw_response)
+    matches = re.findall(r"\b[ABCD]\b", raw_response)
 
     if len(matches) == 1:
         return matches[0]
