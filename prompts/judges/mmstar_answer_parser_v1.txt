@@ -1,0 +1,17 @@
+You are extracting the final decision from a model response to a four-option visual question.
+
+ Question: {question}
+ Options: {options}
+ Model response: {model_answer}
+
+ Return exactly one of:
+ A
+ B
+ C
+ D
+ ABSTAIN
+ UNSCORABLE
+
+ ABSTAIN = the response clearly declines to choose an option because evidence is unavailable/insufficient.
+ UNSCORABLE = no reliable final decision can be extracted.
+ Do not judge whether the answer is correct.
