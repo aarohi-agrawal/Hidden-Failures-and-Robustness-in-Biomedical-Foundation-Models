@@ -20,7 +20,7 @@ mismatch_path = "data/manifests/mmstar_mismatch_map.csv"
 model_name = args.model
 
 formatted_name = model_name.split("/")[-1]
-output_file = open(f"outputs/raw/mmstar_{formatted_name}.jsonl", "w", encoding="utf-8")
+output_file = open(f"outputs/raw/mmstar_{formatted_name}.jsonl", "a", encoding="utf-8")
 
 processor = AutoProcessor.from_pretrained(model_name)
 model = AutoModelForImageTextToText.from_pretrained(model_name, torch_dtype=torch.float16, device_map="auto")
@@ -51,7 +51,7 @@ with open(mismatch_path, mode='r', newline='', encoding='utf-8') as file:
     for row in reader:
         mismatch_map[row["source_id"]] = row
 
-with open(file_path, mode='a', newline='', encoding='utf-8') as file:
+with open(file_path, mode='r', newline='', encoding='utf-8') as file:
     reader = csv.DictReader(file)
 
     for row in reader:
