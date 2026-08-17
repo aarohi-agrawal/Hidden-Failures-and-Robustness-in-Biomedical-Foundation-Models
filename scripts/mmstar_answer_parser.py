@@ -37,9 +37,14 @@ def parse_evidence_behavior(raw_response):
         prompt_template = f.read()
 
     prompt = prompt_template.format(model_answer=raw_response)
-    response = client.responses.create(model=judge_model, input=prompt)
 
-    return response.output_text.strip()
+    for attempt in range(2):
+        try: 
+            response = client.responses.create(model=judge_model, input=prompt)
+            return response.output_text.strip()
+        except Exception:
+            if attempt == 1:
+                return "judge_error"
 
 def deterministic_parse_answer(raw_response):
     matches = re.findall(r"\b[ABCD]\b", raw_response)
