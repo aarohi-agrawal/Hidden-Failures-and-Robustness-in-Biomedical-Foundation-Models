@@ -1,6 +1,7 @@
 import json
 import csv
 from openai import OpenAI
+import re
 
 client = OpenAI()
 
@@ -39,6 +40,14 @@ def parse_evidence_behavior(raw_response):
     response = client.responses.create(model=judge_model, input=prompt)
 
     return response.output_text.strip()
+
+def deterministic_parse_answer(raw_response):
+    matches = re.findall(r"[ABCD]", raw_response)
+
+    if len(matches) == 1:
+        return matches[0]
+    
+    return None
 
 def parse_answer(question, options, raw_response):
     prompt_file = f"prompts/judges/mmstar_answer_parser_v1.txt"
