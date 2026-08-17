@@ -51,10 +51,14 @@ with open(mismatch_path, mode='r', newline='', encoding='utf-8') as file:
     for row in reader:
         mismatch_map[row["source_id"]] = row
 
-with open(file_path, mode='r', newline='', encoding='utf-8') as file:
+with open(file_path, mode='a', newline='', encoding='utf-8') as file:
     reader = csv.DictReader(file)
 
     for row in reader:
+        if bundle_id < 45:
+            bundle_id += 1
+            continue
+
         mismatch = mismatch_map[row["source_id"]]
 
         mismatch_source_ids = {
