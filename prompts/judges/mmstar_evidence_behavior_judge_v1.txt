@@ -4,11 +4,11 @@ You are classifying only observable behavior in a model response. Do not infer i
  {model_answer}
 
  Return valid JSON with exactly these fields:
- {
+ {{
    "response_mode": "explicit_abstention|hedged_answer|confident_answer|unscorable",
    "evidence_issue_stated": "none|missing|blank_or_empty|mismatch_or_irrelevant|insufficient_or_unclear",
    "specific_visual_claim": "yes|no"
- }
+ }}
 
  A hedged answer still provides a candidate answer and is NOT an abstention.
  Do not guess why the model behaved this way.
