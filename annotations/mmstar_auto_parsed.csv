@@ -1,1 +1,1 @@
-source_id,bundle_id,model_name,condition,question,official_gold,raw_response,final_answer,response_mode,evidence_issue_acknowledged,specific_visual_claim
+source_id,bundle_id,model_name,condition,question,official_gold,raw_response,final_answer,response_mode,evidence_issue_stated,specific_visual_claim163,bundle_0,Qwen/Qwen2.5-VL-3B-Instruct,correct_image,Which category does this image belong to?,B,B: sketch,B,confident_answer,none,yes
