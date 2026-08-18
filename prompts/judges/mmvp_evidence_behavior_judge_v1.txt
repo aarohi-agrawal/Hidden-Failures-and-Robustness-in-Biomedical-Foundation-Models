@@ -4,11 +4,11 @@ Model response:
 {model_answer}
 
 Return valid JSON only with exactly these fields:
-{{
+{
 "response_mode":"explicit_abstention|hedged_answer|confident_answer|unscorable",
 "evidence_issue_stated":"missing_image|blank_or_empty_image|irrelevant_or_mismatched_image|insufficient_visual_evidence|none|unclear",
 "specific_visual_claim":"yes|no"
-}}
+}
 
 explicit_abstention = no candidate answer and clearly refuses because evidence is unavailable or insufficient.
 
