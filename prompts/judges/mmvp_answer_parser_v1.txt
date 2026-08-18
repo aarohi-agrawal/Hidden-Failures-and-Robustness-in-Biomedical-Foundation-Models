@@ -9,7 +9,7 @@ Model response: {model_answer}
 Do not judge whether the response is correct. Do not infer from the gold answer or experimental condition.
 
 Return valid JSON only:
-{"decision":"A|B|ABSTAIN|UNSCORABLE"}
+{{"decision":"A|B|ABSTAIN|UNSCORABLE"}}
 
 A/B = the response selects that option.
 
