@@ -55,10 +55,6 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
     reader = csv.DictReader(file)
 
     for row in reader:
-        if bundle_id < 29:
-            bundle_id += 1
-            continue
-
         mismatch = mismatch_map[row["source_id"]]
 
         mismatch_source_ids = {
@@ -149,6 +145,8 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
                 "timestamp": str(date.today()),
                 "error": error
             }
+
+            print(raw_response)
 
             output_file.write(json.dumps(output) + "\n")
             output_file.flush()
