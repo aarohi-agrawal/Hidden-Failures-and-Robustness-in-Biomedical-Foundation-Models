@@ -28,7 +28,7 @@ fieldnames = [
 output_file = open(f"annotations/mmstar_auto_parsed.csv", "a", encoding="utf-8")
 writer = csv.DictWriter(output_file, fieldnames=fieldnames)
 
-judge_model = "gpt-5.6"
+judge_model = "gpt-5"
 
 def parse_evidence_behavior(raw_response):
     prompt_file = f"prompts/judges/mmstar_evidence_behavior_judge_v1.txt"
