@@ -1,1 +1,332 @@
 source_id,bundle_id,model_name,condition,question,official_gold,raw_response,decision,response_mode,evidence_issue_stated,specific_visual_claim
+163,bundle_0,HuggingFaceTB/SmolVLM-Instruct,correct_image,Which category does this image belong to?,B, Answer: B,B,confident_answer,none,no
+163,bundle_0,HuggingFaceTB/SmolVLM-Instruct,no_image,Which category does this image belong to?,B, Answer: B,B,confident_answer,none,no
+163,bundle_0,HuggingFaceTB/SmolVLM-Instruct,blank_image,Which category does this image belong to?,B, Answer: B,B,confident_answer,none,no
+163,bundle_0,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Which category does this image belong to?,B, Answer: B,B,confident_answer,none,no
+163,bundle_0,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Which category does this image belong to?,B, Answer: B,B,confident_answer,none,no
+28,bundle_1,HuggingFaceTB/SmolVLM-Instruct,correct_image,What is the primary activity depicted in the image?,A, Answer: A,A,confident_answer,none,no
+28,bundle_1,HuggingFaceTB/SmolVLM-Instruct,no_image,What is the primary activity depicted in the image?,A, Answer: B,B,confident_answer,none,no
+28,bundle_1,HuggingFaceTB/SmolVLM-Instruct,blank_image,What is the primary activity depicted in the image?,A, Answer: B,B,confident_answer,none,no
+28,bundle_1,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What is the primary activity depicted in the image?,A,,UNSCORABLE,unscorable,blank_or_empty,no
+28,bundle_1,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What is the primary activity depicted in the image?,A, Answer: B,B,confident_answer,none,no
+6,bundle_2,HuggingFaceTB/SmolVLM-Instruct,correct_image,What is the overall theme of the image?,A, Answer: C,C,confident_answer,none,no
+6,bundle_2,HuggingFaceTB/SmolVLM-Instruct,no_image,What is the overall theme of the image?,A, Answer: C,C,confident_answer,none,no
+6,bundle_2,HuggingFaceTB/SmolVLM-Instruct,blank_image,What is the overall theme of the image?,A, Answer: C,C,confident_answer,none,no
+6,bundle_2,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What is the overall theme of the image?,A, Answer: C,C,confident_answer,missing,no
+6,bundle_2,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What is the overall theme of the image?,A, Answer: C,C,confident_answer,none,no
+189,bundle_3,HuggingFaceTB/SmolVLM-Instruct,correct_image,What feeling is shown in this image?,B, Answer: B,B,confident_answer,none,no
+189,bundle_3,HuggingFaceTB/SmolVLM-Instruct,no_image,What feeling is shown in this image?,B, Answer: B,B,confident_answer,none,no
+189,bundle_3,HuggingFaceTB/SmolVLM-Instruct,blank_image,What feeling is shown in this image?,B, Answer: B,B,confident_answer,none,no
+189,bundle_3,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What feeling is shown in this image?,B, Answer: B,B,confident_answer,none,no
+189,bundle_3,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What feeling is shown in this image?,B, Answer: B,B,confident_answer,none,no
+70,bundle_4,HuggingFaceTB/SmolVLM-Instruct,correct_image,What is the main object present in the foreground of the image?,B, Answer: B,B,confident_answer,none,no
+70,bundle_4,HuggingFaceTB/SmolVLM-Instruct,no_image,What is the main object present in the foreground of the image?,B, Answer: A,A,confident_answer,none,no
+70,bundle_4,HuggingFaceTB/SmolVLM-Instruct,blank_image,What is the main object present in the foreground of the image?,B, Answer: A,A,confident_answer,none,no
+70,bundle_4,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What is the main object present in the foreground of the image?,B, Answer: C,C,confident_answer,none,no
+70,bundle_4,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What is the main object present in the foreground of the image?,B, Answer: A,A,confident_answer,none,no
+62,bundle_5,HuggingFaceTB/SmolVLM-Instruct,correct_image,What is the main feature of this image?,A, Answer: C,C,confident_answer,none,no
+62,bundle_5,HuggingFaceTB/SmolVLM-Instruct,no_image,What is the main feature of this image?,A, Answer: C,C,confident_answer,none,no
+62,bundle_5,HuggingFaceTB/SmolVLM-Instruct,blank_image,What is the main feature of this image?,A, Answer: C,C,confident_answer,none,no
+62,bundle_5,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What is the main feature of this image?,A, Answer: C,C,confident_answer,none,no
+62,bundle_5,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What is the main feature of this image?,A, Answer: B,B,confident_answer,none,no
+57,bundle_6,HuggingFaceTB/SmolVLM-Instruct,correct_image,What is the main theme of the image?,A, Answer: A,A,confident_answer,none,no
+57,bundle_6,HuggingFaceTB/SmolVLM-Instruct,no_image,What is the main theme of the image?,A, Answer: A,A,confident_answer,none,no
+57,bundle_6,HuggingFaceTB/SmolVLM-Instruct,blank_image,What is the main theme of the image?,A, Answer: A,A,confident_answer,none,no
+57,bundle_6,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What is the main theme of the image?,A, Answer: D,D,confident_answer,none,no
+57,bundle_6,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What is the main theme of the image?,A, Answer: D,D,confident_answer,none,no
+35,bundle_7,HuggingFaceTB/SmolVLM-Instruct,correct_image,What is the dominant color in the image?,A, Answer: B,B,confident_answer,none,no
+35,bundle_7,HuggingFaceTB/SmolVLM-Instruct,no_image,What is the dominant color in the image?,A, Answer: B,B,confident_answer,none,no
+35,bundle_7,HuggingFaceTB/SmolVLM-Instruct,blank_image,What is the dominant color in the image?,A, Answer: A,A,confident_answer,none,no
+35,bundle_7,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What is the dominant color in the image?,A, Answer: A,A,confident_answer,none,no
+35,bundle_7,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What is the dominant color in the image?,A, Answer: D,D,confident_answer,none,no
+188,bundle_8,HuggingFaceTB/SmolVLM-Instruct,correct_image,Which mood does this image convey?,A, Answer: A,A,confident_answer,none,no
+188,bundle_8,HuggingFaceTB/SmolVLM-Instruct,no_image,Which mood does this image convey?,A, Answer: A,A,confident_answer,none,no
+188,bundle_8,HuggingFaceTB/SmolVLM-Instruct,blank_image,Which mood does this image convey?,A, Answer: A,A,confident_answer,none,no
+188,bundle_8,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Which mood does this image convey?,A, Answer: C,C,confident_answer,none,no
+188,bundle_8,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Which mood does this image convey?,A, Answer: D,D,confident_answer,none,no
+26,bundle_9,HuggingFaceTB/SmolVLM-Instruct,correct_image,What is the main focus of the image?,B, Answer: A,A,confident_answer,none,no
+26,bundle_9,HuggingFaceTB/SmolVLM-Instruct,no_image,What is the main focus of the image?,B, Answer: D,D,confident_answer,none,no
+26,bundle_9,HuggingFaceTB/SmolVLM-Instruct,blank_image,What is the main focus of the image?,B, Answer: D,D,confident_answer,none,no
+26,bundle_9,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What is the main focus of the image?,B, Answer: D,D,confident_answer,none,no
+26,bundle_9,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What is the main focus of the image?,B, Answer: D,D,confident_answer,none,no
+413,bundle_10,HuggingFaceTB/SmolVLM-Instruct,correct_image,Who is this person?,D, C,C,confident_answer,none,no
+413,bundle_10,HuggingFaceTB/SmolVLM-Instruct,no_image,Who is this person?,D, Answer: C,C,confident_answer,none,no
+413,bundle_10,HuggingFaceTB/SmolVLM-Instruct,blank_image,Who is this person?,D, Answer: C,C,confident_answer,none,no
+413,bundle_10,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Who is this person?,D, Answer: C,C,confident_answer,none,no
+413,bundle_10,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Who is this person?,D, Answer: B,B,confident_answer,none,no
+278,bundle_11,HuggingFaceTB/SmolVLM-Instruct,correct_image,What is the dominant color in this image?,B, Answer: A,A,confident_answer,none,no
+278,bundle_11,HuggingFaceTB/SmolVLM-Instruct,no_image,What is the dominant color in this image?,B, Answer: A,A,confident_answer,none,no
+278,bundle_11,HuggingFaceTB/SmolVLM-Instruct,blank_image,What is the dominant color in this image?,B, Answer: A,A,confident_answer,none,no
+278,bundle_11,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What is the dominant color in this image?,B, Answer: A,A,confident_answer,none,no
+278,bundle_11,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What is the dominant color in this image?,B, Answer: D,D,confident_answer,none,no
+256,bundle_12,HuggingFaceTB/SmolVLM-Instruct,correct_image,Which scene category matches this image the best?,C, C,C,confident_answer,none,no
+256,bundle_12,HuggingFaceTB/SmolVLM-Instruct,no_image,Which scene category matches this image the best?,C, Answer: A,A,confident_answer,none,no
+256,bundle_12,HuggingFaceTB/SmolVLM-Instruct,blank_image,Which scene category matches this image the best?,C, Answer: A,A,confident_answer,none,no
+256,bundle_12,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Which scene category matches this image the best?,C, Answer: B,B,confident_answer,none,no
+256,bundle_12,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Which scene category matches this image the best?,C, Answer: B,B,confident_answer,none,no
+439,bundle_13,HuggingFaceTB/SmolVLM-Instruct,correct_image,How many guitars are being played in the image?,C, Answer: A,A,confident_answer,none,no
+439,bundle_13,HuggingFaceTB/SmolVLM-Instruct,no_image,How many guitars are being played in the image?,C, Answer: B,B,confident_answer,missing,no
+439,bundle_13,HuggingFaceTB/SmolVLM-Instruct,blank_image,How many guitars are being played in the image?,C, Answer: B,B,confident_answer,none,no
+439,bundle_13,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,How many guitars are being played in the image?,C, Answer: B,B,confident_answer,none,no
+439,bundle_13,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,How many guitars are being played in the image?,C, Answer: B,B,confident_answer,none,no
+320,bundle_14,HuggingFaceTB/SmolVLM-Instruct,correct_image,Is the tree in front of the house with leaves or without leaves?,B, Answer: D,D,confident_answer,none,no
+320,bundle_14,HuggingFaceTB/SmolVLM-Instruct,no_image,Is the tree in front of the house with leaves or without leaves?,B, Answer: D,D,confident_answer,none,no
+320,bundle_14,HuggingFaceTB/SmolVLM-Instruct,blank_image,Is the tree in front of the house with leaves or without leaves?,B, Answer: D,D,confident_answer,none,no
+320,bundle_14,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Is the tree in front of the house with leaves or without leaves?,B, Answer: A,A,confident_answer,none,no
+320,bundle_14,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Is the tree in front of the house with leaves or without leaves?,B, Answer: A,A,confident_answer,none,no
+312,bundle_15,HuggingFaceTB/SmolVLM-Instruct,correct_image,What is the color of the couch in the image?,B, Answer: B,B,confident_answer,none,no
+312,bundle_15,HuggingFaceTB/SmolVLM-Instruct,no_image,What is the color of the couch in the image?,B, Answer: B,B,confident_answer,none,no
+312,bundle_15,HuggingFaceTB/SmolVLM-Instruct,blank_image,What is the color of the couch in the image?,B, Answer: A,A,confident_answer,none,no
+312,bundle_15,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What is the color of the couch in the image?,B, Answer: B,B,confident_answer,none,no
+312,bundle_15,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What is the color of the couch in the image?,B, Answer: A,A,confident_answer,none,no
+307,bundle_16,HuggingFaceTB/SmolVLM-Instruct,correct_image,How many toys are present in the image?,D, Answer: D,D,confident_answer,none,no
+307,bundle_16,HuggingFaceTB/SmolVLM-Instruct,no_image,How many toys are present in the image?,D, Answer: C,C,confident_answer,missing,no
+307,bundle_16,HuggingFaceTB/SmolVLM-Instruct,blank_image,How many toys are present in the image?,D, Answer: A,A,confident_answer,none,no
+307,bundle_16,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,How many toys are present in the image?,D, Answer: D,D,confident_answer,none,no
+307,bundle_16,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,How many toys are present in the image?,D, Answer: A,A,confident_answer,none,no
+285,bundle_17,HuggingFaceTB/SmolVLM-Instruct,correct_image,Where is the seated person visible in the image?,C, Answer: D,D,confident_answer,none,no
+285,bundle_17,HuggingFaceTB/SmolVLM-Instruct,no_image,Where is the seated person visible in the image?,C, Answer: C,C,confident_answer,none,no
+285,bundle_17,HuggingFaceTB/SmolVLM-Instruct,blank_image,Where is the seated person visible in the image?,C, Answer: C,C,confident_answer,none,no
+285,bundle_17,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Where is the seated person visible in the image?,C, Answer: C,C,confident_answer,none,no
+285,bundle_17,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Where is the seated person visible in the image?,C, Answer: D,D,confident_answer,none,no
+438,bundle_18,HuggingFaceTB/SmolVLM-Instruct,correct_image,What is the position of the person playing an instrument in the image?,B, Answer: A,A,confident_answer,none,no
+438,bundle_18,HuggingFaceTB/SmolVLM-Instruct,no_image,What is the position of the person playing an instrument in the image?,B, Answer: A,A,confident_answer,none,no
+438,bundle_18,HuggingFaceTB/SmolVLM-Instruct,blank_image,What is the position of the person playing an instrument in the image?,B, Answer: A,A,confident_answer,none,no
+438,bundle_18,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What is the position of the person playing an instrument in the image?,B, Answer: C,C,confident_answer,missing,no
+438,bundle_18,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What is the position of the person playing an instrument in the image?,B, Answer: C,C,confident_answer,none,no
+276,bundle_19,HuggingFaceTB/SmolVLM-Instruct,correct_image,What is the dominant color in this image?,B, Answer: C,C,confident_answer,none,no
+276,bundle_19,HuggingFaceTB/SmolVLM-Instruct,no_image,What is the dominant color in this image?,B, Answer: C,C,confident_answer,none,no
+276,bundle_19,HuggingFaceTB/SmolVLM-Instruct,blank_image,What is the dominant color in this image?,B, Answer: D,D,confident_answer,none,no
+276,bundle_19,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What is the dominant color in this image?,B, Answer: A,A,confident_answer,none,no
+276,bundle_19,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What is the dominant color in this image?,B, Answer: C,C,confident_answer,none,no
+663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,correct_image,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: C,C,confident_answer,none,no
+663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,no_image,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: A,A,confident_answer,none,no
+663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,blank_image,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: A,A,confident_answer,none,no
+663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: A,A,confident_answer,none,no
+663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: C,C,confident_answer,none,no
+528,bundle_21,HuggingFaceTB/SmolVLM-Instruct,correct_image,The object shown in this figure:,B, Answer: A,A,confident_answer,none,no
+528,bundle_21,HuggingFaceTB/SmolVLM-Instruct,no_image,The object shown in this figure:,B, Answer: A,A,confident_answer,none,no
+528,bundle_21,HuggingFaceTB/SmolVLM-Instruct,blank_image,The object shown in this figure:,B, Answer: D,D,confident_answer,none,no
+528,bundle_21,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,The object shown in this figure:,B, Answer: D,D,confident_answer,none,no
+528,bundle_21,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,The object shown in this figure:,B, Answer: B,B,confident_answer,none,no
+506,bundle_22,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the age gap between these two people in image? (Unit: years)",C, Answer: A,A,confident_answer,none,no
+506,bundle_22,HuggingFaceTB/SmolVLM-Instruct,no_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the age gap between these two people in image? (Unit: years)",C, Answer: A,A,confident_answer,none,no
+506,bundle_22,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the age gap between these two people in image? (Unit: years)",C, Answer: A,A,confident_answer,none,no
+506,bundle_22,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the age gap between these two people in image? (Unit: years)",C, Answer: A,A,confident_answer,none,no
+506,bundle_22,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the age gap between these two people in image? (Unit: years)",C, Answer: A,A,confident_answer,none,no
+689,bundle_23,HuggingFaceTB/SmolVLM-Instruct,correct_image,What's the function of the demonstrated object?,D,,UNSCORABLE,unscorable,blank_or_empty,no
+689,bundle_23,HuggingFaceTB/SmolVLM-Instruct,no_image,What's the function of the demonstrated object?,D," A: grill
+
+The function of the demonstrated object is to grill food.",A,confident_answer,none,yes
+689,bundle_23,HuggingFaceTB/SmolVLM-Instruct,blank_image,What's the function of the demonstrated object?,D, A,A,confident_answer,none,no
+689,bundle_23,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What's the function of the demonstrated object?,D, A,A,confident_answer,none,no
+689,bundle_23,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What's the function of the demonstrated object?,D, A: boil water,A,confident_answer,none,no
+570,bundle_24,HuggingFaceTB/SmolVLM-Instruct,correct_image,What is the relative position of the ocean to the pier in the image?,B, Answer: A,A,confident_answer,none,no
+570,bundle_24,HuggingFaceTB/SmolVLM-Instruct,no_image,What is the relative position of the ocean to the pier in the image?,B, Answer: A,A,confident_answer,none,no
+570,bundle_24,HuggingFaceTB/SmolVLM-Instruct,blank_image,What is the relative position of the ocean to the pier in the image?,B, Answer: A,A,confident_answer,none,no
+570,bundle_24,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What is the relative position of the ocean to the pier in the image?,B, Answer: D,D,confident_answer,none,no
+570,bundle_24,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What is the relative position of the ocean to the pier in the image?,B, Answer: A,A,confident_answer,none,no
+562,bundle_25,HuggingFaceTB/SmolVLM-Instruct,correct_image,What type of television is present in the room?,A, Answer: A,A,confident_answer,none,no
+562,bundle_25,HuggingFaceTB/SmolVLM-Instruct,no_image,What type of television is present in the room?,A, Answer: D,D,confident_answer,none,no
+562,bundle_25,HuggingFaceTB/SmolVLM-Instruct,blank_image,What type of television is present in the room?,A, Answer: A,A,confident_answer,none,no
+562,bundle_25,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What type of television is present in the room?,A, Answer: A,A,confident_answer,none,no
+562,bundle_25,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What type of television is present in the room?,A, Answer: C,C,confident_answer,none,no
+557,bundle_26,HuggingFaceTB/SmolVLM-Instruct,correct_image,What's the function of the demonstrated object?,D, Answer: A,A,confident_answer,none,no
+557,bundle_26,HuggingFaceTB/SmolVLM-Instruct,no_image,What's the function of the demonstrated object?,D, Answer: B,B,confident_answer,none,no
+557,bundle_26,HuggingFaceTB/SmolVLM-Instruct,blank_image,What's the function of the demonstrated object?,D, Answer: D,D,confident_answer,none,no
+557,bundle_26,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What's the function of the demonstrated object?,D, Answer: A,A,confident_answer,none,no
+557,bundle_26,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What's the function of the demonstrated object?,D, Answer: A,A,confident_answer,none,no
+535,bundle_27,HuggingFaceTB/SmolVLM-Instruct,correct_image,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,B, Answer: C,C,confident_answer,none,no
+535,bundle_27,HuggingFaceTB/SmolVLM-Instruct,no_image,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,B, C: The magnitude of the magnetic force is the same in both pairs.,C,confident_answer,none,no
+535,bundle_27,HuggingFaceTB/SmolVLM-Instruct,blank_image,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,B, Answer: C,C,confident_answer,none,no
+535,bundle_27,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,B, Answer: C,C,confident_answer,none,no
+535,bundle_27,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,B, Answer: C,C,confident_answer,none,no
+688,bundle_28,HuggingFaceTB/SmolVLM-Instruct,correct_image,In what situations would the scene in the picture appear?,D, Answer: A,A,confident_answer,none,no
+688,bundle_28,HuggingFaceTB/SmolVLM-Instruct,no_image,In what situations would the scene in the picture appear?,D, Answer: D,D,confident_answer,missing,no
+688,bundle_28,HuggingFaceTB/SmolVLM-Instruct,blank_image,In what situations would the scene in the picture appear?,D, Answer: D,D,confident_answer,none,no
+688,bundle_28,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,In what situations would the scene in the picture appear?,D, Answer: D,D,confident_answer,none,no
+688,bundle_28,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,In what situations would the scene in the picture appear?,D, Answer: A,A,confident_answer,none,no
+526,bundle_29,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the age gap between these two people in image? (Unit: years)",D, Answer: A,A,confident_answer,none,no
+526,bundle_29,HuggingFaceTB/SmolVLM-Instruct,no_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the age gap between these two people in image? (Unit: years)",D, Answer: A,A,confident_answer,none,no
+526,bundle_29,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the age gap between these two people in image? (Unit: years)",D, Answer: A,A,confident_answer,none,no
+526,bundle_29,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the age gap between these two people in image? (Unit: years)",D, Answer: A,A,confident_answer,none,no
+526,bundle_29,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the age gap between these two people in image? (Unit: years)",D, Answer: A,A,confident_answer,none,no
+913,bundle_30,HuggingFaceTB/SmolVLM-Instruct,correct_image,Which month is the wettest on average in Christchurch?,C, Answer: C,C,confident_answer,none,no
+913,bundle_30,HuggingFaceTB/SmolVLM-Instruct,no_image,Which month is the wettest on average in Christchurch?,C, Answer: A,A,confident_answer,none,no
+913,bundle_30,HuggingFaceTB/SmolVLM-Instruct,blank_image,Which month is the wettest on average in Christchurch?,C, Answer: A,A,confident_answer,none,no
+913,bundle_30,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Which month is the wettest on average in Christchurch?,C, Answer: A,A,confident_answer,none,no
+913,bundle_30,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Which month is the wettest on average in Christchurch?,C, Answer: C,C,confident_answer,none,no
+778,bundle_31,HuggingFaceTB/SmolVLM-Instruct,correct_image,What python code is gonna generate the result as shown in the image?,A,,UNSCORABLE,unscorable,blank_or_empty,no
+778,bundle_31,HuggingFaceTB/SmolVLM-Instruct,no_image,What python code is gonna generate the result as shown in the image?,A," B: if 5 > 2: print(""Five is greater than two!"")
+
+Answer: B",B,confident_answer,none,no
+778,bundle_31,HuggingFaceTB/SmolVLM-Instruct,blank_image,What python code is gonna generate the result as shown in the image?,A," A: if 5 > 2: print(Five is greater than two!"")",A,confident_answer,none,no
+778,bundle_31,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What python code is gonna generate the result as shown in the image?,A," B: if 5 > 2: print(""Five is greater than two!"")
+print(""Five is greater than two!"")",B,confident_answer,none,no
+778,bundle_31,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What python code is gonna generate the result as shown in the image?,A, Answer: A,A,confident_answer,missing,no
+756,bundle_32,HuggingFaceTB/SmolVLM-Instruct,correct_image,Where is the woman holding her belly in the image?,B, Answer: A,A,confident_answer,none,no
+756,bundle_32,HuggingFaceTB/SmolVLM-Instruct,no_image,Where is the woman holding her belly in the image?,B, Answer: D,D,confident_answer,none,no
+756,bundle_32,HuggingFaceTB/SmolVLM-Instruct,blank_image,Where is the woman holding her belly in the image?,B, Answer: D,D,confident_answer,none,no
+756,bundle_32,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Where is the woman holding her belly in the image?,B, Answer: D,D,confident_answer,none,no
+756,bundle_32,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Where is the woman holding her belly in the image?,B, D,D,confident_answer,none,no
+939,bundle_33,HuggingFaceTB/SmolVLM-Instruct,correct_image,What time of day is it at stage 1?,B, Answer: C,C,confident_answer,none,no
+939,bundle_33,HuggingFaceTB/SmolVLM-Instruct,no_image,What time of day is it at stage 1?,B, Answer: C,C,confident_answer,missing,no
+939,bundle_33,HuggingFaceTB/SmolVLM-Instruct,blank_image,What time of day is it at stage 1?,B, Answer: C,C,confident_answer,none,no
+939,bundle_33,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What time of day is it at stage 1?,B, Answer: C,C,confident_answer,none,no
+939,bundle_33,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What time of day is it at stage 1?,B, Answer: C,C,confident_answer,none,no
+820,bundle_34,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the difference between the highest and the lowest value of blue bar?",A, Answer: A,A,confident_answer,none,no
+820,bundle_34,HuggingFaceTB/SmolVLM-Instruct,no_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the difference between the highest and the lowest value of blue bar?",A, Answer: A,A,confident_answer,none,no
+820,bundle_34,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the difference between the highest and the lowest value of blue bar?",A, Answer: A,A,confident_answer,none,no
+820,bundle_34,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the difference between the highest and the lowest value of blue bar?",A, Answer: A,A,confident_answer,none,no
+820,bundle_34,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the difference between the highest and the lowest value of blue bar?",A, Answer: A,A,confident_answer,none,no
+812,bundle_35,HuggingFaceTB/SmolVLM-Instruct,correct_image,Is there a teddy bear in the image?,B, Answer: C,C,confident_answer,none,no
+812,bundle_35,HuggingFaceTB/SmolVLM-Instruct,no_image,Is there a teddy bear in the image?,B, Answer: C,C,confident_answer,none,no
+812,bundle_35,HuggingFaceTB/SmolVLM-Instruct,blank_image,Is there a teddy bear in the image?,B, Answer: A,A,confident_answer,none,no
+812,bundle_35,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Is there a teddy bear in the image?,B, A,A,confident_answer,none,no
+812,bundle_35,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Is there a teddy bear in the image?,B, Answer: C,C,confident_answer,none,no
+807,bundle_36,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: How many people like the most preferred object in the whole chart?",D, Answer: A,A,confident_answer,none,no
+807,bundle_36,HuggingFaceTB/SmolVLM-Instruct,no_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: How many people like the most preferred object in the whole chart?",D, Answer: A,A,confident_answer,none,no
+807,bundle_36,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: How many people like the most preferred object in the whole chart?",D, Answer: A,A,confident_answer,none,no
+807,bundle_36,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: How many people like the most preferred object in the whole chart?",D, Answer: A,A,confident_answer,none,no
+807,bundle_36,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: How many people like the most preferred object in the whole chart?",D, Answer: A,A,confident_answer,none,no
+785,bundle_37,HuggingFaceTB/SmolVLM-Instruct,correct_image,Which Python code can generate the content of the image?,C, Answer: D,D,confident_answer,none,no
+785,bundle_37,HuggingFaceTB/SmolVLM-Instruct,no_image,Which Python code can generate the content of the image?,C, Answer: C,C,confident_answer,none,no
+785,bundle_37,HuggingFaceTB/SmolVLM-Instruct,blank_image,Which Python code can generate the content of the image?,C, Answer: D,D,confident_answer,none,no
+785,bundle_37,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Which Python code can generate the content of the image?,C, D,D,confident_answer,none,no
+785,bundle_37,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Which Python code can generate the content of the image?,C, Answer: D,D,confident_answer,none,no
+938,bundle_38,HuggingFaceTB/SmolVLM-Instruct,correct_image,Is the man wearing a hat?,C, C,C,confident_answer,none,no
+938,bundle_38,HuggingFaceTB/SmolVLM-Instruct,no_image,Is the man wearing a hat?,C, Answer: C,C,confident_answer,none,no
+938,bundle_38,HuggingFaceTB/SmolVLM-Instruct,blank_image,Is the man wearing a hat?,C, Answer: C,C,confident_answer,none,no
+938,bundle_38,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Is the man wearing a hat?,C, C,C,confident_answer,none,no
+938,bundle_38,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Is the man wearing a hat?,C, C,C,confident_answer,none,no
+776,bundle_39,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the difference between the highest and the lowest dark blue bar?",A, Answer: A,A,confident_answer,none,no
+776,bundle_39,HuggingFaceTB/SmolVLM-Instruct,no_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the difference between the highest and the lowest dark blue bar?",A, Answer: A,A,confident_answer,none,no
+776,bundle_39,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the difference between the highest and the lowest dark blue bar?",A, Answer: A,A,confident_answer,none,no
+776,bundle_39,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the difference between the highest and the lowest dark blue bar?",A, Answer: A,A,confident_answer,none,no
+776,bundle_39,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the difference between the highest and the lowest dark blue bar?",A, Answer: A,A,confident_answer,none,no
+1163,bundle_40,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Find x. Assume that any segment that appears to be tangent is tangent.",C, Answer: A,A,confident_answer,none,no
+1163,bundle_40,HuggingFaceTB/SmolVLM-Instruct,no_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Find x. Assume that any segment that appears to be tangent is tangent.",C, Answer: B,B,confident_answer,none,no
+1163,bundle_40,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Find x. Assume that any segment that appears to be tangent is tangent.",C, Answer: B,B,confident_answer,none,no
+1163,bundle_40,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Find x. Assume that any segment that appears to be tangent is tangent.",C, Answer: B,B,confident_answer,none,no
+1163,bundle_40,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Find x. Assume that any segment that appears to be tangent is tangent.",C, Answer: A,A,confident_answer,none,no
+1028,bundle_41,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end. Question: What number is shown?",B, Answer: (C),C,confident_answer,none,no
+1028,bundle_41,HuggingFaceTB/SmolVLM-Instruct,no_image,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end. Question: What number is shown?",B, Answer: B,B,confident_answer,none,no
+1028,bundle_41,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end. Question: What number is shown?",B, Answer: B,B,confident_answer,none,no
+1028,bundle_41,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end. Question: What number is shown?",B, Answer: A,A,confident_answer,none,no
+1028,bundle_41,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Hint: Please answer the question requiring an integer answer and provide the final value, e.g., 1, 2, 3, at the end. Question: What number is shown?",B, Answer: A,A,confident_answer,none,no
+1006,bundle_42,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long.",D, Answer: B,B,confident_answer,none,no
+1006,bundle_42,HuggingFaceTB/SmolVLM-Instruct,no_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long.",D, Answer: A,A,confident_answer,none,no
+1006,bundle_42,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long.",D, Answer: A,A,confident_answer,none,no
+1006,bundle_42,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long.",D, Answer: A,A,confident_answer,none,no
+1006,bundle_42,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Move the ruler to measure the length of the line to the nearest centimeter. The line is about (_) centimeters long.",D, Answer: B,B,confident_answer,missing,no
+1189,bundle_43,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Move the ruler to measure the length of the slug to the nearest inch. The slug is about (_) inches long.",A, Answer: A,A,confident_answer,none,no
+1189,bundle_43,HuggingFaceTB/SmolVLM-Instruct,no_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Move the ruler to measure the length of the slug to the nearest inch. The slug is about (_) inches long.",A, Answer: A,A,confident_answer,none,no
+1189,bundle_43,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Move the ruler to measure the length of the slug to the nearest inch. The slug is about (_) inches long.",A, Answer: A,A,confident_answer,none,no
+1189,bundle_43,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Move the ruler to measure the length of the slug to the nearest inch. The slug is about (_) inches long.",A, Answer: B,B,confident_answer,none,no
+1189,bundle_43,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Move the ruler to measure the length of the slug to the nearest inch. The slug is about (_) inches long.",A, Answer: A,A,confident_answer,none,no
+1070,bundle_44,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: In the figure above, l || m. Which of the following must equal 180?",B, Answer: C,C,confident_answer,none,no
+1070,bundle_44,HuggingFaceTB/SmolVLM-Instruct,no_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: In the figure above, l || m. Which of the following must equal 180?",B, Answer: A,A,confident_answer,none,no
+1070,bundle_44,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: In the figure above, l || m. Which of the following must equal 180?",B, Answer: A,A,confident_answer,none,no
+1070,bundle_44,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: In the figure above, l || m. Which of the following must equal 180?",B, Answer: A,A,confident_answer,none,no
+1070,bundle_44,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: In the figure above, l || m. Which of the following must equal 180?",B, Answer: A,A,confident_answer,none,no
+1062,bundle_45,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Is the number of blue matte school bus greater than the number of large cyan metallic jets?",A, Answer: B,B,confident_answer,none,no
+1062,bundle_45,HuggingFaceTB/SmolVLM-Instruct,no_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Is the number of blue matte school bus greater than the number of large cyan metallic jets?",A, Answer: B,B,confident_answer,none,no
+1062,bundle_45,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Is the number of blue matte school bus greater than the number of large cyan metallic jets?",A, Answer: B,B,confident_answer,none,no
+1062,bundle_45,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Is the number of blue matte school bus greater than the number of large cyan metallic jets?",A, Answer: B,B,confident_answer,none,no
+1062,bundle_45,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: Is the number of blue matte school bus greater than the number of large cyan metallic jets?",A, Answer: B,B,confident_answer,none,no
+1057,bundle_46,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Kimpel Products makes pizza ovens for commercial use. James Kimpel, CEO, is contemplating producing smaller ovens for use in high school and college kitchens. The activities necessary to build an experimental model and related data are given in the following table: <image 1> What is the project completion date?",A, Answer: A,A,confident_answer,none,no
+1057,bundle_46,HuggingFaceTB/SmolVLM-Instruct,no_image,"Kimpel Products makes pizza ovens for commercial use. James Kimpel, CEO, is contemplating producing smaller ovens for use in high school and college kitchens. The activities necessary to build an experimental model and related data are given in the following table: <image 1> What is the project completion date?",A, Answer: A,A,confident_answer,none,no
+1057,bundle_46,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Kimpel Products makes pizza ovens for commercial use. James Kimpel, CEO, is contemplating producing smaller ovens for use in high school and college kitchens. The activities necessary to build an experimental model and related data are given in the following table: <image 1> What is the project completion date?",A, Answer: A,A,confident_answer,none,no
+1057,bundle_46,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Kimpel Products makes pizza ovens for commercial use. James Kimpel, CEO, is contemplating producing smaller ovens for use in high school and college kitchens. The activities necessary to build an experimental model and related data are given in the following table: <image 1> What is the project completion date?",A, Answer: A,A,confident_answer,missing,no
+1057,bundle_46,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Kimpel Products makes pizza ovens for commercial use. James Kimpel, CEO, is contemplating producing smaller ovens for use in high school and college kitchens. The activities necessary to build an experimental model and related data are given in the following table: <image 1> What is the project completion date?",A, Answer: D,D,confident_answer,none,no
+1035,bundle_47,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: As shown in the figure, in Rt△ABC, ∠BAC = 90.0, AD ⊥ BC at D, DE ⊥ AB at E, AD = 3.0, DE = 2.0, then the length of CD is ()",D, Answer: B,B,confident_answer,none,no
+1035,bundle_47,HuggingFaceTB/SmolVLM-Instruct,no_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: As shown in the figure, in Rt△ABC, ∠BAC = 90.0, AD ⊥ BC at D, DE ⊥ AB at E, AD = 3.0, DE = 2.0, then the length of CD is ()",D, Answer: B,B,confident_answer,missing,no
+1035,bundle_47,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: As shown in the figure, in Rt△ABC, ∠BAC = 90.0, AD ⊥ BC at D, DE ⊥ AB at E, AD = 3.0, DE = 2.0, then the length of CD is ()",D, Answer: B,B,confident_answer,none,no
+1035,bundle_47,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: As shown in the figure, in Rt△ABC, ∠BAC = 90.0, AD ⊥ BC at D, DE ⊥ AB at E, AD = 3.0, DE = 2.0, then the length of CD is ()",D, Answer: B,B,confident_answer,none,no
+1035,bundle_47,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: As shown in the figure, in Rt△ABC, ∠BAC = 90.0, AD ⊥ BC at D, DE ⊥ AB at E, AD = 3.0, DE = 2.0, then the length of CD is ()",D, Answer: B,B,confident_answer,none,no
+1188,bundle_48,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the minimum age group shown in the ‘plots’?",C, Answer: A,A,confident_answer,none,no
+1188,bundle_48,HuggingFaceTB/SmolVLM-Instruct,no_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the minimum age group shown in the ‘plots’?",C, Answer: A,A,confident_answer,none,no
+1188,bundle_48,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the minimum age group shown in the ‘plots’?",C, Answer: A,A,confident_answer,none,no
+1188,bundle_48,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the minimum age group shown in the ‘plots’?",C, Answer: A,A,confident_answer,none,no
+1188,bundle_48,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the minimum age group shown in the ‘plots’?",C, Answer: A,A,confident_answer,none,no
+1026,bundle_49,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the radius of this circle?",D, Answer: B,B,confident_answer,none,no
+1026,bundle_49,HuggingFaceTB/SmolVLM-Instruct,no_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the radius of this circle?",D, Answer: A,A,confident_answer,none,no
+1026,bundle_49,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the radius of this circle?",D, Answer: C,C,confident_answer,none,no
+1026,bundle_49,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the radius of this circle?",D, Answer: C,C,confident_answer,none,no
+1026,bundle_49,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end. Question: What is the radius of this circle?",D, Answer: B,B,confident_answer,none,no
+1413,bundle_50,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Which part is a fibrous, membranous, or fatty sheath that encloses an organ or part, such as the sac surrounding the kidney or the fibrous tissues that surround a joint?",D, Answer: B,B,confident_answer,none,no
+1413,bundle_50,HuggingFaceTB/SmolVLM-Instruct,no_image,"Which part is a fibrous, membranous, or fatty sheath that encloses an organ or part, such as the sac surrounding the kidney or the fibrous tissues that surround a joint?",D, Answer: C,C,confident_answer,none,no
+1413,bundle_50,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Which part is a fibrous, membranous, or fatty sheath that encloses an organ or part, such as the sac surrounding the kidney or the fibrous tissues that surround a joint?",D, Answer: B,B,confident_answer,none,no
+1413,bundle_50,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Which part is a fibrous, membranous, or fatty sheath that encloses an organ or part, such as the sac surrounding the kidney or the fibrous tissues that surround a joint?",D, Answer: B,B,confident_answer,none,no
+1413,bundle_50,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Which part is a fibrous, membranous, or fatty sheath that encloses an organ or part, such as the sac surrounding the kidney or the fibrous tissues that surround a joint?",D, Answer: B,B,confident_answer,none,no
+1278,bundle_51,HuggingFaceTB/SmolVLM-Instruct,correct_image,Assume for the common-emitter circuit shown in  <image 1> we have the  following numerical values for a germanium transistor. $V_{BB}$ = + 15V   $V_{CC}$ = + 15V   $V_{BE}$ = 0.3V  $R_C$ = 4k$\Omega$        $R_E$ = 600$\Omega$      $\beta $ = 60. What value of RB is required to set VCE to 8 V?,A, Answer: A,A,confident_answer,none,no
+1278,bundle_51,HuggingFaceTB/SmolVLM-Instruct,no_image,Assume for the common-emitter circuit shown in  <image 1> we have the  following numerical values for a germanium transistor. $V_{BB}$ = + 15V   $V_{CC}$ = + 15V   $V_{BE}$ = 0.3V  $R_C$ = 4k$\Omega$        $R_E$ = 600$\Omega$      $\beta $ = 60. What value of RB is required to set VCE to 8 V?,A, Answer: A,A,confident_answer,none,no
+1278,bundle_51,HuggingFaceTB/SmolVLM-Instruct,blank_image,Assume for the common-emitter circuit shown in  <image 1> we have the  following numerical values for a germanium transistor. $V_{BB}$ = + 15V   $V_{CC}$ = + 15V   $V_{BE}$ = 0.3V  $R_C$ = 4k$\Omega$        $R_E$ = 600$\Omega$      $\beta $ = 60. What value of RB is required to set VCE to 8 V?,A, Answer: A,A,confident_answer,none,no
+1278,bundle_51,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Assume for the common-emitter circuit shown in  <image 1> we have the  following numerical values for a germanium transistor. $V_{BB}$ = + 15V   $V_{CC}$ = + 15V   $V_{BE}$ = 0.3V  $R_C$ = 4k$\Omega$        $R_E$ = 600$\Omega$      $\beta $ = 60. What value of RB is required to set VCE to 8 V?,A, Answer: A,A,confident_answer,none,no
+1278,bundle_51,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Assume for the common-emitter circuit shown in  <image 1> we have the  following numerical values for a germanium transistor. $V_{BB}$ = + 15V   $V_{CC}$ = + 15V   $V_{BE}$ = 0.3V  $R_C$ = 4k$\Omega$        $R_E$ = 600$\Omega$      $\beta $ = 60. What value of RB is required to set VCE to 8 V?,A, Answer: A,A,confident_answer,none,no
+1256,bundle_52,HuggingFaceTB/SmolVLM-Instruct,correct_image,What letter represents oxygen?,B, Answer: A,A,confident_answer,none,no
+1256,bundle_52,HuggingFaceTB/SmolVLM-Instruct,no_image,What letter represents oxygen?,B, Answer: A,A,confident_answer,none,no
+1256,bundle_52,HuggingFaceTB/SmolVLM-Instruct,blank_image,What letter represents oxygen?,B, Answer: D,D,confident_answer,none,no
+1256,bundle_52,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What letter represents oxygen?,B, Answer: A,A,confident_answer,none,no
+1256,bundle_52,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What letter represents oxygen?,B,,UNSCORABLE,unscorable,blank_or_empty,no
+1439,bundle_53,HuggingFaceTB/SmolVLM-Instruct,correct_image,Which item in the diagram represents sedimentary rocks?,B, Answer: C,C,confident_answer,none,no
+1439,bundle_53,HuggingFaceTB/SmolVLM-Instruct,no_image,Which item in the diagram represents sedimentary rocks?,B, Answer: A,A,confident_answer,none,no
+1439,bundle_53,HuggingFaceTB/SmolVLM-Instruct,blank_image,Which item in the diagram represents sedimentary rocks?,B, Answer: A,A,confident_answer,none,no
+1439,bundle_53,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Which item in the diagram represents sedimentary rocks?,B, Answer: A,A,confident_answer,none,no
+1439,bundle_53,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Which item in the diagram represents sedimentary rocks?,B, Answer: A,A,confident_answer,none,no
+1320,bundle_54,HuggingFaceTB/SmolVLM-Instruct,correct_image,What term is used to describe A in the diagram?,C, Answer: D,D,confident_answer,none,no
+1320,bundle_54,HuggingFaceTB/SmolVLM-Instruct,no_image,What term is used to describe A in the diagram?,C, Answer: C,C,confident_answer,none,no
+1320,bundle_54,HuggingFaceTB/SmolVLM-Instruct,blank_image,What term is used to describe A in the diagram?,C, Answer: C,C,confident_answer,none,no
+1320,bundle_54,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What term is used to describe A in the diagram?,C, Answer: A,A,confident_answer,none,no
+1320,bundle_54,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What term is used to describe A in the diagram?,C, Answer: B,B,confident_answer,none,no
+1312,bundle_55,HuggingFaceTB/SmolVLM-Instruct,correct_image,Where is the testa?,C, Answer: A,A,confident_answer,none,no
+1312,bundle_55,HuggingFaceTB/SmolVLM-Instruct,no_image,Where is the testa?,C, Answer: D,D,confident_answer,none,no
+1312,bundle_55,HuggingFaceTB/SmolVLM-Instruct,blank_image,Where is the testa?,C, Answer: D,D,confident_answer,none,no
+1312,bundle_55,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Where is the testa?,C, Answer: D,D,confident_answer,none,no
+1312,bundle_55,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Where is the testa?,C, Answer: A,A,confident_answer,none,no
+1307,bundle_56,HuggingFaceTB/SmolVLM-Instruct,correct_image,Which region in the diagram represents the crust?,A, Answer: D,D,confident_answer,none,no
+1307,bundle_56,HuggingFaceTB/SmolVLM-Instruct,no_image,Which region in the diagram represents the crust?,A, Answer: A,A,confident_answer,none,no
+1307,bundle_56,HuggingFaceTB/SmolVLM-Instruct,blank_image,Which region in the diagram represents the crust?,A, Answer: A,A,confident_answer,none,no
+1307,bundle_56,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Which region in the diagram represents the crust?,A, Answer: A,A,confident_answer,none,no
+1307,bundle_56,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Which region in the diagram represents the crust?,A, Answer: C,C,confident_answer,missing,no
+1285,bundle_57,HuggingFaceTB/SmolVLM-Instruct,correct_image,What change could occur to increase the size of the large fish population?,D, Answer: A,A,confident_answer,none,no
+1285,bundle_57,HuggingFaceTB/SmolVLM-Instruct,no_image,What change could occur to increase the size of the large fish population?,D, Answer: B,B,confident_answer,none,no
+1285,bundle_57,HuggingFaceTB/SmolVLM-Instruct,blank_image,What change could occur to increase the size of the large fish population?,D, Answer: A,A,confident_answer,none,no
+1285,bundle_57,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,What change could occur to increase the size of the large fish population?,D, Answer: A,A,confident_answer,none,no
+1285,bundle_57,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,What change could occur to increase the size of the large fish population?,D, Answer: A,A,confident_answer,none,no
+1438,bundle_58,HuggingFaceTB/SmolVLM-Instruct,correct_image,"Evaporation, the process of a liquid converting to the gaseous state, occurs at what stage?",A, Answer: B,B,confident_answer,none,no
+1438,bundle_58,HuggingFaceTB/SmolVLM-Instruct,no_image,"Evaporation, the process of a liquid converting to the gaseous state, occurs at what stage?",A," Answer: B
+
+Answer: B
+
+Explanation:
+The process of evaporation is the conversion of a liquid into its gaseous state. In this process, the liquid molecules gain enough energy to break free from the liquid and move away from it. This process occurs at the surface of the liquid.
+
+Answer: A
+
+Explanation:
+Answer: A
+
+Answer: A
+
+Answer: A
+
+Answer: A
+
+Answer: A
+
+Answer: A
+
+Answer: A
+
+Answer: A
+
+Answer: A",A,confident_answer,blank_or_empty,no
+1438,bundle_58,HuggingFaceTB/SmolVLM-Instruct,blank_image,"Evaporation, the process of a liquid converting to the gaseous state, occurs at what stage?",A, Answer: B,B,confident_answer,none,no
+1438,bundle_58,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,"Evaporation, the process of a liquid converting to the gaseous state, occurs at what stage?",A, Answer: A,A,confident_answer,none,no
+1438,bundle_58,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,"Evaporation, the process of a liquid converting to the gaseous state, occurs at what stage?",A, Answer: C,C,confident_answer,none,no
+1276,bundle_59,HuggingFaceTB/SmolVLM-Instruct,correct_image,Which area on the map shows China?,A, Answer: B,B,confident_answer,none,no
+1276,bundle_59,HuggingFaceTB/SmolVLM-Instruct,no_image,Which area on the map shows China?,A, Answer: D,D,confident_answer,none,no
+1276,bundle_59,HuggingFaceTB/SmolVLM-Instruct,blank_image,Which area on the map shows China?,A, Answer: D,D,confident_answer,none,no
+1276,bundle_59,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,Which area on the map shows China?,A, Answer: D,D,confident_answer,none,no
+1276,bundle_59,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,Which area on the map shows China?,A, Answer: D,D,confident_answer,none,no
