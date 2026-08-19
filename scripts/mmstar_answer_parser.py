@@ -102,11 +102,10 @@ def parse_answer(question, options, raw_response):
 for input_file in input_files:
     with open(input_file, "r", encoding="utf-8") as f:
         for line in f:
-            
+            row = json.loads(line)
+
             if row["model_name"] != "HuggingFaceTB/SmolVLM-Instruct":
                 continue
-
-            row = json.loads(line)
 
             question = row["question"]
             options = row["options"]
