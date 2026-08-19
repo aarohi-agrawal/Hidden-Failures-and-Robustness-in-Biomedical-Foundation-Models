@@ -245,6 +245,11 @@ def main():
         type=int,
         default=None,
     )
+    parser.add_argument(
+        "--start",
+        type=int,
+        default=0,
+    )
 
     args = parser.parse_args()
 
@@ -304,13 +309,16 @@ def main():
         encoding="utf-8",
     ) as manifest_file, open(
         output_path,
-        "w",
+        "a",
         encoding="utf-8",
     ) as output_file:
 
         reader = csv.DictReader(manifest_file)
 
-        for row in reader:
+        for row_index, row in enumerate(reader):
+
+            if row_index < args.start:
+               continue
 
             if (
                 args.limit is not None
@@ -487,9 +495,9 @@ def main():
                     ensure_ascii=False,
                 ) + "\n"
             )
+            output_file.flush()
 
             rows_written += 1
-
             print(
                 f"[{rows_attempted}] "
                 f"case_id={case_id} "
