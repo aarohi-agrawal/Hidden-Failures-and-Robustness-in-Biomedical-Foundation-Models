@@ -92,7 +92,7 @@ for input_file in input_files:
         for line in f:
             row = json.loads(line)
 
-            if row["model_name"] != "HuggingFaceTB/SmolVLM-Instruct":
+            if row["model_name"] == "HuggingFaceTB/SmolVLM-Instruct":
                 continue
 
             question = row["question"]
