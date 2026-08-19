@@ -25,7 +25,7 @@ fieldnames = [
     "specific_visual_claim",
 ]
 
-output_file = open(f"annotations/mmstar_auto_parsed.csv", "a", encoding="utf-8")
+output_file = open(f"metrics/mmstar_results_long.csv", "a", encoding="utf-8")
 writer = csv.DictWriter(output_file, fieldnames=fieldnames)
 
 judge_model = "gpt-5"
