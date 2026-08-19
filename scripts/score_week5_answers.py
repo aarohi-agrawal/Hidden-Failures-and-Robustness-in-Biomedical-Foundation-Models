@@ -1,12 +1,17 @@
 import json
 import re
+import argparse
 from collections import Counter, defaultdict
 from pathlib import Path
 
 
-INPUT = "outputs/raw/week5_smolvlm_256m_full.jsonl"
-OUTPUT = "outputs/scored/week5_smolvlm_256m_scored_v2.jsonl"
+parser = argparse.ArgumentParser()
+parser.add_argument("--input", required=True)
+parser.add_argument("--output", required=True)
+args = parser.parse_args()
 
+INPUT = args.input
+OUTPUT = args.output
 
 def normalize(s):
     s = str(s or "").lower().strip()
