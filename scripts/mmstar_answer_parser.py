@@ -19,7 +19,7 @@ fieldnames = [
     "question",
     "official_gold",
     "raw_response",
-    "final_answer",
+    "decision",
     "response_mode",
     "evidence_issue_stated",
     "specific_visual_claim",
@@ -81,19 +81,7 @@ def parse_answer(question, options, raw_response):
     for attempt in range(2):
         try:
             response = client.responses.create(model=judge_model, input=prompt)
-
-            try:
-                result = json.loads(response.output_text.strip())
-            except json.JSONDecodeError:
-                # Extract json object
-                match = re.search(r'\{.*\}', response.output_text.strip(), re.DOTALL)
-
-                if not match:
-                    raise ValueError("No JSON object found in response")
-                
-                result = json.loads(match.group(0))
-            
-            return json.dumps(result)
+            return response.output_text.strip()
         
         except Exception:
             if attempt == 1:
@@ -115,10 +103,9 @@ for input_file in input_files:
             final_answer = deterministic_parse_answer(raw_response)
 
             if final_answer is None:
-                try:
-                    judge_answer = json.loads(parse_answer(question, options, raw_response))
-                    final_answer = judge_answer["decision"]
-                except (json.JSONDecodeError, KeyError,TypeError):
+                final_answer = parse_answer(question, options, raw_response).strip().upper()
+
+                if final_answer not in {"A", "B", "C", "D", "ABSTAIN", "UNSCORABLE"}:
                     final_answer = "judge_error"
 
             response_mode = evidence_behavior["response_mode"]
