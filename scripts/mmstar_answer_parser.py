@@ -8,7 +8,7 @@ client = OpenAI()
 input_files = [
     "outputs/raw/mmstar_Qwen2.5-VL-3B-Instruct.jsonl",
     "outputs/raw/mmstar_Qwen2.5-VL-7B-Instruct.jsonl",
-    "outputs/raw/mmstar_SmolVLM-256M-Instruct.jsonl",
+    "outputs/raw/mmstar_SmolVLM-Instruct.jsonl",
 ]
 
 fieldnames = [
