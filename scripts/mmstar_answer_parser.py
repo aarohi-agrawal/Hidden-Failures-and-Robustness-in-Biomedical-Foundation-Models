@@ -133,7 +133,7 @@ for input_file in input_files:
                 "question": row["question"],
                 "official_gold": row["official_gold"],
                 "raw_response": row["raw_response"],
-                "final_answer": final_answer,
+                "decision": final_answer,
                 "response_mode": response_mode,
                 "evidence_issue_stated": evidence_issue_stated,
                 "specific_visual_claim": specific_visual_claim
