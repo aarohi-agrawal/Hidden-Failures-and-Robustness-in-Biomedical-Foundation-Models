@@ -40,8 +40,23 @@ T3-A:
 | Qwen 3B | 46.67% | 15.00% | 38.33% | 16.67% | 16.67% | 30.00% |
 | Qwen 7B | 36.67% | 6.67% | 15.00% | 6.67% | 16.67% | 19.20% |
 
-These results suggest that SmolVLM had the highest rates of mirage reasoning and evidence misinterpretation. Their gold match percentages under invalid evidence conditions show that there was likely little explicit abstention, and that the model relied heavily on guessing answers instead. This is also proven by the low hard-mismatch evidence dependence gap, implying a low dependency on valid visual evidence.
+These results suggest that SmolVLM had the highest rates of mirage reasoning and evidence misinterpretation. Their gold match percentages under invalid evidence conditions show that there was likely little explicit abstention, and that the model relied heavily on guessing answers instead. This is also proven by the low hard-mismatch evidence dependence gap of 11.67%, implying a low dependency on valid visual evidence.
 
-Additionally, the results show an overall much lower rate of invalid evidence gold matches among the Qwen models, and much higher correct-image accuracy and evidence dependence. From these results, the Qwen models seem to rely much more on valid visual evidence.
+Additionally, the results show an overall much lower rate of invalid evidence gold matches among the Qwen models, and much higher correct-image accuracy and evidence dependence (41.67% & 24.60% average vs. 28.33% & 11.67%). From these results, the Qwen models seem to rely much more on valid visual evidence.
 
 ## Evidence Awareness
+
+T3-B:
+| No-Img Appropriate Response | Blank Blindness | Far Blindness | Hard Blindness | Hard Invariance |
+| --- | --- | --- | --- | --- | --- |
+| SmolVLM | 0.00% | 100.00% | 93.33% | 93.33% | 51.67% |
+| Qwen 3B | 36.67% | 15.00% | 38.33% | 16.67% | 16.67% |
+| Qwen 7B | 51.67% | 45.00% | 15.00% | 45.00% | 26.67% |
+
+These results suggest a consistent increase in appropriate response rates across models, going from 0.00%, to 36.67%, to 51.67% as the model size increases.  
+
+However, this consistent improvement in performance does not occur across all fields.  For example, despite Qwen 7B being a larger model, it has significantly higher blindness rates (45.00% each) for blank and hard mismatched images than Qwen 3B (15.00% and 16.67%, respectively).
+
+Although Qwen 7B's behavior is a bit unexpected, it performed similarly to Qwen 3B when compared to SmolVLM.  SmolVLM had a 100% blank image blindness rate, while both of the Qwen models had a rate under 50%. Additionally, the Qwen models had much lower rates of hard invariance.
+
+The main information that can be concluded from these results is that the larger models were more likely to behave differently across different evidence conditions, and much more likely to address invalid or missing evidence and appropriately abstain from answering.
