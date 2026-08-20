@@ -99,11 +99,11 @@ source_id,bundle_id,model_name,condition,capability,question,official_gold,raw_r
 276,bundle_19,HuggingFaceTB/SmolVLM-Instruct,blank_image,fine-grained perception,What is the dominant color in this image?,B, Answer: D,D,confident_answer,none,no
 276,bundle_19,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,fine-grained perception,What is the dominant color in this image?,B, Answer: A,A,confident_answer,none,no
 276,bundle_19,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,fine-grained perception,What is the dominant color in this image?,B, Answer: C,C,confident_answer,none,no
-663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,correct_image,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: C,C,confident_answer,none,no
-663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,no_image,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: A,A,confident_answer,none,no
-663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,blank_image,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: A,A,confident_answer,none,no
-663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: A,A,confident_answer,none,no
-663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: C,C,confident_answer,none,no
+663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,correct_image,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: C,C,confident_answer,none,no
+663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,no_image,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: A,A,confident_answer,none,no
+663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,blank_image,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: A,A,confident_answer,none,no
+663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: A,A,confident_answer,none,no
+663,bundle_20,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B, Answer: C,C,confident_answer,none,no
 528,bundle_21,HuggingFaceTB/SmolVLM-Instruct,correct_image,instance reasoning,The object shown in this figure:,B, Answer: A,A,confident_answer,none,no
 528,bundle_21,HuggingFaceTB/SmolVLM-Instruct,no_image,instance reasoning,The object shown in this figure:,B, Answer: A,A,confident_answer,none,no
 528,bundle_21,HuggingFaceTB/SmolVLM-Instruct,blank_image,instance reasoning,The object shown in this figure:,B, Answer: D,D,confident_answer,none,no
@@ -440,8 +440,8 @@ A: Standing on the left side of the stage.",A,confident_answer,none,yes
 276,bundle_19,Qwen/Qwen2.5-VL-3B-Instruct,blank_image,fine-grained perception,What is the dominant color in this image?,B,D: White,D,confident_answer,none,yes
 276,bundle_19,Qwen/Qwen2.5-VL-3B-Instruct,far_mismatch,fine-grained perception,What is the dominant color in this image?,B,A: Red,A,confident_answer,none,yes
 276,bundle_19,Qwen/Qwen2.5-VL-3B-Instruct,hard_mismatch,fine-grained perception,What is the dominant color in this image?,B,C: Black,C,confident_answer,none,yes
-663,bundle_20,Qwen/Qwen2.5-VL-3B-Instruct,correct_image,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,B: sample A,B,confident_answer,none,no
-663,bundle_20,Qwen/Qwen2.5-VL-3B-Instruct,no_image,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,"To compare the average kinetic energies of the particles in each sample and determine which one has the higher temperature, we would typically need to know the specific conditions or measurements related to the samples' temperatures. However, based on the options provided:
+663,bundle_20,Qwen/Qwen2.5-VL-3B-Instruct,correct_image,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,B: sample A,B,confident_answer,none,no
+663,bundle_20,Qwen/Qwen2.5-VL-3B-Instruct,no_image,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,"To compare the average kinetic energies of the particles in each sample and determine which one has the higher temperature, we would typically need to know the specific conditions or measurements related to the samples' temperatures. However, based on the options provided:
 
 - Option A suggests that both samples have the same temperature.
 - Option B suggests that sample A has a higher temperature.
@@ -449,7 +449,7 @@ A: Standing on the left side of the stage.",A,confident_answer,none,yes
 - Option D is not relevant as it does not provide any information about the samples.
 
 Without additional information about the conditions under which these samples were measured (such as pressure, volume, or other environmental factors), it's impossible to",ABSTAIN,explicit_abstention,insufficient_or_unclear,no
-663,bundle_20,Qwen/Qwen2.5-VL-3B-Instruct,blank_image,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,"To compare the average kinetic energies of the particles in each sample and determine which one has the higher temperature, we would typically need to know the specific conditions or measurements related to the samples' temperatures. However, based on the options provided:
+663,bundle_20,Qwen/Qwen2.5-VL-3B-Instruct,blank_image,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,"To compare the average kinetic energies of the particles in each sample and determine which one has the higher temperature, we would typically need to know the specific conditions or measurements related to the samples' temperatures. However, based on the options provided:
 
 - Option A suggests that both samples have the same temperature.
 - Option B suggests that sample A has a higher temperature.
@@ -457,8 +457,8 @@ Without additional information about the conditions under which these samples we
 - Option D is not relevant as it does not provide any information about the samples.
 
 Without additional information about the conditions under which these samples were measured or their properties, it's impossible to definitively determine which option is correct.",ABSTAIN,explicit_abstention,missing,no
-663,bundle_20,Qwen/Qwen2.5-VL-3B-Instruct,far_mismatch,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,B: sample A,B,confident_answer,none,no
-663,bundle_20,Qwen/Qwen2.5-VL-3B-Instruct,hard_mismatch,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,C: sample B,C,confident_answer,none,no
+663,bundle_20,Qwen/Qwen2.5-VL-3B-Instruct,far_mismatch,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,B: sample A,B,confident_answer,none,no
+663,bundle_20,Qwen/Qwen2.5-VL-3B-Instruct,hard_mismatch,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,C: sample B,C,confident_answer,none,no
 528,bundle_21,Qwen/Qwen2.5-VL-3B-Instruct,correct_image,instance reasoning,The object shown in this figure:,B,C: Has a boiling point of -88.5°C.,C,confident_answer,none,no
 528,bundle_21,Qwen/Qwen2.5-VL-3B-Instruct,no_image,instance reasoning,The object shown in this figure:,B,"The image provided does not contain any visual information or context related to the question. Therefore, it is impossible to determine which option is correct based solely on the given image.",ABSTAIN,explicit_abstention,mismatch_or_irrelevant,no
 528,bundle_21,Qwen/Qwen2.5-VL-3B-Instruct,blank_image,instance reasoning,The object shown in this figure:,B,"The image provided does not contain any visual information or context related to the question. Therefore, it is impossible to determine which option is correct based solely on the given image.",ABSTAIN,explicit_abstention,mismatch_or_irrelevant,yes
@@ -1177,7 +1177,7 @@ A: Standing on the left side of the stage.",A,confident_answer,none,yes
 D: White",D,confident_answer,none,yes
 276,bundle_19,Qwen/Qwen2.5-VL-7B-Instruct,far_mismatch,fine-grained perception,What is the dominant color in this image?,B,"The dominant color in the image is blue, which represents the water and sky. Therefore, none of the given options (A: Red, B: Brown, C: Black, D: White) accurately describe the dominant color in the image.",ABSTAIN,explicit_abstention,mismatch_or_irrelevant,yes
 276,bundle_19,Qwen/Qwen2.5-VL-7B-Instruct,hard_mismatch,fine-grained perception,What is the dominant color in this image?,B,"The image is presented in black and white, which means there are no colors other than shades of gray. Therefore, the dominant color in this image cannot be determined from the options provided. The correct answer is that the image does not have a dominant color as it is monochromatic.",ABSTAIN,confident_answer,insufficient_or_unclear,yes
-663,bundle_20,Qwen/Qwen2.5-VL-7B-Instruct,correct_image,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,"To compare the average kinetic energies of the particles in each sample, we can use the formula for the average kinetic energy of a gas particle:
+663,bundle_20,Qwen/Qwen2.5-VL-7B-Instruct,correct_image,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,"To compare the average kinetic energies of the particles in each sample, we can use the formula for the average kinetic energy of a gas particle:
 
 \[ \text{KE}_{\text{avg}} = \frac{1}{2} m v^2 \]
 
@@ -1189,22 +1189,22 @@ Given:
 - Average particle speed in Sample B: 400 m/s
 
 Let's calculate the average",UNSCORABLE,unscorable,none,no
-663,bundle_20,Qwen/Qwen2.5-VL-7B-Instruct,no_image,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,"The image provided does not contain any visual evidence such as graphs, charts, or text that would allow for a comparison of the average kinetic energies of particles in different samples or indicate their temperatures. Therefore, it is not possible to determine which sample has the higher temperature based on the given information.
+663,bundle_20,Qwen/Qwen2.5-VL-7B-Instruct,no_image,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,"The image provided does not contain any visual evidence such as graphs, charts, or text that would allow for a comparison of the average kinetic energies of particles in different samples or indicate their temperatures. Therefore, it is not possible to determine which sample has the higher temperature based on the given information.
 
 The correct answer is: D: nan (not applicable).",D,hedged_answer,insufficient_or_unclear,yes
-663,bundle_20,Qwen/Qwen2.5-VL-7B-Instruct,blank_image,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,"To compare the average kinetic energies of the particles in each sample and determine which sample has the higher temperature, we need to consider the relationship between temperature and kinetic energy.
+663,bundle_20,Qwen/Qwen2.5-VL-7B-Instruct,blank_image,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,"To compare the average kinetic energies of the particles in each sample and determine which sample has the higher temperature, we need to consider the relationship between temperature and kinetic energy.
 
 The average kinetic energy of particles in a substance is directly proportional to the temperature of the substance. This means that if one sample has particles with higher average kinetic energy, it will have a higher temperature compared to another sample with particles having lower average kinetic energy.
 
 From the image provided, we can see two samples labeled as Sample A and Sample B. However, there is no numerical data or graphical representation that indicates the average kinetic energies of the particles in these samples. Without this information",ABSTAIN,explicit_abstention,insufficient_or_unclear,yes
-663,bundle_20,Qwen/Qwen2.5-VL-7B-Instruct,far_mismatch,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,"The image provided shows two different types of particles: one appears to be a cluster of spherical objects (likely representing a sample with a higher average kinetic energy) and another consists of smaller, more dispersed spherical objects (likely representing a sample with a lower average kinetic energy).
+663,bundle_20,Qwen/Qwen2.5-VL-7B-Instruct,far_mismatch,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,"The image provided shows two different types of particles: one appears to be a cluster of spherical objects (likely representing a sample with a higher average kinetic energy) and another consists of smaller, more dispersed spherical objects (likely representing a sample with a lower average kinetic energy).
 
 Given that temperature is directly related to the average kinetic energy of particles, we can infer that the sample with the higher concentration of larger, more clustered particles likely has a higher temperature because these particles have more kinetic energy compared to the smaller, more dispersed particles in the other sample.
 
 Therefore, the correct answer is:
 
 C: sample B",C,confident_answer,none,yes
-663,bundle_20,Qwen/Qwen2.5-VL-7B-Instruct,hard_mismatch,fine-grained perception,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,"To compare the average kinetic energies of the particles in each sample, we can use the formula for the average kinetic energy of a gas particle:
+663,bundle_20,Qwen/Qwen2.5-VL-7B-Instruct,hard_mismatch,instance reasoning,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,B,"To compare the average kinetic energies of the particles in each sample, we can use the formula for the average kinetic energy of a gas particle:
 
 \[ \text{KE}_{\text{avg}} = \frac{1}{2} m v^2 \]
 
