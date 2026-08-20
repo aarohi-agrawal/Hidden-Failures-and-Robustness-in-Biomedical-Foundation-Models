@@ -5,7 +5,7 @@ source_id,bundle_id,model_name,condition,capability,question,official_gold,raw_r
 163,bundle_0,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,coarse perception,Which category does this image belong to?,B, Answer: B,B,confident_answer,none,no
 163,bundle_0,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,coarse perception,Which category does this image belong to?,B, Answer: B,B,confident_answer,none,no
 28,bundle_1,HuggingFaceTB/SmolVLM-Instruct,correct_image,coarse perception,What is the primary activity depicted in the image?,A, Answer: A,A,confident_answer,none,no
-28,bundle_1,HuggingFaceTB/SmolVLM-Instruct,no_image,coarse perception,coarse perception,What is the primary activity depicted in the image?,A, Answer: B,B,confident_answer,none,no
+28,bundle_1,HuggingFaceTB/SmolVLM-Instruct,no_image,coarse perception,What is the primary activity depicted in the image?,A, Answer: B,B,confident_answer,none,no
 28,bundle_1,HuggingFaceTB/SmolVLM-Instruct,blank_image,coarse perception,What is the primary activity depicted in the image?,A, Answer: B,B,confident_answer,none,no
 28,bundle_1,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,coarse perception,What is the primary activity depicted in the image?,A,,UNSCORABLE,unscorable,blank_or_empty,no
 28,bundle_1,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,coarse perception,What is the primary activity depicted in the image?,A, Answer: B,B,confident_answer,none,no
