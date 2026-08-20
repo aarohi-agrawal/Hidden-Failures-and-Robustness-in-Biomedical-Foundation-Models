@@ -1,6 +1,6 @@
 source_id,bundle_id,model_name,condition,capability,question,official_gold,raw_response,decision,response_mode,evidence_issue_stated,specific_visual_claim
 163,bundle_0,HuggingFaceTB/SmolVLM-Instruct,correct_image,coarse perception,Which category does this image belong to?,B, Answer: B,B,confident_answer,none,no
-163,bundle_0,HuggingFaceTB/SmolVLM-Instruct,no_image,coarse perception,coarse perception,Which category does this image belong to?,B, Answer: B,B,confident_answer,none,no
+163,bundle_0,HuggingFaceTB/SmolVLM-Instruct,no_image,coarse perception,Which category does this image belong to?,B, Answer: B,B,confident_answer,none,no
 163,bundle_0,HuggingFaceTB/SmolVLM-Instruct,blank_image,coarse perception,Which category does this image belong to?,B, Answer: B,B,confident_answer,none,no
 163,bundle_0,HuggingFaceTB/SmolVLM-Instruct,far_mismatch,coarse perception,Which category does this image belong to?,B, Answer: B,B,confident_answer,none,no
 163,bundle_0,HuggingFaceTB/SmolVLM-Instruct,hard_mismatch,coarse perception,Which category does this image belong to?,B, Answer: B,B,confident_answer,none,no
