@@ -1,307 +1,307 @@
-table,model_name,capability,metric,condition,n,estimate,ci_95_low,ci_95_high
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,correct_image_accuracy,correct_image,10,0.6,0.3,0.9
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,confident_valid_image_error_rate,correct_image,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,original_gold_match,no_image,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,evidence_dependence_gap,no_image,10,0.2,0.0,0.5
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,original_gold_match,blank_image,10,0.5,0.2,0.8
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,evidence_dependence_gap,blank_image,10,0.1,-0.2,0.4
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,original_gold_match,far_mismatch,10,0.3,0.0,0.6
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,evidence_dependence_gap,far_mismatch,10,0.3,-0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,original_gold_match,hard_mismatch,10,0.2,0.0,0.5
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,evidence_dependence_gap,hard_mismatch,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,blank_image_blindness,blank_image,10,0.6,0.3,0.9
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,far_mismatch_blindness,far_mismatch,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,hard_mismatch_blindness,hard_mismatch,10,0.3,0.0,0.6
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,answer_invariance,no_image,10,0.7,0.4,1.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,answer_invariance,blank_image,10,0.6,0.3,0.9
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,answer_invariance,far_mismatch,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,coarse perception,answer_invariance,hard_mismatch,10,0.3,0.0,0.6
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,correct_image_accuracy,correct_image,10,0.3,0.0,0.6
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,confident_valid_image_error_rate,correct_image,10,0.7,0.4,1.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,original_gold_match,no_image,10,0.2,0.0,0.5
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,evidence_dependence_gap,no_image,10,0.1,-0.2,0.4
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,original_gold_match,blank_image,10,0.1,0.0,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,evidence_dependence_gap,blank_image,10,0.2,-0.2,0.6
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,original_gold_match,far_mismatch,10,0.3,0.0,0.6
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,evidence_dependence_gap,far_mismatch,10,0.0,-0.3,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,original_gold_match,hard_mismatch,10,0.0,0.0,0.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,evidence_dependence_gap,hard_mismatch,10,0.3,0.0,0.6
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,blank_image_blindness,blank_image,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,far_mismatch_blindness,far_mismatch,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,hard_mismatch_blindness,hard_mismatch,10,0.2,0.0,0.5
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,answer_invariance,no_image,10,0.6,0.3,0.9
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,answer_invariance,blank_image,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,answer_invariance,far_mismatch,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,answer_invariance,hard_mismatch,10,0.2,0.0,0.5
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,correct_image_accuracy,correct_image,10,0.1,0.0,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,confident_valid_image_error_rate,correct_image,10,0.8,0.5,1.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,original_gold_match,no_image,10,0.1,0.0,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,evidence_dependence_gap,no_image,10,0.0,-0.3,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,original_gold_match,blank_image,10,0.3,0.0,0.6
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,evidence_dependence_gap,blank_image,10,-0.2,-0.5,0.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,original_gold_match,far_mismatch,10,0.2,0.0,0.5
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,evidence_dependence_gap,far_mismatch,10,-0.1,-0.3,0.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,original_gold_match,hard_mismatch,10,0.1,0.0,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,evidence_dependence_gap,hard_mismatch,10,0.0,-0.3,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,blank_image_blindness,blank_image,10,0.5,0.2,0.8
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,far_mismatch_blindness,far_mismatch,10,0.5,0.2,0.8
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,hard_mismatch_blindness,hard_mismatch,10,0.7,0.4,1.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,answer_invariance,no_image,10,0.5,0.2,0.8
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,answer_invariance,blank_image,10,0.5,0.2,0.8
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,answer_invariance,far_mismatch,10,0.5,0.2,0.8
-T3-C,HuggingFaceTB/SmolVLM-Instruct,instance reasoning,answer_invariance,hard_mismatch,10,0.7,0.4,1.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,correct_image_accuracy,correct_image,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,confident_valid_image_error_rate,correct_image,10,0.5,0.2,0.8
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,original_gold_match,no_image,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,evidence_dependence_gap,no_image,10,0.0,-0.3,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,original_gold_match,blank_image,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,evidence_dependence_gap,blank_image,10,0.0,-0.3,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,original_gold_match,far_mismatch,10,0.3,0.0,0.6
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,evidence_dependence_gap,far_mismatch,10,0.1,0.0,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,original_gold_match,hard_mismatch,10,0.5,0.2,0.8
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,evidence_dependence_gap,hard_mismatch,10,-0.1,-0.3,0.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,blank_image_blindness,blank_image,10,0.6,0.3,0.9
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,far_mismatch_blindness,far_mismatch,10,0.6,0.3,0.9
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,hard_mismatch_blindness,hard_mismatch,10,0.8,0.5,1.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,answer_invariance,no_image,10,0.6,0.3,0.9
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,answer_invariance,blank_image,10,0.6,0.3,0.9
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,answer_invariance,far_mismatch,10,0.6,0.3,0.9
-T3-C,HuggingFaceTB/SmolVLM-Instruct,logical reasoning,answer_invariance,hard_mismatch,10,0.8,0.5,1.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,correct_image_accuracy,correct_image,10,0.2,0.0,0.5
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,confident_valid_image_error_rate,correct_image,10,0.8,0.5,1.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,original_gold_match,no_image,10,0.3,0.0,0.6
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,evidence_dependence_gap,no_image,10,-0.1,-0.3,0.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,original_gold_match,blank_image,10,0.3,0.0,0.6
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,evidence_dependence_gap,blank_image,10,-0.1,-0.3,0.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,original_gold_match,far_mismatch,10,0.1,0.0,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,evidence_dependence_gap,far_mismatch,10,0.1,0.0,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,original_gold_match,hard_mismatch,10,0.1,0.0,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,evidence_dependence_gap,hard_mismatch,10,0.1,0.0,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,blank_image_blindness,blank_image,10,0.5,0.2,0.8
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,far_mismatch_blindness,far_mismatch,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,hard_mismatch_blindness,hard_mismatch,10,0.7,0.4,1.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,answer_invariance,no_image,10,0.5,0.2,0.8
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,answer_invariance,blank_image,10,0.5,0.2,0.8
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,answer_invariance,far_mismatch,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,math,answer_invariance,hard_mismatch,10,0.7,0.4,1.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,correct_image_accuracy,correct_image,10,0.1,0.0,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,confident_valid_image_error_rate,correct_image,10,0.9,0.7,1.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,original_gold_match,no_image,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,evidence_dependence_gap,no_image,10,-0.3,-0.6,0.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,original_gold_match,blank_image,10,0.3,0.0,0.6
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,evidence_dependence_gap,blank_image,10,-0.2,-0.5,0.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,original_gold_match,far_mismatch,10,0.3,0.0,0.6
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,evidence_dependence_gap,far_mismatch,10,-0.2,-0.5,0.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,original_gold_match,hard_mismatch,10,0.1,0.0,0.3
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,evidence_dependence_gap,hard_mismatch,10,0.0,0.0,0.0
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,blank_image_blindness,blank_image,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,far_mismatch_blindness,far_mismatch,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,hard_mismatch_blindness,hard_mismatch,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,answer_invariance,no_image,10,0.2,0.0,0.5
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,answer_invariance,blank_image,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,answer_invariance,far_mismatch,10,0.4,0.1,0.7
-T3-C,HuggingFaceTB/SmolVLM-Instruct,science & technology,answer_invariance,hard_mismatch,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,correct_image_accuracy,correct_image,10,0.7,0.4,1.0
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,confident_valid_image_error_rate,correct_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,original_gold_match,no_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,evidence_dependence_gap,no_image,10,0.5,0.1,0.9
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,original_gold_match,blank_image,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,evidence_dependence_gap,blank_image,10,0.7,0.4,1.0
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,original_gold_match,far_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,evidence_dependence_gap,far_mismatch,10,0.5,0.1,0.9
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,original_gold_match,hard_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,evidence_dependence_gap,hard_mismatch,10,0.6,0.3,0.9
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,blank_image_blindness,blank_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,far_mismatch_blindness,far_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,hard_mismatch_blindness,hard_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,answer_invariance,no_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,answer_invariance,blank_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,answer_invariance,far_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,answer_invariance,hard_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,correct_image_accuracy,correct_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,confident_valid_image_error_rate,correct_image,10,0.6,0.3,0.9
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,original_gold_match,no_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,evidence_dependence_gap,no_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,original_gold_match,blank_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,evidence_dependence_gap,blank_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,original_gold_match,far_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,evidence_dependence_gap,far_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,original_gold_match,hard_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,evidence_dependence_gap,hard_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,blank_image_blindness,blank_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,far_mismatch_blindness,far_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,hard_mismatch_blindness,hard_mismatch,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,answer_invariance,no_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,answer_invariance,blank_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,answer_invariance,far_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,answer_invariance,hard_mismatch,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,correct_image_accuracy,correct_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,confident_valid_image_error_rate,correct_image,10,0.5,0.2,0.8
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,original_gold_match,no_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,evidence_dependence_gap,no_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,original_gold_match,blank_image,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,evidence_dependence_gap,blank_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,original_gold_match,far_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,evidence_dependence_gap,far_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,original_gold_match,hard_mismatch,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,evidence_dependence_gap,hard_mismatch,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,blank_image_blindness,blank_image,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,far_mismatch_blindness,far_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,hard_mismatch_blindness,hard_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,answer_invariance,no_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,answer_invariance,blank_image,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,answer_invariance,far_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,answer_invariance,hard_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,correct_image_accuracy,correct_image,10,0.5,0.2,0.8
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,confident_valid_image_error_rate,correct_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,original_gold_match,no_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,evidence_dependence_gap,no_image,10,0.2,-0.2,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,original_gold_match,blank_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,evidence_dependence_gap,blank_image,10,0.2,-0.2,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,original_gold_match,far_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,evidence_dependence_gap,far_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,original_gold_match,hard_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,evidence_dependence_gap,hard_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,blank_image_blindness,blank_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,far_mismatch_blindness,far_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,hard_mismatch_blindness,hard_mismatch,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,answer_invariance,no_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,answer_invariance,blank_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,answer_invariance,far_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,answer_invariance,hard_mismatch,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,correct_image_accuracy,correct_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,confident_valid_image_error_rate,correct_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,original_gold_match,no_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,evidence_dependence_gap,no_image,10,0.2,-0.2,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,original_gold_match,blank_image,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,evidence_dependence_gap,blank_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,original_gold_match,far_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,evidence_dependence_gap,far_mismatch,10,0.1,-0.3,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,original_gold_match,hard_mismatch,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,evidence_dependence_gap,hard_mismatch,10,-0.1,-0.4,0.2
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,blank_image_blindness,blank_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,far_mismatch_blindness,far_mismatch,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,hard_mismatch_blindness,hard_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,answer_invariance,no_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,answer_invariance,blank_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,answer_invariance,far_mismatch,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,math,answer_invariance,hard_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,correct_image_accuracy,correct_image,10,0.5,0.2,0.8
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,confident_valid_image_error_rate,correct_image,10,0.5,0.2,0.8
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,original_gold_match,no_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,evidence_dependence_gap,no_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,original_gold_match,blank_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,evidence_dependence_gap,blank_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,original_gold_match,far_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,evidence_dependence_gap,far_mismatch,10,0.4,0.0,0.8
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,original_gold_match,hard_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,evidence_dependence_gap,hard_mismatch,10,0.3,-0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,blank_image_blindness,blank_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,far_mismatch_blindness,far_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,hard_mismatch_blindness,hard_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,answer_invariance,no_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,answer_invariance,blank_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,answer_invariance,far_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-3B-Instruct,science & technology,answer_invariance,hard_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,correct_image_accuracy,correct_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,confident_valid_image_error_rate,correct_image,10,0.5,0.2,0.8
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,original_gold_match,no_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,evidence_dependence_gap,no_image,10,0.2,-0.2,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,original_gold_match,blank_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,evidence_dependence_gap,blank_image,10,0.1,-0.4,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,original_gold_match,far_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,evidence_dependence_gap,far_mismatch,10,0.3,-0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,original_gold_match,hard_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,evidence_dependence_gap,hard_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,blank_image_blindness,blank_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,far_mismatch_blindness,far_mismatch,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,hard_mismatch_blindness,hard_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,answer_invariance,no_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,answer_invariance,blank_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,answer_invariance,far_mismatch,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,answer_invariance,hard_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,correct_image_accuracy,correct_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,confident_valid_image_error_rate,correct_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,original_gold_match,no_image,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,evidence_dependence_gap,no_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,original_gold_match,blank_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,evidence_dependence_gap,blank_image,10,0.2,-0.2,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,original_gold_match,far_mismatch,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,evidence_dependence_gap,far_mismatch,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,original_gold_match,hard_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,evidence_dependence_gap,hard_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,blank_image_blindness,blank_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,far_mismatch_blindness,far_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,hard_mismatch_blindness,hard_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,answer_invariance,no_image,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,answer_invariance,blank_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,answer_invariance,far_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,answer_invariance,hard_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,correct_image_accuracy,correct_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,confident_valid_image_error_rate,correct_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,original_gold_match,no_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,evidence_dependence_gap,no_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,original_gold_match,blank_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,evidence_dependence_gap,blank_image,10,0.1,-0.2,0.4
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,original_gold_match,far_mismatch,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,evidence_dependence_gap,far_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,original_gold_match,hard_mismatch,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,evidence_dependence_gap,hard_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,blank_image_blindness,blank_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,far_mismatch_blindness,far_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,hard_mismatch_blindness,hard_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,answer_invariance,no_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,answer_invariance,blank_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,answer_invariance,far_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,answer_invariance,hard_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,correct_image_accuracy,correct_image,10,0.5,0.2,0.8
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,confident_valid_image_error_rate,correct_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,original_gold_match,no_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,evidence_dependence_gap,no_image,10,0.4,0.0,0.8
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,original_gold_match,blank_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,evidence_dependence_gap,blank_image,10,0.2,-0.3,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,original_gold_match,far_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,evidence_dependence_gap,far_mismatch,10,0.2,-0.3,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,original_gold_match,hard_mismatch,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,evidence_dependence_gap,hard_mismatch,10,0.1,-0.4,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,blank_image_blindness,blank_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,far_mismatch_blindness,far_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,hard_mismatch_blindness,hard_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,answer_invariance,no_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,answer_invariance,blank_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,answer_invariance,far_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,answer_invariance,hard_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,correct_image_accuracy,correct_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,confident_valid_image_error_rate,correct_image,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,original_gold_match,no_image,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,evidence_dependence_gap,no_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,original_gold_match,blank_image,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,evidence_dependence_gap,blank_image,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,original_gold_match,far_mismatch,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,evidence_dependence_gap,far_mismatch,10,0.4,0.1,0.7
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,original_gold_match,hard_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,evidence_dependence_gap,hard_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,blank_image_blindness,blank_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,far_mismatch_blindness,far_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,hard_mismatch_blindness,hard_mismatch,10,0.5,0.2,0.8
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,answer_invariance,no_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,answer_invariance,blank_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,answer_invariance,far_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,math,answer_invariance,hard_mismatch,10,0.5,0.2,0.8
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,correct_image_accuracy,correct_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,confident_valid_image_error_rate,correct_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,original_gold_match,no_image,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,evidence_dependence_gap,no_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,original_gold_match,blank_image,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,evidence_dependence_gap,blank_image,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,original_gold_match,far_mismatch,10,0.0,0.0,0.0
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,evidence_dependence_gap,far_mismatch,10,0.3,0.0,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,original_gold_match,hard_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,evidence_dependence_gap,hard_mismatch,10,0.2,-0.2,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,blank_image_blindness,blank_image,10,0.3,0.1,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,far_mismatch_blindness,far_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,hard_mismatch_blindness,hard_mismatch,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,answer_invariance,no_image,10,0.2,0.0,0.5
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,answer_invariance,blank_image,10,0.3,0.1,0.6
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,answer_invariance,far_mismatch,10,0.1,0.0,0.3
-T3-C,Qwen/Qwen2.5-VL-7B-Instruct,science & technology,answer_invariance,hard_mismatch,10,0.2,0.0,0.5
+model_name,capability,metric,condition,n,estimate,ci_95_low,ci_95_high
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,correct_image_accuracy,correct_image,10,0.6,0.3,0.9
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,confident_valid_image_error_rate,correct_image,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,original_gold_match,no_image,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,evidence_dependence_gap,no_image,10,0.2,0.0,0.5
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,original_gold_match,blank_image,10,0.5,0.2,0.8
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,evidence_dependence_gap,blank_image,10,0.1,-0.2,0.4
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,original_gold_match,far_mismatch,10,0.3,0.0,0.6
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,evidence_dependence_gap,far_mismatch,10,0.3,-0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,original_gold_match,hard_mismatch,10,0.2,0.0,0.5
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,evidence_dependence_gap,hard_mismatch,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,blank_image_blindness,blank_image,10,0.6,0.3,0.9
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,far_mismatch_blindness,far_mismatch,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,hard_mismatch_blindness,hard_mismatch,10,0.3,0.0,0.6
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,answer_invariance,no_image,10,0.7,0.4,1.0
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,answer_invariance,blank_image,10,0.6,0.3,0.9
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,answer_invariance,far_mismatch,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,coarse perception,answer_invariance,hard_mismatch,10,0.3,0.0,0.6
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,correct_image_accuracy,correct_image,10,0.3,0.0,0.6
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,confident_valid_image_error_rate,correct_image,10,0.7,0.4,1.0
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,original_gold_match,no_image,10,0.2,0.0,0.5
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,evidence_dependence_gap,no_image,10,0.1,-0.2,0.4
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,original_gold_match,blank_image,10,0.1,0.0,0.3
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,evidence_dependence_gap,blank_image,10,0.2,-0.2,0.6
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,original_gold_match,far_mismatch,10,0.3,0.0,0.6
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,evidence_dependence_gap,far_mismatch,10,0.0,-0.3,0.3
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,original_gold_match,hard_mismatch,10,0.0,0.0,0.0
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,evidence_dependence_gap,hard_mismatch,10,0.3,0.0,0.6
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,blank_image_blindness,blank_image,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,far_mismatch_blindness,far_mismatch,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,hard_mismatch_blindness,hard_mismatch,10,0.2,0.0,0.5
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,answer_invariance,no_image,10,0.6,0.3,0.9
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,answer_invariance,blank_image,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,answer_invariance,far_mismatch,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,fine-grained perception,answer_invariance,hard_mismatch,10,0.2,0.0,0.5
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,correct_image_accuracy,correct_image,10,0.1,0.0,0.3
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,confident_valid_image_error_rate,correct_image,10,0.8,0.5,1.0
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,original_gold_match,no_image,10,0.1,0.0,0.3
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,evidence_dependence_gap,no_image,10,0.0,-0.3,0.3
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,original_gold_match,blank_image,10,0.3,0.0,0.6
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,evidence_dependence_gap,blank_image,10,-0.2,-0.5,0.0
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,original_gold_match,far_mismatch,10,0.2,0.0,0.5
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,evidence_dependence_gap,far_mismatch,10,-0.1,-0.3,0.0
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,original_gold_match,hard_mismatch,10,0.1,0.0,0.3
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,evidence_dependence_gap,hard_mismatch,10,0.0,-0.3,0.3
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,blank_image_blindness,blank_image,10,0.5,0.2,0.8
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,far_mismatch_blindness,far_mismatch,10,0.5,0.2,0.8
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,hard_mismatch_blindness,hard_mismatch,10,0.7,0.4,1.0
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,answer_invariance,no_image,10,0.5,0.2,0.8
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,answer_invariance,blank_image,10,0.5,0.2,0.8
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,answer_invariance,far_mismatch,10,0.5,0.2,0.8
+HuggingFaceTB/SmolVLM-Instruct,instance reasoning,answer_invariance,hard_mismatch,10,0.7,0.4,1.0
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,correct_image_accuracy,correct_image,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,confident_valid_image_error_rate,correct_image,10,0.5,0.2,0.8
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,original_gold_match,no_image,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,evidence_dependence_gap,no_image,10,0.0,-0.3,0.3
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,original_gold_match,blank_image,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,evidence_dependence_gap,blank_image,10,0.0,-0.3,0.3
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,original_gold_match,far_mismatch,10,0.3,0.0,0.6
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,evidence_dependence_gap,far_mismatch,10,0.1,0.0,0.3
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,original_gold_match,hard_mismatch,10,0.5,0.2,0.8
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,evidence_dependence_gap,hard_mismatch,10,-0.1,-0.3,0.0
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,blank_image_blindness,blank_image,10,0.6,0.3,0.9
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,far_mismatch_blindness,far_mismatch,10,0.6,0.3,0.9
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,hard_mismatch_blindness,hard_mismatch,10,0.8,0.5,1.0
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,answer_invariance,no_image,10,0.6,0.3,0.9
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,answer_invariance,blank_image,10,0.6,0.3,0.9
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,answer_invariance,far_mismatch,10,0.6,0.3,0.9
+HuggingFaceTB/SmolVLM-Instruct,logical reasoning,answer_invariance,hard_mismatch,10,0.8,0.5,1.0
+HuggingFaceTB/SmolVLM-Instruct,math,correct_image_accuracy,correct_image,10,0.2,0.0,0.5
+HuggingFaceTB/SmolVLM-Instruct,math,confident_valid_image_error_rate,correct_image,10,0.8,0.5,1.0
+HuggingFaceTB/SmolVLM-Instruct,math,original_gold_match,no_image,10,0.3,0.0,0.6
+HuggingFaceTB/SmolVLM-Instruct,math,evidence_dependence_gap,no_image,10,-0.1,-0.3,0.0
+HuggingFaceTB/SmolVLM-Instruct,math,original_gold_match,blank_image,10,0.3,0.0,0.6
+HuggingFaceTB/SmolVLM-Instruct,math,evidence_dependence_gap,blank_image,10,-0.1,-0.3,0.0
+HuggingFaceTB/SmolVLM-Instruct,math,original_gold_match,far_mismatch,10,0.1,0.0,0.3
+HuggingFaceTB/SmolVLM-Instruct,math,evidence_dependence_gap,far_mismatch,10,0.1,0.0,0.3
+HuggingFaceTB/SmolVLM-Instruct,math,original_gold_match,hard_mismatch,10,0.1,0.0,0.3
+HuggingFaceTB/SmolVLM-Instruct,math,evidence_dependence_gap,hard_mismatch,10,0.1,0.0,0.3
+HuggingFaceTB/SmolVLM-Instruct,math,blank_image_blindness,blank_image,10,0.5,0.2,0.8
+HuggingFaceTB/SmolVLM-Instruct,math,far_mismatch_blindness,far_mismatch,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,math,hard_mismatch_blindness,hard_mismatch,10,0.7,0.4,1.0
+HuggingFaceTB/SmolVLM-Instruct,math,answer_invariance,no_image,10,0.5,0.2,0.8
+HuggingFaceTB/SmolVLM-Instruct,math,answer_invariance,blank_image,10,0.5,0.2,0.8
+HuggingFaceTB/SmolVLM-Instruct,math,answer_invariance,far_mismatch,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,math,answer_invariance,hard_mismatch,10,0.7,0.4,1.0
+HuggingFaceTB/SmolVLM-Instruct,science & technology,correct_image_accuracy,correct_image,10,0.1,0.0,0.3
+HuggingFaceTB/SmolVLM-Instruct,science & technology,confident_valid_image_error_rate,correct_image,10,0.9,0.7,1.0
+HuggingFaceTB/SmolVLM-Instruct,science & technology,original_gold_match,no_image,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,science & technology,evidence_dependence_gap,no_image,10,-0.3,-0.6,0.0
+HuggingFaceTB/SmolVLM-Instruct,science & technology,original_gold_match,blank_image,10,0.3,0.0,0.6
+HuggingFaceTB/SmolVLM-Instruct,science & technology,evidence_dependence_gap,blank_image,10,-0.2,-0.5,0.0
+HuggingFaceTB/SmolVLM-Instruct,science & technology,original_gold_match,far_mismatch,10,0.3,0.0,0.6
+HuggingFaceTB/SmolVLM-Instruct,science & technology,evidence_dependence_gap,far_mismatch,10,-0.2,-0.5,0.0
+HuggingFaceTB/SmolVLM-Instruct,science & technology,original_gold_match,hard_mismatch,10,0.1,0.0,0.3
+HuggingFaceTB/SmolVLM-Instruct,science & technology,evidence_dependence_gap,hard_mismatch,10,0.0,0.0,0.0
+HuggingFaceTB/SmolVLM-Instruct,science & technology,blank_image_blindness,blank_image,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,science & technology,far_mismatch_blindness,far_mismatch,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,science & technology,hard_mismatch_blindness,hard_mismatch,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,science & technology,answer_invariance,no_image,10,0.2,0.0,0.5
+HuggingFaceTB/SmolVLM-Instruct,science & technology,answer_invariance,blank_image,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,science & technology,answer_invariance,far_mismatch,10,0.4,0.1,0.7
+HuggingFaceTB/SmolVLM-Instruct,science & technology,answer_invariance,hard_mismatch,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,correct_image_accuracy,correct_image,10,0.7,0.4,1.0
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,confident_valid_image_error_rate,correct_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,original_gold_match,no_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,evidence_dependence_gap,no_image,10,0.5,0.1,0.9
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,original_gold_match,blank_image,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,evidence_dependence_gap,blank_image,10,0.7,0.4,1.0
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,original_gold_match,far_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,evidence_dependence_gap,far_mismatch,10,0.5,0.1,0.9
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,original_gold_match,hard_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,evidence_dependence_gap,hard_mismatch,10,0.6,0.3,0.9
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,blank_image_blindness,blank_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,far_mismatch_blindness,far_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,hard_mismatch_blindness,hard_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,answer_invariance,no_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,answer_invariance,blank_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,answer_invariance,far_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,coarse perception,answer_invariance,hard_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,correct_image_accuracy,correct_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,confident_valid_image_error_rate,correct_image,10,0.6,0.3,0.9
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,original_gold_match,no_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,evidence_dependence_gap,no_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,original_gold_match,blank_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,evidence_dependence_gap,blank_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,original_gold_match,far_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,evidence_dependence_gap,far_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,original_gold_match,hard_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,evidence_dependence_gap,hard_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,blank_image_blindness,blank_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,far_mismatch_blindness,far_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,hard_mismatch_blindness,hard_mismatch,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,answer_invariance,no_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,answer_invariance,blank_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,answer_invariance,far_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,fine-grained perception,answer_invariance,hard_mismatch,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,correct_image_accuracy,correct_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,confident_valid_image_error_rate,correct_image,10,0.5,0.2,0.8
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,original_gold_match,no_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,evidence_dependence_gap,no_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,original_gold_match,blank_image,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,evidence_dependence_gap,blank_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,original_gold_match,far_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,evidence_dependence_gap,far_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,original_gold_match,hard_mismatch,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,evidence_dependence_gap,hard_mismatch,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,blank_image_blindness,blank_image,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,far_mismatch_blindness,far_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,hard_mismatch_blindness,hard_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,answer_invariance,no_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,answer_invariance,blank_image,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,answer_invariance,far_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,instance reasoning,answer_invariance,hard_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,correct_image_accuracy,correct_image,10,0.5,0.2,0.8
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,confident_valid_image_error_rate,correct_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,original_gold_match,no_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,evidence_dependence_gap,no_image,10,0.2,-0.2,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,original_gold_match,blank_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,evidence_dependence_gap,blank_image,10,0.2,-0.2,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,original_gold_match,far_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,evidence_dependence_gap,far_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,original_gold_match,hard_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,evidence_dependence_gap,hard_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,blank_image_blindness,blank_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,far_mismatch_blindness,far_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,hard_mismatch_blindness,hard_mismatch,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,answer_invariance,no_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,answer_invariance,blank_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,answer_invariance,far_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,logical reasoning,answer_invariance,hard_mismatch,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,math,correct_image_accuracy,correct_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,math,confident_valid_image_error_rate,correct_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,math,original_gold_match,no_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-3B-Instruct,math,evidence_dependence_gap,no_image,10,0.2,-0.2,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,math,original_gold_match,blank_image,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-3B-Instruct,math,evidence_dependence_gap,blank_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,math,original_gold_match,far_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,math,evidence_dependence_gap,far_mismatch,10,0.1,-0.3,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,math,original_gold_match,hard_mismatch,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,math,evidence_dependence_gap,hard_mismatch,10,-0.1,-0.4,0.2
+Qwen/Qwen2.5-VL-3B-Instruct,math,blank_image_blindness,blank_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,math,far_mismatch_blindness,far_mismatch,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-3B-Instruct,math,hard_mismatch_blindness,hard_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,math,answer_invariance,no_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,math,answer_invariance,blank_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,math,answer_invariance,far_mismatch,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-3B-Instruct,math,answer_invariance,hard_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,correct_image_accuracy,correct_image,10,0.5,0.2,0.8
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,confident_valid_image_error_rate,correct_image,10,0.5,0.2,0.8
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,original_gold_match,no_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,evidence_dependence_gap,no_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,original_gold_match,blank_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,evidence_dependence_gap,blank_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,original_gold_match,far_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,evidence_dependence_gap,far_mismatch,10,0.4,0.0,0.8
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,original_gold_match,hard_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,evidence_dependence_gap,hard_mismatch,10,0.3,-0.1,0.7
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,blank_image_blindness,blank_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,far_mismatch_blindness,far_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,hard_mismatch_blindness,hard_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,answer_invariance,no_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,answer_invariance,blank_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,answer_invariance,far_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-3B-Instruct,science & technology,answer_invariance,hard_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,correct_image_accuracy,correct_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,confident_valid_image_error_rate,correct_image,10,0.5,0.2,0.8
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,original_gold_match,no_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,evidence_dependence_gap,no_image,10,0.2,-0.2,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,original_gold_match,blank_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,evidence_dependence_gap,blank_image,10,0.1,-0.4,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,original_gold_match,far_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,evidence_dependence_gap,far_mismatch,10,0.3,-0.1,0.7
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,original_gold_match,hard_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,evidence_dependence_gap,hard_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,blank_image_blindness,blank_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,far_mismatch_blindness,far_mismatch,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,hard_mismatch_blindness,hard_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,answer_invariance,no_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,answer_invariance,blank_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,answer_invariance,far_mismatch,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-7B-Instruct,coarse perception,answer_invariance,hard_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,correct_image_accuracy,correct_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,confident_valid_image_error_rate,correct_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,original_gold_match,no_image,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,evidence_dependence_gap,no_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,original_gold_match,blank_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,evidence_dependence_gap,blank_image,10,0.2,-0.2,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,original_gold_match,far_mismatch,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,evidence_dependence_gap,far_mismatch,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,original_gold_match,hard_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,evidence_dependence_gap,hard_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,blank_image_blindness,blank_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,far_mismatch_blindness,far_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,hard_mismatch_blindness,hard_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,answer_invariance,no_image,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,answer_invariance,blank_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,answer_invariance,far_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,fine-grained perception,answer_invariance,hard_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,correct_image_accuracy,correct_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,confident_valid_image_error_rate,correct_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,original_gold_match,no_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,evidence_dependence_gap,no_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,original_gold_match,blank_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,evidence_dependence_gap,blank_image,10,0.1,-0.2,0.4
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,original_gold_match,far_mismatch,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,evidence_dependence_gap,far_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,original_gold_match,hard_mismatch,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,evidence_dependence_gap,hard_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,blank_image_blindness,blank_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,far_mismatch_blindness,far_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,hard_mismatch_blindness,hard_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,answer_invariance,no_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,answer_invariance,blank_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,answer_invariance,far_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,instance reasoning,answer_invariance,hard_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,correct_image_accuracy,correct_image,10,0.5,0.2,0.8
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,confident_valid_image_error_rate,correct_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,original_gold_match,no_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,evidence_dependence_gap,no_image,10,0.4,0.0,0.8
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,original_gold_match,blank_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,evidence_dependence_gap,blank_image,10,0.2,-0.3,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,original_gold_match,far_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,evidence_dependence_gap,far_mismatch,10,0.2,-0.3,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,original_gold_match,hard_mismatch,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,evidence_dependence_gap,hard_mismatch,10,0.1,-0.4,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,blank_image_blindness,blank_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,far_mismatch_blindness,far_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,hard_mismatch_blindness,hard_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,answer_invariance,no_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,answer_invariance,blank_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,answer_invariance,far_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,logical reasoning,answer_invariance,hard_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,math,correct_image_accuracy,correct_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-7B-Instruct,math,confident_valid_image_error_rate,correct_image,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,math,original_gold_match,no_image,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-7B-Instruct,math,evidence_dependence_gap,no_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-7B-Instruct,math,original_gold_match,blank_image,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-7B-Instruct,math,evidence_dependence_gap,blank_image,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-7B-Instruct,math,original_gold_match,far_mismatch,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-7B-Instruct,math,evidence_dependence_gap,far_mismatch,10,0.4,0.1,0.7
+Qwen/Qwen2.5-VL-7B-Instruct,math,original_gold_match,hard_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,math,evidence_dependence_gap,hard_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,math,blank_image_blindness,blank_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,math,far_mismatch_blindness,far_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,math,hard_mismatch_blindness,hard_mismatch,10,0.5,0.2,0.8
+Qwen/Qwen2.5-VL-7B-Instruct,math,answer_invariance,no_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,math,answer_invariance,blank_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,math,answer_invariance,far_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,math,answer_invariance,hard_mismatch,10,0.5,0.2,0.8
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,correct_image_accuracy,correct_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,confident_valid_image_error_rate,correct_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,original_gold_match,no_image,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,evidence_dependence_gap,no_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,original_gold_match,blank_image,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,evidence_dependence_gap,blank_image,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,original_gold_match,far_mismatch,10,0.0,0.0,0.0
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,evidence_dependence_gap,far_mismatch,10,0.3,0.0,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,original_gold_match,hard_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,evidence_dependence_gap,hard_mismatch,10,0.2,-0.2,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,blank_image_blindness,blank_image,10,0.3,0.1,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,far_mismatch_blindness,far_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,hard_mismatch_blindness,hard_mismatch,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,answer_invariance,no_image,10,0.2,0.0,0.5
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,answer_invariance,blank_image,10,0.3,0.1,0.6
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,answer_invariance,far_mismatch,10,0.1,0.0,0.3
+Qwen/Qwen2.5-VL-7B-Instruct,science & technology,answer_invariance,hard_mismatch,10,0.2,0.0,0.5
