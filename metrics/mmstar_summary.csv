@@ -1,4 +1,4 @@
-table,model_name,metric,condition,n,estimate,ci_95_low,ci_95_high
+model_name,metric,condition,n,estimate,ci_95_low,ci_95_high
 HuggingFaceTB/SmolVLM-Instruct,correct_image_accuracy,correct_image,60,0.2833333333333333,0.18333333333333332,0.4
 HuggingFaceTB/SmolVLM-Instruct,confident_valid_image_error_rate,correct_image,60,0.6833333333333333,0.5666666666666667,0.8
 HuggingFaceTB/SmolVLM-Instruct,original_gold_match,no_image,60,0.3,0.18333333333333332,0.4166666666666667
