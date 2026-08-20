@@ -114,6 +114,7 @@ for input_file in input_files:
                 "bundle_id": row["bundle_id"],
                 "model_name": row["model_name"],
                 "condition": row["condition"],
+                "capability": row["category"],
                 "question": row["question"],
                 "official_gold": row["official_gold"],
                 "raw_response": row["raw_response"],
