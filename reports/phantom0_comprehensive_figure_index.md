@@ -15,6 +15,7 @@ These figures extend the Week 5 visual analysis. Most figures show both implicit
 - `figures/comprehensive/primary_mirage_by_model_condition.png`
 - `figures/comprehensive/primary_recognition_by_model_condition.png`
 - `figures/comprehensive/primary_soft_mirage_by_model_condition.png`
+- `figures/comprehensive/prompt_effect_confident_answer_slope.png`
 - `figures/comprehensive/prompt_effect_explicit_abstention_slope.png`
 - `figures/comprehensive/prompt_effect_hard_mirage_slope.png`
 - `figures/comprehensive/prompt_effect_mirage_slope.png`

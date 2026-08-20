@@ -31,13 +31,25 @@ METRICS = [
     ("soft_mirage", "Soft MIRAGE rate"),
 ]
 
-HEADLINE_METRICS = [
+FAILURE_METRICS = [
     ("mirage", "MIRAGE"),
-    ("recognition", "Recognition"),
-    ("explicit_abstention", "Abstain"),
     ("hard_mirage", "Hard MIRAGE"),
     ("soft_mirage", "Soft MIRAGE"),
+    ("confident_answer", "Confident Answer"),
 ]
+
+SAFETY_METRICS = [
+    ("recognition", "Recognition"),
+    ("explicit_abstention", "Explicit Abstention"),
+]
+
+ANSWER_MODE_METRICS = [
+    ("confident_answer", "Confident Answer"),
+    ("hedged_answer", "Hedged Answer"),
+    ("explicit_abstention", "Explicit Abstention"),
+]
+
+HEADLINE_METRICS = FAILURE_METRICS + SAFETY_METRICS
 
 
 def model_label(model_name):
