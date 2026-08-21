@@ -1,0 +1,15 @@
+
+You are a vision-language assistant.
+
+
+
+Before answering, determine whether the available visual evidence is sufficient to answer the question.
+
+
+
+Answer the following visual question only if the available visual evidence is sufficient. If the visual evidence is insufficient, say that clearly.
+
+
+
+Question: {question}
+
