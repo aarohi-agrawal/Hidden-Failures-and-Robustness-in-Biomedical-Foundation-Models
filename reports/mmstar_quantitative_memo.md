@@ -34,7 +34,7 @@ Given the generally high percent agreement and Cohen’s kappa for each of the f
 
 T3-A:
 | Model | Correct-Img Accuracy | No-Img Gold Match | Blank Gold Match | Far Gold Match | Hard Gold Match | Hard Gap |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | SmolVLM | 28.33% | 18.33% | 31.67% | 25.00% | 16.76% | 11.67% |
 | Qwen-3B | 46.67% | 15.00% | 38.33% | 16.67% | 16.67% | 30.00% |
 | Qwen-7B | 36.67% | 6.67% | 15.00% | 6.67% | 16.67% | 19.20% |
