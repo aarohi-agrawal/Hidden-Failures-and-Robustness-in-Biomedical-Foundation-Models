@@ -5,7 +5,7 @@ from pathlib import Path
 INPUT_FILE = Path("metrics/mmstar_results_long.csv")
 OUTPUT_FILE = Path("metrics/mmstar_summary.csv")
 
-N_BOOTSTRAP = 2000
+N_BOOTSTRAP = 10000
 SEED = 42
 
 CONDITIONS = [
@@ -450,18 +450,7 @@ def main():
                 f"| 95% CI = [{ci_low:.4f}, {ci_high:.4f}]"
             )
 
-            if metric_name in {
-                "correct_image_accuracy",
-                "confident_valid_image_error_rate",
-                "original_gold_match",
-                "evidence_dependence_gap",
-            }:
-                table = "T3-A"
-            else:
-                table = "T3-B"
-
             rows.append({
-                "table": table,
                 "model_name": model,
                 "metric": metric_name,
                 "condition": condition,
