@@ -15,7 +15,7 @@ parser.add_argument(
 )
 args = parser.parse_args()
 
-file_path = "data/manifests/mmstar_60case_frozen.csv"
+file_path = "data/manifests/mmstar_120cases.csv"
 mismatch_path = "data/manifests/mmstar_mismatch_map.csv"
 model_name = args.model
 
