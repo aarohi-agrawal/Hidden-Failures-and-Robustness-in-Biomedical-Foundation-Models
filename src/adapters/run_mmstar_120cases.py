@@ -55,17 +55,19 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
     reader = csv.DictReader(file)
 
     for row in reader:
+        mismatch = mismatch_map[row["source_id"]]
+
         mismatch_source_ids = {
-            "far_mismatch": row["far_mismatch_source_id"],
-            "hard_mismatch": row["hard_mismatch_source_id"],
+            "far_mismatch": mismatch["far_mismatch_source_id"],
+            "hard_mismatch": mismatch["hard_mismatch_source_id"],
         }
 
         image_paths = {
             "correct_image": row["image_path"],
             "no_image": "",
             "blank_image": "data/generated/blank_image_white.png",
-            "far_mismatch": row["far_mismatch_image_path"],
-            "hard_mismatch": row["hard_mismatch_image_path"]
+            "far_mismatch": mismatch["far_mismatch_image_path"],
+            "hard_mismatch": mismatch["hard_mismatch_image_path"]
         }
 
         for condition in image_conditions:
