@@ -1,0 +1,110 @@
+row_id,judge_error,mirage_text,behavior_text
+middle_0033,behavior_parse_failed,<answer>false</answer>,
+middle_0070,mirage_parse_failed,,"{
+  ""response_mode"": ""hedged_answer"",
+  ""specific_visual_claim"": ""yes""
+}"
+middle_0085,behavior_parse_failed,<answer>false</answer>,
+middle_0091,behavior_parse_failed,<answer>false</answer>,
+middle_0135,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0142,behavior_parse_failed,<answer>false</answer>,
+middle_0156,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0192,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0195,behavior_parse_failed,<answer>false</answer>,"{
+  ""response_mode"": """
+middle_0210,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0213,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0235,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0256,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0262,behavior_parse_failed,<answer>true</answer>,
+middle_0288,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0289,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""yes""
+}"
+middle_0291,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0297,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0299,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""yes""
+}"
+middle_0311,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0318,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0352,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0373,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0380,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0383,mirage_parse_failed,<answer,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""yes""
+}"
+middle_0384,mirage_parse_failed;behavior_parse_failed,,"{
+  """
+middle_0387,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""yes""
+}"
+middle_0390,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0391,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""yes""
+}"
+middle_0399,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0418,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
+middle_0442,mirage_parse_failed,,"{
+  ""response_mode"": ""explicit_abstention"",
+  ""specific_visual_claim"": ""no""
+}"
