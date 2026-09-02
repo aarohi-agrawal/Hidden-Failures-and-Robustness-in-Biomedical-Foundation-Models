@@ -16,6 +16,7 @@ fieldnames = [
     "bundle_id",
     "model_name",
     "condition",
+    "capability",
     "question",
     "official_gold",
     "raw_response",
