@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-INPUT_FILE = Path("metrics/mmstar_results_long.csv")
+INPUT_FILE = Path("metrics/mmstar_120results_long.csv")
 OUTPUT_FILE = Path("metrics/mmstar_summary.csv")
 
 N_BOOTSTRAP = 10000
