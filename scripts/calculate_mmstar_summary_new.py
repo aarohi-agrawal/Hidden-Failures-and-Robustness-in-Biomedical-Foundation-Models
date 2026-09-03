@@ -78,20 +78,20 @@ def validate_input(df):
     if len(models) != 3:
         raise ValueError(f"Expected 3 models, found {len(models)}")
 
-    if len(df) != 900:
-        raise ValueError(f"Expected 900 total rows, found {len(df)}")
+    if len(df) != 1800:
+        raise ValueError(f"Expected 1800 total rows, found {len(df)}")
 
     for model in models:
         model_df = df[df["model_name"] == model]
 
-        if len(model_df) != 300:
+        if len(model_df) != 600:
             raise ValueError(
-                f"{model}: expected 300 rows, found {len(model_df)}"
+                f"{model}: expected 600 rows, found {len(model_df)}"
             )
 
-        if model_df["source_id"].nunique() != 60:
+        if model_df["source_id"].nunique() != 120:
             raise ValueError(
-                f"{model}: expected 60 source IDs, "
+                f"{model}: expected 120 source IDs, "
                 f"found {model_df['source_id'].nunique()}"
             )
 
@@ -123,9 +123,9 @@ def validate_input(df):
         condition_counts = model_df["condition"].value_counts()
         for condition in CONDITIONS:
             count = condition_counts.get(condition, 0)
-            if count != 60:
+            if count != 120:
                 raise ValueError(
-                    f"{model}: {condition} has {count} rows instead of 60."
+                    f"{model}: {condition} has {count} rows instead of 120."
                 )
 
     print("Input validation passed.")
@@ -196,9 +196,9 @@ def paired_conditions(df, condition):
         validate="one_to_one",
     )
 
-    if len(paired) != 60:
+    if len(paired) != 120:
         raise ValueError(
-            f"{condition}: expected 60 paired rows, found {len(paired)}"
+            f"{condition}: expected 120 paired rows, found {len(paired)}"
         )
 
     return paired
@@ -287,9 +287,9 @@ def bootstrap_bundle_metric(df, metric_fn, seed):
 
     source_ids = df["source_id"].unique()
 
-    if len(source_ids) != 60:
+    if len(source_ids) != 120:
         raise ValueError(
-            f"Bootstrap expected 60 source IDs, found {len(source_ids)}"
+            f"Bootstrap expected 120 source IDs, found {len(source_ids)}"
         )
 
     estimate = metric_fn(df)
@@ -304,7 +304,7 @@ def bootstrap_bundle_metric(df, metric_fn, seed):
     for _ in range(N_BOOTSTRAP):
         sampled_ids = rng.choice(
             source_ids,
-            size=60,
+            size=120,
             replace=True,
         )
 
@@ -454,7 +454,7 @@ def main():
                 "model_name": model,
                 "metric": metric_name,
                 "condition": condition,
-                "n": 60,
+                "n": 120,
                 "estimate": estimate,
                 "ci_95_low": ci_low,
                 "ci_95_high": ci_high,
